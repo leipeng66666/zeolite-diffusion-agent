@@ -1,0 +1,25 @@
+﻿original_unit,operation,factor
+N,keep,
+equiv/L,keep,
+gmol/m3,multiply,0.001
+mM,multiply,0.001
+mass%,keep,
+mg/L,keep,
+mg/l,keep,
+mmol/L,multiply,0.001
+mmol/l,multiply,0.001
+mol/L,identity,1.0
+mol/m3,multiply,0.001
+ppm_w,keep,
+ppmv,keep,
+vol%,keep,
+wt%,keep,
+μM,multiply,1e-06
+μg/L,keep,
+%,keep,
+none,keep,
+M,identity,1.0
+mg N-NH4/L,keep,
+mg N/L,keep,
+mg P/L,keep,
+M,identity,1.0

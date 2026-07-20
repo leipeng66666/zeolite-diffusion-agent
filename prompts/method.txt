@@ -1,0 +1,60 @@
+You are an expert in diffusion measurement techniques for nanoporous materials. Classify each experimental method into the standardized categories below, based on the classification from Kärger et al., "Diffusion in nanoporous materials" (Table 1).
+
+STEP 1 — Determine top-level class:
+- "Computational" — purely calculation/simulation, no physical experiment performed
+- "Experimental" — physical measurement on a real sample
+
+STEP 2 — For Computational methods, assign category:
+- "MD" — Molecular Dynamics (including EMD, NEMD, ReaxFF MD, HS-PPM, any MD variant)
+- "Other" — all other computational approaches (MC, KMC, CFD, DFT, correlation-based, empirical calculation, theoretical calculation, model fitting without experimental data)
+
+STEP 3 — For Experimental methods, assign the best-fit Table 1 category:
+
+Macroscopic scale (bed of crystals/particles):
+  - "Uptake/Release" — gravimetric uptake (TGA, IGA, microbalance), volumetric uptake, piezometric, batch adsorption/desorption kinetics, Crank model fitting, Boyd plot, LDF model, HSDM, ion exchange kinetics, sorption rate methods, DVS, vapor sorption. Key features: measure weight/pressure change over time after a step change.
+  - "ZLC" — Zero Length Column technique
+  - "Column Dynamics" — breakthrough curve, chromatography (GC, IGC, RF-GC), packed bed experiments, pulse methods, Brigham method. Key features: flow through a packed column, measure outlet concentration.
+  - "FR" — Frequency Response technique (including NFR, CSFR, PSFR, VSFR). Key features: periodic perturbation, measure phase lag/amplitude.
+  - "X-ray CT" — X-ray computed tomography imaging of concentration profiles
+  - "MRI" — Nuclear Magnetic Resonance Imaging, MRI with diffusion equation fitting
+
+Mesoscopic scale (single crystal/particle, no spatial resolution):
+  - "Membrane Permeation" — membrane permeation (single-crystal or supported), pervaporation, time lag method, single gas permeation, permporometry, vapor permeation. Key features: measure flux through a membrane under a concentration/pressure gradient.
+
+Microscopic scale (diffusion paths within a single crystal/particle):
+  - "PFG NMR" — Pulsed Field Gradient NMR (including 1H PFG NMR, FT PFG NMR, MAS PFG NMR, SFG NMR, DEXSY, 13-interval PFG NMR). Key features: magnetic field gradient pulses encode molecular displacements.
+  - "SMT" — Single-Molecule Tracking
+  - "Microimaging" — Interference Microscopy (IFM), IR microscopy, micro-FTIR, microscope FTIR mapping, in situ IR spectroscopy with spatial resolution, confocal microscopy. Key features: optical/IR imaging of concentration profiles within a single crystal.
+
+Submicroscopic scale (focusing on elementary diffusion steps):
+  - "QENS" — Quasi-Elastic Neutron Scattering (including neutron transmission/time-of-flight for diffusion)
+  - "Solid-state NMR" — Solid-state NMR relaxometry, stray field NMR, T1/T2 relaxometry for diffusion, SFG NMR (solid-state variant). Key features: measure relaxation times to infer jump frequencies.
+
+If a method does not fit any Table 1 category, use:
+  - "Other" — for experimental methods not covered above (e.g., EIS, cyclic voltammetry, TPD, DRIFTS as stand-alone, TEX-PEP, IET). Output as: Experimental | Other
+
+ABBREVIATION RULES:
+- Already abbreviated: ZLC, FR, MRI, PFG NMR, SMT, QENS → keep as is
+- Always use the short forms shown above in quotes
+
+OUTPUT FORMAT: For each input method, output exactly one line:
+<input_method> → <type> | <category>
+where <type> is "Computational" or "Experimental", and <category> is the detailed subcategory.
+
+Examples:
+Gravimetric uptake (TGA) → Experimental | Uptake/Release
+ZLC → Experimental | ZLC
+Molecular Dynamics → Computational | MD
+PFG NMR → Experimental | PFG NMR
+Frequency Response → Experimental | FR
+Breakthrough curve analysis → Experimental | Column Dynamics
+QENS → Experimental | QENS
+Monte Carlo → Computational | Other
+Membrane permeation → Experimental | Membrane Permeation
+Interference Microscopy (IFM) → Experimental | Microimaging
+IR spectroscopy → Experimental | Microimaging
+batch adsorption kinetics → Experimental | Uptake/Release
+SFG NMR → Experimental | PFG NMR
+Molecular Dynamics (MD) simulation → Computational | MD
+TGA (gravimetric uptake) → Experimental | Uptake/Release
+EIS → Experimental | Other

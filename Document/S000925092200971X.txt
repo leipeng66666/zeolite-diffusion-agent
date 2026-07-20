@@ -1,0 +1,364 @@
+Data will be made available on request.
+
+Description
+
+Surface area, m 2
+
+Area of a face of the unit-cell box normal to the x_{i} direction, m 2
+
+Void area over a face of the unit-cell box normal to the x_{i} direction, m 2
+
+Concentration, mol m −3
+
+Diffusivity, m 2 s −1
+
+Free (unconstrained) binary diffusivity, m 2 s −1
+
+Components of the Average Effective Diffusivity Tensor m 2 s −1
+
+Diffusive flux, mol s −1 m −2
+
+Total average diffusive flux, mol s −1 m −2
+
+Matrix of the normalised eigenvectors
+
+Pressure, Pa
+
+Diffusional resistivity, s m −2
+
+Average diffusional resistivity, s m −2
+
+Scaled normalised eigenvectors, -
+
+Normalised eigenvectors, -
+
+Higher and lower mass fractions for boundary conditions, -
+
+Reference Cartesian directions
+
+Positions of the lateral faces normal to the respective directions, m
+
+Anisotropy factor, -
+
+Directionality factors, -
+
+Concentration difference (scalar or vector), mol m −3
+
+Edges of the unit cell, m
+
+Porosity (volumetric), -
+
+Surface porosity, -
+
+Connectivity, -
+
+Concentration gradient, mol m −4
+
+Tortuosity, -
+
+Respective positions of the opposite areas of the unit cells along a specified direction
+
+Diagonal (referred to tensors)
+
+Effective (referred to diffusivity and diffusional resistivity)
+
+Generic eigenvalue (1, 2 or 3)
+
+Overall (referred to connectivity)
+
+Total (referred to the total area of unit cell)
+
+Average Effective Diffusivity Tensor
+
+Computational Fluid Dynamics
+
+With the great enhancements in the development of new porous materials with specific configurational, topological and conformational properties at different scales, a precise characterization of porous media is a crucial aspect for their massive industrial application. In particular, it has started to understand that the only porosity cannot provide any indication on the distribution of the void space inside a porous medium, which, however, the most important and interesting material properties depend on.
+
+Specifically, an aspect that has been investigated quite intensively in the last three decades is the influence of the directionality of certain transport phenomena on the performance of several nano- micro-, meso- and macro-porous structures, which leads, thus, to more or less complex anisotropic systems. As pointed out by Whitaker in Kim et al. (1987) , anisotropy is not an absolute property of the sole material, but strictly depends on the specific transport phenomenon considered for investigation. Indeed, a material that is isotropic with respect of molecular diffusion could be – and, in general, is – anisotropic with respect to the transport of energy, magnetic field, acoustic waves, momentum and others. Therefore, when a system is denoted as “ isotropic ” or “ anisotropic ”, it is necessary to specify the particular transport phenomenon considered.
+
+For example, in medical and biomedical fields, a great attention is paid to the anisotropy in X-ray tomography and magnetic resonance for reconstruction of the images from the electromagnetic signals (see, for example, Brun et al., 2007; Promentilla et al., 2007; Promentilla et al., 2009; Gommes et al., 2009; Momot et al., 2011; Annunziata et al., 2014; Gahm, 2014; Annunziata et al., 2016; Rajagopalan et al., 2017 ).
+
+These techniques have been also used in the characterisation of the structural anisotropy of non-biological materials within a more classical industrial context and at different scales (see, for example, Quintard, 1993; Rezanezhad et al., 2009; Takahashi et al., 2009; Szczepanski et al., 2010; Deepagoda et al., 2011; Keller et al., 2011; Wiedemann et al., 2013; Chen-Wiegart et al., 2014; Lichtner et al., 2015; Ranachowski et al., 2015; Dabat et al., 2018 ).
+
+Closely related to medical and biomedical field, in the tissue engineering sector, an abnormal mechanical and structural anisotropy of biological tissues could be an indication of various pathologies and, thus, a great effort has been made to asses it with a progressively higher degree of accuracy (see, for example, Hughes et al., 2007 ; Grisan et al., 2008; Campinho et al., 2013; Schwan et al., 2016; Perestrelo et al., 2021 ). In particular, in the recent review of Vyas et al. (2019) , it is pointed out that the precise evaluation of the anisotropic properties of biomimetic tissues and scaffolds is critical for replacing the original tissues/scaffolds with the reconstructed ones, as the micro-environment is crucial for cells differentiation and development.
+
+As for the methodologies for anisotropy evaluation, Kim et al. (1987) developed the “ volume-average ” method to evaluate anisotropy through the integration of the local symmetric diffusivity tensor over the boundaries of the structure. From the experimental point of view, Carniglia (1986) developed an estimation of unimodal tortuosity based on the mercury porosimetry, providing a closed expression for tortuosity based on parameters that can be directly obtained from the analysis of the porosimetry curves.
+
+Similarly, Seaton (1991) developed an experimental method based on the analysis of nitrogen adsorption/desorption hysteresis curves to estimate the pore connectivity. That approach is based on the discretization of the real structure into an array of lattices exploiting the percolation theory.
+
+In both works, the structure anisotropy is not considered and the evaluated tortuosity and connectivity are overall factors averaged over the entire structure. Tassopoulos and Rosner (1992) evaluated the anisotropy of regular structures of spheres using the directional tortuosities calculated from the effective diffusivity tensor. However, in that work, the estimated effective diffusion coefficients are found to depend on the Knudsen number. Therefore, the corresponding tortuosity values are not geometrical properties, as also pointed out later by Zalc et al. (2004) . Later, van Vliet and Verbeek (1995) setup a characterization technique based on the segmentation of anisotropic patterns showing a single local orientation by constructing a gradient-square tensor. In that case, the anisotropy degree was measured by the eigenvalues of that tensor, whereas the corresponding eigenvectors indicate the local orientation. Inglis and Pietruszczak (2003) studied the influence of the choice of several fabric statistical descriptors – like the mean intercept length ( Whitehouse, 1974 ), the star length distribution ( Smit et al., 1998 ), star volume distribution ( Cruz-Orive et al., 1992 ) and the areal pore size distribution – to estimate the structure anisotropy by evaluating a dimensionless statistical tensor. In their work, they calculate the distribution of fabric data within the considered structure, finding that the anisotropy value depends strongly on the particular choice of the descriptor. Zalc et al. (2004) studied the structure voids distribution in randomly-packed ensembles of spheres using the time-dependent random-walk methodology to calculate the tortuosity factor using the Knudsen-type effective diffusivity. However, no measure of anisotropy is provided.
+
+In 2007, Nakashima and Kamiya developed Mathematica® programmes to assess the anisotropic tortuosity and pore connectivity using a random-walk approach, which involves time-dependent effective diffusion coefficients to calculate the tortuosity values along the three reference directions × , y , z ( Nakashima and Kamiya, 2007 ).
+
+In that work, the pore anisotropy is evaluated in terms of these tortuosity values, which are affected by the specific time-dependent calculation methodology adopted and, thus, are not parameters depending only on geometry ( Kim et al., 1987; Epstein, 1989; Ghanbarian et al., 2013 ). To this regard, Khaled and Vafai (2003) used alternatively the Darcy law and the Brinkman permeability model to evaluate the so-called hydraulic tortuosity , which depends on the particular flow model chosen and, again, is not a geometrical property of the porous media. A different approach was used by Cieszko (2009) , who described the void space anisotropy of permeable materials basing on the Minkowski metric space. A more geometrical approach was adopted by Hall et al. (2012) developed an independent attenuation measurement of the scattering anisotropy coefficient based on goniometry and fitting to the Henyey-Greenstein phase function by Monte Carlo simulations. In a similar way, Damion et al. (2013) developed a method to measure the anisotropy level of tissues presenting a low degree of anisotropy by the evaluation of orthogonal invariant of the diffusivity tensor.
+
+A diffusion-based approach was used by De Pascalis and Nacucchi (2018) , who reported a study comparing the anisotropy tensor calculated by high-resolution X-ray tomography and statistical approach to diffusion path using the “ volume - orientation” method, defining a so-called coherence index to assess the average direction of the diffusional path.
+
+Similarly, Delhaise et al. (2019) used computer simulations to evaluate the 2D anisotropy and diffusivity pathways of bismuth in solder alloys as functions of temperature implementing Fick’s law to model the bismuth diffusion. In that case, the Authors used the resultant of the parallel and perpendicular diffusivities to estimate the anisotropy degree.
+
+In general, all these methodologies measure different types of anisotropy coefficient and, most of them are relatively difficult to implement by non-expert users. This could represent an issue if considering that the anisotropy assessment is indeed multi- and inter-disciplinary and not all the scholars have the expertise in obtaining the desired results.
+
+Recently, our research group applied an easier methodology to characterise the 3D anisotropy of digitally-reconstructed stereolithographic surfaces of stem cell tissues of infarcted hearts ( Perestrelo et al., 2021 ). In that work, a local 3D diffusivity tensor was calculated over the exposed tissue surface by CFD techniques applied with a 3D superficial approach.
+
+As for the structure connectivity, the parameter used to measure the interconnection degree of pores in Nakashima and Kamiya (2007) is based on the so-called “ cluster-labelling ” method ( Stauffer, 1985 ), similarly to what previously done by Ikeda et al. (2000) , who applied it to measure the connectivity degree of clusters of solid quartz. Specifically, this method consists in discretizing the structure – i.e., the 3-D domain of investigation – into voxels, where an ensemble of connected voxels is referred to as “ cluster ”. The extent of interconnection among voxels is assessed quantitatively by defining the connectivity as the ratio of the volume fraction of the largest cluster of connected (void) voxels over the volume of all (void) voxels ( Stauffer, 1985; Nakano and Fujii, 1989 ), as reported in Eq. (1) : (1)Connectivity=Volume of the largest cluster of void voxelsTotal volume of all void voxels
+
+According to this definition, the connectivity becomes unitary when all voxels are connected to each other in the specimen.
+
+However, the problem we see in that approach lies in the fact that it does not distinguish between the trivial case in which no solid is present in the structure ( Fig. 5 a) and the case in which there is a solid matrix with all interconnected voids. In fact, in both cases, the definition reported in Eq. (1) states that the connectivity degree is unitary, because all voids are anyway interconnected to each other. In practise, Eq. (1) does not take into account the augmented difficulty of two voids that are relatively far from each other to be connected along a more or less tortuous path owing to the presence of solid obstacles. Furthermore, to us, there is a general need of a definition of connectivity based on physical concepts rather than on digitalization ones. In fact, to define tortuosity, we do not need to discretise the void structure as an ensemble of pixels/voxels, which, differently, should be just the mean by which connectivity is calculated.
+
+In this context, the proposed approach aims at providing a systematic and relatively simple way of characterising the topology of a general three-dimensional structure in terms of tortuosity, connectivity and anisotropy, once a digital solid model of the considered structure has been appropriately built or already available from database.
+
+Our methodology is based on the numerical evaluation of an Average Effective Diffusivity Tensor ( AEDT ), which is here conveniently introduced with the purpose of recognising the preferential diffusional paths in complex materials. The evaluation of the diffusivity tensor components is made by the implementation of the pure-diffusion transport equations, which is carried out in the environment of the commercial software COMSOL MULTIPHYSICS®.
+
+Differently, in the present work, we present a novel methodology based on a volumetric approach. The main advantage of our approach is that it is relatively easy to implement and, thus, can be used also by end-users who do not have specific competences of CFD simulations, with the aim at providing a powerful tool by which researchers and scholars in a wide range of scientific sectors can assess topological properties of materials of interest.
+
+Novelties in brief. 1.Introduction of the Average Effective Diffusivity Tensor (AEDT);2.Novel concept of connectivity tensor for 3D anisotropic structures based on the inverse of the (diagonal) tortuosity tensor;3.New procedure of digital reconstruction of real structures for CFD purpose;4.Calculation of the defined connectivity tensor by steady-state pure-diffusion CFD simulations, which avoids time-dependent diffusivities.
+
+Introduction of the Average Effective Diffusivity Tensor (AEDT);
+
+Novel concept of connectivity tensor for 3D anisotropic structures based on the inverse of the (diagonal) tortuosity tensor;
+
+New procedure of digital reconstruction of real structures for CFD purpose;
+
+Calculation of the defined connectivity tensor by steady-state pure-diffusion CFD simulations, which avoids time-dependent diffusivities.
+
+The main steps of our methodology are the following ones (see also Fig. 1 ): 1.Definition of the Average Effective Diffusivity Tensor.2.Digital reconstruction of real 3D structures exported in a convenient format.3.Setting up and carrying out appropriate pure-diffusion computational fluid dynamic simulations.4.Evaluation of the post-processing geometrical parameters of structure, like connectivity and tortuosity tensor, directionality factors and anisotropy factor (see[Ref:0030]). The systematic procedure is described in the following subsections.
+
+Definition of the Average Effective Diffusivity Tensor.
+
+Digital reconstruction of real 3D structures exported in a convenient format.
+
+Setting up and carrying out appropriate pure-diffusion computational fluid dynamic simulations.
+
+Evaluation of the post-processing geometrical parameters of structure, like connectivity and tortuosity tensor, directionality factors and anisotropy factor (see Section 2.4 ). The systematic procedure is described in the following subsections.
+
+As mentioned above, the characterization of the structure anisotropy is made by the here-called Average Effective Diffusivity Tensor ( AEDT , Eq. (2) ), which is defined in analogy with the local binary diffusivity tensor arising from the constitutive equations of the pure-diffusive flux of a species in a three-dimensional space (Eq. (3) ). (2)J¯T,xJ¯T,yJ¯T,z=-D¯e,xxD¯e,xyD¯e,xzD¯e,yxD¯e,yyD¯e,yzD¯e,zxD¯e,zyD¯e,zz·ΔCΔxΔCΔyΔCΔz⇔J̲¯T=-D̲̲e·Δ̲C (3)JxJyJz=-DxxDxyDxzDyxDyyDyzDzxDzyDzz·∂C∂x∂C∂y∂C∂z⇔J̲=-D̲̲·∇̲C
+
+The subscript ‘ T ’ indicates the total flux , which is the flux defined basing on the respective total geometrical lateral areas of the unit cell normal to the specific diffusion direction considered { A_{T,x} , A_{T,y} , A_{T,z} }, whose expressions are reported in Eqs. 4–5. (4)AT,xa≡AT,x=xa,AT,xb≡AT,x=xbAT,ya≡AT,y=xa,AT,yb≡AT,y=xbAT,za≡AT,z=za,AT,zb≡AT,z=zb (5)AT,xa=AT,xb≡AT,x=ΔyΔzAT,ya=AT,yb≡AT,y=ΔxΔzAT,za=AT,zb≡AT,x=ΔxΔy
+
+The relationships among total lateral areas and corresponding effective lateral areas { A_{x} , A_{y} , A_{z} } at the positions ‘ a ’ and ‘ b ’ are reported in Eq. (6) , where the surface porosities { ε_{xa} , ε_{ya} , ε_{z,a} } and { ε_{xb} , ε_{yb} , ε_{zb} } take into account the effective superficial cross-sectional void space available for diffusion over the respective unit cell surfaces. (6)Axa=εxaAT,x,Axb=εxbAT,xAya=εyaAT,y,Ayb=εybAT,yAza=εzaAT,z,Azb=εzbAT,z
+
+The meaning of these geometrical terms are reported in Fig. 2 , which shows a sketch of a general structure in order to describe the general system and nomenclature used in this work. To create such a void part, we first build (or import) the solid structure in the CFD software – the commercial software COMSOL MULTIPHYSICS® in this case – and then we subtract it from a convenient solid unit cell.
+
+In this section, we report the description of our systematic procedure for the digital acquisition of real 3D structures required to carry out the CFD simulation. Such a procedure is summarised in the following steps: 1.Obtaining the 3Dstereolithographicmodel of the structure (i.e.,.stlfile), which consists in a 3D surface faceted by triangles. This step can be made by either a digital reconstruction of the structure by certain type of microscopy, like the multi-photon one ([Ref:0195]), whose incorporated software gives the possibility of acquiring 3D isosurfaces, or simply searching in available databases (e.g., in the[Ref:0055], as done in the present work) if the structure of interest already exists in the required format, as done in the present work.2.Converting the 3D.stlfile into a 3D solid format,.stepor.igesin this case, depending on the particular model. This is necessary because the actual fluid domain consists in a 3D space and not in a 3D surface. For this purpose, we use the freeware open-source software FreeCAD®.3.Creating the complementary void domain available to diffusion by a Boolean operation, subtracting the 3D solid from the solid box enclosing the unit cell. This step is also performed in FreeCAD® environment. The resulting final domain is also exported in the solid.stepformat to be successively imported in the CFD software.4.Importing the solid format into the CFD software for simulation, COMSOL MULTIPHYSICS® in this specific case, in which the computational mesh required for simulation is constructed by a built-in tool.
+
+Obtaining the 3D stereolithographic model of the structure (i.e., .stl file), which consists in a 3D surface faceted by triangles. This step can be made by either a digital reconstruction of the structure by certain type of microscopy, like the multi-photon one ( Perestrelo et al., 2021 ), whose incorporated software gives the possibility of acquiring 3D isosurfaces, or simply searching in available databases (e.g., in the Chemtube3d database , as done in the present work) if the structure of interest already exists in the required format, as done in the present work.
+
+Converting the 3D. stl file into a 3D solid format,. step or. iges in this case, depending on the particular model. This is necessary because the actual fluid domain consists in a 3D space and not in a 3D surface. For this purpose, we use the freeware open-source software FreeCAD®.
+
+Creating the complementary void domain available to diffusion by a Boolean operation, subtracting the 3D solid from the solid box enclosing the unit cell. This step is also performed in FreeCAD® environment. The resulting final domain is also exported in the solid .step format to be successively imported in the CFD software.
+
+Importing the solid format into the CFD software for simulation, COMSOL MULTIPHYSICS® in this specific case, in which the computational mesh required for simulation is constructed by a built-in tool.
+
+To our experience, amongst all the digital reconstruction steps, the first one is crucial for a successful final digital acquisition, as the original. stl file can generally have errors that need to be corrected before proceeding with the successive steps. The overall procedure of digital reconstruction used in this work is shown in the flow diagram reported below ( Fig. 3 ).
+
+Analogously to what done in previous works ( Perestrelo et al., 2021; Azzato et al., 2019; Bellini et al., 2018; Caravella et al., 2012 ), in order to characterise the internal void space of a structure, we carry out steady-state 3D simulations in pure-diffusion conditions – i.e., without any convective field. In fact, the geometrical parameters we can get from using pure-diffusion conditions, like the diffusional tortuosity , depend on geometry only and not on the particular concentration field chosen in the simulation (Whitaker, 1977).
+
+Differently, the so-called hydraulic tortuosity , which is calculated by the implementation of the Navier-Stokes equations in the void domain of a porous structure, is a parameter that does not depend only on geometry ( Duda et al., 2011 ). In fact, the particular pressure and velocity field can generally lead to the formation of possible local laminar closed circuits or, worst, turbulent vortices, which can artificially make it longer the flux streamlines by which tortuosity is evaluated.
+
+More generally, to the purpose, we cannot even use the equations of the transfer of energy or other quantities to which the solid structure is not impermeable, otherwise the streamlines would cross the void-solid interface and would not be usable to describe the internal void space.
+
+Once stated the reason for using pure-diffusion equations, the next step is to decide the simulation boundary conditions, whose choice is actually driven by the mathematical relationships between effective diffusion coefficients, concentration difference and average diffusive fluxes, explicitly reported for convenience in Eq. (7) . (7)J¯T,x=-D¯e,xxΔCΔx-D¯e,xyΔCΔy-D¯e,xzΔCΔzJ¯T,y=-D¯e,yxΔCΔx-D¯e,yyΔCΔy-D¯e,yzΔCΔzJ¯T,z=-D¯e,zxΔCΔx-D¯e,zyΔCΔy-D¯e,zzΔCΔz
+
+For this purpose, let us consider the inverse of Eq. (7) , which expresses the respective average concentration gradients as functions of the corresponding average total fluxes (Eq. (8) ). The corresponding average coefficients _{e,ij} appearing in Eq. (8) are inverses of diffusivities and, thus, represent what we can call diffusion resistivities (from now on simply referred to as resistivities ). (8)ΔCΔx=-R¯e,xxJ¯T,x-R¯e,xyJ¯T,y-R¯e,xzJ¯T,zΔCΔy=-R¯e,yxJ¯T,x-R¯e,yyJ¯T,y-R¯e,yzJ¯T,zΔCΔz=-R¯e,zxJ¯T,x-R¯e,zyJ¯T,y-R¯e,zzJ¯T,z
+
+In a matrix notation, we can write Eq. (8) in the following form (Eq. (9) ): (9)Δ̲C=-Re¯̲̲·JT¯̲,Re¯̲̲=De¯̲̲-1
+
+which indicates the way we proceed in the calculation of the average effective diffusivity tensor. In particular, we first calculate each component of the resistivity tensor, and then the average diffusivity tensor by inverting the resistivity-one.
+
+The way of calculating such components is actually driven by the form of the equations reported in Eq. (8) . For example, to calculate the _{e,xx} component, appearing in the first equations of Eq. (8) , we need to set the other terms of the sum to zero, as indicated in Eq. (10) . (10)ΔCΔx=-R¯e,xxJ¯T,x-R¯e,xyJ¯T,y-R¯e,xzJ¯T,z⇒R¯e,xx=-ΔCΔxJ¯T,xJ¯T,y=J¯T,z=0
+
+This mathematical relationship indicates that the calculation of _{e,xx} should be made through a CFD simulation by imposing a non-null concentration difference along the x -direction – which induces a corresponding non-null _{T,x} – setting, at the same time, null fluxes along the remaining y - and z -directions. The description of the boundary conditions are reported in Eq. (11) and shown in Fig. 4 . The choice of these boundary conditions implies that the total flux _{T,x} is uniform. To this regard, we specify that we do not use periodic boundary conditions because we want to provide a general methodology applicable also to stand-alone non-repetitive structures. (11)Boundary Conditionsfor calculation ofR¯e,xx:Cx=xa=Ca,xCx=xb=Cb,x⇒ΔCΔx,J¯T,x≠0JT,yy=ya=JT,yy=yb=0JT,zz=za=JT,zz=zb=0
+
+As for the other tensor components, the same simulation carried out to evaluate _{e,xx} allows us to calculate also other two components, i.e., _{e,yx} and _{e,zx} . In fact, the concentration gradient set along the main direction induces certain concentration gradients also along the other two directions, this providing the systematic methodology for tensor evaluation, as described in Eqs. 12–13.
+
+Hence, each simulation provides three resistivity tensor components and, thus, a total number of three simulations performed for each of the three different directions are sufficient to obtain the complete resistivity tensor.
+
+Because of the boundary conditions of null flux over the remaining normal surfaces, the conservation of mass ensures that such concentration gradients do not induce any transverse average flux within the domain. (12)ΔCΔxΔCΔyΔCΔz=-R¯e,xxR¯e,xyR¯e,xzR¯e,yxR¯e,yyR¯e,yzR¯e,zxR¯e,zyR¯e,zzJ¯T,x00⇒ΔCΔx=-R¯e,xxJ¯T,xΔCΔy=-R¯e,yxJ¯T,xΔCΔz=-R¯e,zxJ¯T,x (13)R¯e,xx=-ΔCΔxJ¯T,xJ¯T,y=J¯T,z=0,R¯e,yx=-ΔCΔyJ¯T,xJ¯T,y=J¯T,z=0,R¯e,zx=-ΔCΔzJ¯T,xJ¯T,y=J¯T,z=0
+
+In practise, each simulation allows for the calculation of three tensor components and, thus, three different simulations are sufficient to evaluate all the nine tensor components (Eqs. 14–15): (14)R¯e,xy=-ΔCΔxJ¯T,yJ¯T,x=J¯T,z=0,R¯e,yy=-ΔCΔyJ¯T,yJ¯T,x=J¯T,z=0,R¯e,zy=-ΔCΔzJ¯T,yJ¯T,x=J¯T,z=0 (15)R¯e,xz=-ΔCΔxJ¯T,zJ¯T,x=J¯T,y=0,R¯e,yz=-ΔCΔyJ¯T,zJ¯T,x=J¯T,y=0,R¯e,zz=-ΔCΔzJ¯T,zJ¯T,x=J¯T,y=0
+
+To this regard, we must specify that the introduced average effective diffusivity tensor is not generally symmetric by definition. In fact, the integral average formulation of the pure-diffusion constitutive equations (Eq. (2) ) does not require the tensor to be symmetric ( Gyrya and Lipnikov, 2017 ).
+
+Another example of the use of non-symmetric tensors in continuous mechanics and kinetic theory is given in the work of Prozorova (2020) for a different fluid mechanical system. Anyway, as mentioned above, the calculation of the average effective diffusivity tensor is finally made by simply inverting the effective resistivity tensor (Eq. (16) ). (16)De¯̲̲=Re¯̲̲-1
+
+Next sections report the detail of the processing of the diffusivity tensor to obtain parameters by which to assess tortuosity, connectivity and anisotropy.
+
+Once obtained the average effective diffusivity tensor, the characterisation of connectivity, tortuosity is carried out in the post-processing analysis by the following procedure.
+
+First, the diagonal form of the average effective diffusivity tensor is obtained, calculating in this way eigenvalues and corresponding eigenvectors _{n,i} (Eq. (17) ). The former ones represent the values of the effective diffusivity along the three main diffusion directions identified by three eigenvectors. For our analysis, we make use of the normalised eigenvectors, i.e., the eigenvectors having a unitary norm (this is the meaning of the subscript ‘ n ’ in the eigenvectors symbols). (17)De¯̲̲d=mn̲̲-1·De¯̲̲d·mn̲̲mn̲̲=v̲n,1,v̲n,2,v̲n,3=vn,1xvn,1yvn,1z,vn,2xvn,2yvn,2z,vn,3xvn,3yvn,3zDe¯̲̲d=D¯e,1dD¯e,2dD¯e,3d,D¯e,1d⇔v̲n,1D¯e,2d⇔v̲n,2D¯e,3d⇔v̲n,3
+
+Once obtained the diagonal form of the average effective diffusivity tensor, the next step is to calculate the diagonal tortuosity tensor. To this purpose, we remind that the adjective “ effective ” refers to the correction of the diffusivity due to the spatial constraints of the diffusion paths, which is quantified in terms of porosity and tortuosity as reported in Eq. (18) : (18)De=DετScalarForm→3D ExtensionDe¯̲̲=Dετ̲̲-1TensorialForm→DiagonalizationDe¯̲̲d=Dετ̲̲d-1DiagonalTensorialForm
+
+where it is stated that, in the natural extension to the three-dimensional case, the effective diffusivity tensor can be expressed by the product of the unconstrained (free) diffusion coefficient D and the porosity of the structure ε – which are both scalars – with the tortuosity tensor. Therefore, to calculate the diagonal tortuosity tensor τ ( ^{d} ) , we invert.
+
+Eq. (18) obtaining Eq. (19) . The diagonal values of the tortuosity tensor are used to identify the extent of the preferential paths, whereas the corresponding eigenvectors. (19)τ̲̲d=τ1dτ2dτ3dTortuosity Tensor
+
+As for the assessment of structure connectivity, in the present work we extend the definition of connectivity already given by our research group in Bellini et al. (2018) for the mono-dimensional case (i.e., isotropic structures) to the three-dimensional one by introducing the here-called connectivity tensor φ ( ^{d} ) (Eq. (20) ): (20)φ̲̲d≡τ̲̲d-1φ1dφ2dφ3dConnectivity Tensor≡τ1dτ2dτ3d-1Tortuosity Tensor-1
+
+In particular, we define the (diagonal) connectivity tensor as the inverse of the (diagonal) tortuosity-one. The components of the connectivity tensor are connectivity factors along the directions identified by the eigenvectors and have the same meaning as that explained in Bellini et al. (2018) , where it is stated that the inverse of tortuosity physically represents the degree of connection (i.e., connectivity) within the void space along a specific direction.
+
+To this regard, Fig. 5 shows a conceptual sketch on some fundamental aspects related to such a general definition of connectivity, which actually can be used even in contexts different from porous structures, like, as an instance, in networks of things.
+
+Indeed, we start from the general consideration that whatever type of factors reducing or impeding the “direct” connection among the nodes of a network actually leads to a reduction of connectivity. Now, considering the porous structure as a network of voids, the role of the solid matrix is clearly to hinder the diffusional paths among voids, causing them to be longer than the ideal straight lines, which corresponds to the hypothetical case where there is no solid matrix at all.
+
+Therefore, the more tortuous the path connecting two voids, the less simple the connection between them. Once stated this concept, as we already have a factor measuring the deviation of a generic path with respect to the straight one, i.e., the tortuosity, it was straightforward to us to define the connectivity of a structure as the inverse of its tortuosity.
+
+It is remarked that such a new definition of connectivity has to be intended as an average parameter that measures the overall degree of connections among voids in generic amorphous as well as crystalline structures and that can be used even in complex cases of irregular porous structures, for which it is difficult to recognise a clear voids shape.
+
+A side-advantage of the so-defined connectivity factor is that it ranges within [0, 1] because tortuosity is comprised within [1, ∞]. This fact states a lower and an upper bound for connectivity that respectively correspond to the physical occurrences that, in the worst case of isolated clusters ( Fig. 5 c), there is no connection among clusters (zero connectivity, infinite tortuosity), whereas in the best case of absence of solid matrix ( Fig. 5 a), such a connection is maximum (unitary connectivity and tortuosity).
+
+From a practical point of view, the connectivity factors – i.e., the eigenvalues of the diffusivity tensor – are the main parameters by which we assess the degree of the direction preferentiality. In practise, we use them to scale down the normalised eigenvectors to quantify and identify the preferential paths u_{n} , _{i} , as reported in Eq. (21) and sketched in Fig. 6 . (21)u̲i=φiv̲n,i
+
+In order to quantify the overall connectivity of a structure, we define here an Overall Connectivity Degree φ_{ov} with the aim at providing a parameter that quantify the overall degree of connectivity. For its definition, we have several choices, which are all driven by considering that, for isotropic structures, the connectivity factors are equal to each other and, thus, φ_{ov} must be equal to them.
+
+In particular, in the present work, we propose a definition of φ_{ov} based on the Euclidean norm of the connectivity tensor normalised with respect to the factor . (Eq. (22) ). (22)φov≡φ̲̲3=φ12+φ22+φ323=Euclidean Norm of theactual Connetivity TensorEuclidean Norm of thehighest achievableConnetivity Tensor3=12+12+12⇓Euclidean Norm of thehighest achievableConnetivity Tensor
+
+Among others, other two possible choices are reported here in Eqs. 23–24 just for convenience of the readers. The former is based on the simple arithmetic average of the connectivity factors (Eq. (23) ), whereas the latter is based on their maximum. (Eq. (24) ), which corresponds to the so-called spectral radius of the connectivity tensor. (23)φov≡φ¯=φ1+φ2+φ33⇓Average Eigenvalue ofthe Connectivity Tensor (24)φov≡maxφ1,φ2,φ3⇓Spectral Radius of theConnectivity Tensor
+
+Anyway, it is pointed out that end-users and scholars could use the definition according that match their specific scientific and/or technological needs.
+
+Finally, we introduce the directionality vector β along with its components, the directionality factors β_{i} , which we define to quantify the preferential diffusional directions expressed in terms of percentage as follows (Eq. (25) ): (25)βi=φi∑j=1nφj⇒→βk<βl<βmPreferred Directions
+
+Basing on this definition, the higher the value of β_{i} , the more preferential the corresponding diffusional path is with respect to the others. These parameters are introduced to give more intuitive and direct information about the best orientation of the material of interest.
+
+This section reports the results of the proposed methodology in the following order. First, we provide a validation using an already well-known structure, the FCC one, which is isotropic with respect to diffusion. Then, the presented methodology is applied to an artificial anisotropic structure, named as straight-cylinder one, in order to show the systematic data analysis in an anisotropic case.
+
+Finally, we consider two different real microporous zeolite structures, i.e., the LTL zeolite and the clinoptilolite one, whose structures are digitally reconstructed by the above-described procedure.
+
+Table 1 reports the shared settings for all simulations. We recall that, as already demonstrated in Caravella et al. (2020), the simulation results are not affected by the particular values of these settings, as well as by the choice of the two diffusing species (nitrogen and decane) and of the value of the unconstrained diffusion coefficient because the diffusive tortuosity is a geometrical property only and, thus, the results are scale-independent. In practise, these particular simulations are just the mean by which to obtain the general behaviour of the considered structures. The values of higher and lower mass fractions are used to set the required concentration difference along each directions ( x , y , z ), as described in Fig. 4 for the x -one.
+
+
+[Table_1 0005]
+# Table 1: Shared parameters used in all simulations.
+
+| *Variable*       | *Description*                     | *Value*      | *Units*     |
+|-------------------|-----------------------------------|--------------|-------------|
+| *P*              | Pressure                         | 1            | [atm]       |
+| *Dij*            | Free (unconstrained) diffusivity | 10^-7        | [m^2/s]     |
+| *wa*             | Higher mass fraction             | 2·10^-4      | [-]         |
+| *wb*             | Lower mass fraction              | 1·10^-4      | [-]         |
+| *Species*        | {N2, C10H22}                     |              |             |
+
+
+To show the assessment of our methodology, solid FCC (isotropic) structures at three different porosity values (see Table 2 ) are created in the CAD environment of the commercial software COMSOL MULTIPHYSICS® with the aim at reproducing results already available in the literature in terms of tortuosity values obtained by a different methodology, i.e., the random-walk approach ( Kim and Chen, 2006 ).
+
+In order to ensure the mesh-independency of results, all simulations used for validation are carried out with two different meshing settings corresponding to a coarser mesh and a finer one for each porosity values. Figs. 7 and 8 respectively show the mesh aspect and the concentration profile with the concentration difference set along the x -direction for a porosity of 0.5542.
+
+Furthermore, according to the procedure described above, we performed three different simulations – i.e., along x -, y - and z -direction – for each porosity value even if we already know in advance that the structure is isotropic. This is done because, from a numerical point of view, the results obtained in the three directions are not identical to each other since the orientation of the computational mesh and the interpolation functions used in the finite element method depend on the orientation of the elements composing the mesh (mainly tetrahedral ones).
+
+These different simulations also ensure that the unavoidable numerical approximation of the calculation do not affect the final result, this providing a sort of methodology sensitivity to the calculation of eigenvalues and eigenvectors. Table 2 reports the results obtained for validation at different values of porosity for both coarser and finer meshes. As can be observed, in all cases the error is well below 0.1 %, this stating the validity of our methodology. Basing on these results, in all the successive simulations performed for the anisotropic structures considered in the present work (see next sections), the settings relative to the coarser meshes are used in order to decrease the computational duty. The results of the anisotropy analysis for a porosity value of 0.5477 are reported in terms of: i)Effective resistivityandeffective diffusivity matrices(Eqs.[Ref:0130]);ii)Tortuosityandconnectivity matrices(Eqs.[Ref:0135]);iii)Normalised eigenvectors,directionality vector βandscaled eigenvectors(Eqs.[Ref:0140]);iv)Anisotropy factor αandoverall connectivity factor φ_{ov}(Eqs.[Ref:0145]). (26)Re¯̲̲=2.25E + 07- 1.73E + 008.65E + 004.64E + 002.25E + 076.24E + 00- 3.58E - 014.28E + 002.25E + 07De¯̲̲=4.45E - 083.42E - 15- 1.71E - 14- 9.19E - 154.45E - 08- 1.24E - 147.10E - 16- 8.48E - 154.45E - 08De¯̲̲d=4.45E - 080004.45E - 080004.45E - 08 (27)TortuosityMatrixτ̲̲ed=1.2310001.2310001.231ConnectivityMatrixφ̲̲ed=0.8130000.8130000.813 (28)NormalisedEigenvectorsν̲̲n=0.1210.687- 0.019- 0.643- 0.123- 0.0110.7560.7171.000DirectionalityVectorβ̲=0.3330.3330.333ScaledEigenvectorsu̲̲=φ1v̲n1,φ2v̲n2,φ3v̲n3=0.0980.558- 0.015- 0.523- 0.100- 0.0090.6140.5820.812 (29)OverallConnectivityFactorφov=0.813AnisotropyFactorα=0.000
+
+
+[Table_2 0010]
+# Table 2: Validation results. FCC structure.
+
+| Porosity ε, - | Tortuosity τ, - (Kim and Chen, 2006) | Tortuosity τ, - (Present work, Coarser mesh) | Tortuosity τ, - (Present work, Finer mesh) | Error, % (Coarser mesh) | Error, % (Finer mesh) |
+|---------------|---------------------------------------|---------------------------------------------|-------------------------------------------|-------------------------|-----------------------|
+| 0.2826        | 1.5398                                | 1.5401                                      | 1.5400                                    | 0.019%                 | 0.012%               |
+| 0.3434        | 1.4186                                | 1.4189                                      | 1.4187                                    | 0.023%                 | 0.016%               |
+| 0.5477        | 1.2314                                | 1.2308                                      | 1.2312                                    | 0.049%                 | 0.016%               |
+
+
+Effective resistivity and effective diffusivity matrices (Eqs. (26) );
+
+Tortuosity and connectivity matrices (Eqs. (27) );
+
+Normalised eigenvectors , directionality vector β and scaled eigenvectors (Eqs. (28) );
+
+Anisotropy factor α and overall connectivity factor φ_{ov} (Eqs. (29) ).
+
+We can observe that the first two matrices in Eq. (26) are diagonal-dominant, this indicating that the directions × , y and z are in practise the principal directions. As expected, the eigenvalues of the effective diffusivity matrix are equal to each other, this leading to equal directionality factors β_{i} and, thus, to a practically null anisotropy factor α , which confirms the structure isotropy.
+
+After validation using an isotropic structure, we created an artificial anisotropic structure – namely straight-cylinder structure ( Fig. 9 ) – having an evident preferential direction (along the z -axis) along which tortuosity is already known to be unitary. This is done to describe systematically the ability of our methodology to assess the structure topology in anisotropic case, which is the main goal of the present work.
+
+In practise, this case represents a validation along the z -direction and a prediction along the other ones. The structure is composed of parallel solid cylinders with an equilateral triangular pitch whose axes are all parallel to the z -axis. As reported above, we obtain the fluid domain by subtracting the cylinders from a solid box, which is chosen to be cubic in this specific case. The subtraction is intentionally made in such a way that the surface areas A_{ya} and A_{yb} be different from each other for a wider generality. The related geometrical parameters are reported in Table 3 .
+
+
+[Table_3 0015]
+**Table 3**: Geometrical parameters of the straight-cylinder structure.
+
+| Parameter             | Value |
+|-----------------------|-------|
+| Cylinder diameter, mm | 1     |
+| Cubic box edge, mm    | 4.8   |
+| Triangular Pitch, mm  | 1.2   |
+
+
+Fig. 10 shows the calculated concentration profiles along the three directions considered. From the structure, we expect that the methodology results indicate us that the tortuosity along the z -direction be equal to the unity (straight diffusional path), whereas the tortuosity values along x - and y -directions are expected to be higher than the unity, with a value along the x -direction slightly higher than that along the y -one because the cylinders are more distant from each other along the y -direction (straighter diffusional path). The results reported in Eqs. 30–33 confirm our expectations.
+
+In particular, it is correctly found that the normalised eigenvectors are practically coincident with the main directions of the reference system, with a value of tortuosity τ_{1} of 1.855 higher than that of τ_{2} (1.617). As expected, the analysis provides a value of τ_{3} equal to the unity to the numerical precision of simulation, which confirms the correctness of the methodology also in anisotropic case.
+
+Just to provide an example of the meaning of the obtained results, the directionality vector β indicates that the z -direction is preferred by the diffusion flux by 46.4 %, followed by the y -direction (28.7 %) and the x -one (25.0 %).
+
+This means that, should this structure be used as a selective membrane having different affinities with the diffusing species, the best orientation to favour permeability would be the z -direction (highest connectivity), whereas the best orientation to increase selectivity would be that with the highest tortuosity (i.e., lowest connectivity), i.e., the x -direction in this specific case. (30)R¯̲̲e=4.26E + 07- 2.40E + 01- 1.23E + 014.47E + 014.89E + 07- 3.65E - 01- 4.49E + 017.74E + 012.63E + 07D¯̲̲e=2.35E - 081.15E - 141.09E - 14- 2.15E - 142.05E - 082.84E - 164.01E - 14- 6.02E - 143.80E - 08D¯̲̲ed=2.05E - 080002.35E - 080003.80E - 08 (31)TortuosityMatrixτ̲̲ed=1.8550001.6170001.000ConnectivityMatrixφ̲̲ed=0.5390000.6180001.000 (32)NormalisedEigenvectorsν̲̲n=- 0.0001.0000.0001.000- 0.0000.0000.000- 0.0001.000DirectionalityVectorβ̲=0.2500.2870.464ScaledEigenvectorsu̲̲=φ1v̲n1,φ2v̲n2,φ3v̲n3=- 0.0000.6180.0000.539- 0.0000.0000.000- 0.0001.000 (33)OverallConnectivityFactorφov=0.747AnisotropyFactorα=0.198
+
+This section reports the results related to two real zeolite structures – LTL zeolite and clinoptilolite – that are digitally reconstructed by importing the original structure in .stl format from an available database ( chemtube3d website) and processing them according to the procedure described in Section 2.2 .
+
+The LTL zeolite structures are used in catalytic processes like fuel upgrading and production of chemical intermediates ( Ahmad et al., 2020 ). Moreover, this type of zeolites can be used also as adsorbents instead of active carbon. For our purpose, we have chosen a particular LTL structure with a porosity of around 0.922, given that we could choose a structure of whatever porosity value of interest.
+
+Fig. 11 shows the reconstructed digital structure – external view ( Fig. 11 a) and internal one ( Fig. 11 b) – along with the computational mesh built for simulation ( Fig. 11 c), which was particularly demanding due to the structure inner irregularity. Fig. 12 shows the corresponding concentration profiles obtained by simulation along the three reference directions considered. Actually, by looking at the inner structure ( Fig. 11 b), one can observe that the structure looks similar along x -, y - and z -directions, this making us expect that it could be more or less isotropic.
+
+Indeed, such an expectation is confirmed by our results (Eqs. 34–37), which show very similar tortuosity values (and, thus, connectivity ones) along the three principal directions identified by the eigenvectors.
+
+Consequently, the components of the directionality vector β , which could be also indicated in terms of percentage, clearly indicate that there is no preferential direction for diffusion for this structure, as their values are equal to each other considering the small numerical error. Therefore, the anisotropy factor results to be close to zero.
+
+An interesting aspect to observe is the high value of connectivity degree of this structure – stated by an overall connectivity factor φ_{ov} of 0.942 – which explains from a conformational point of view the reason why it is suitable to be used as a catalyst. In fact, the facility of diffusion makes it easy for reactants to reach the catalytic sites and for the products to leave back to the fluid phase bulk.
+
+In order to show more clearly the trend of the concentration in the structure, Fig. 13 depicts the average concentration profiles along the three reference directions. Each value is calculated by the average concentration over each cross-sectional area normal to the considered direction. (34)R¯̲̲e=1.15E + 072.35E + 03- 2.50E + 033.03E + 031.15E + 071.47E + 03- 7.83E + 032.02E + 031.15E + 07D¯̲̲e=8.69E - 08- 1.77E - 111.89E - 11- 2.28E - 118.67E - 08- 1.11E - 115.92E - 11- 1.52E - 118.70E - 08D¯̲̲ed=8.69E - 080008.67E - 080008.71E - 08 (35)TortuosityMatrixτ̲̲ed=1.0610001.0630001.059ConnectivityMatrixφ̲̲ed=0.9420000.9410000.944 (36)NormalisedEigenvectorsν̲̲n=- 0.6100.1520.1320.0340.705- 0.0430.792- 0.6930.990DirectionalityVectorβ̲=0.3330.3330.334ScaledEigenvectorsu̲̲=φ1v̲n1,φ2v̲n2,φ3v̲n3=- 0.5740.1430.1250.0320.663- 0.0410.746- 0.6520.935 (37)OverallConnectivityFactorφov=0.942AnisotropyFactorα=0.001
+
+As we can observe, the concentration trend can be considered linear along the three reference directions, this representing a sort of quantification of the structure regularity. In fact, as the local flux is proportional to the concentration slope, a uniform concentration gradient indicates that the solid obstacles are distributed in such a way that local and average effective diffusivities are similar to each other.
+
+To this regard, in Eq. (38) we show a mathematical property of the concentration first spatial derivative (example of x -direction). In particular, Eq. (38) states that the average first derivative along a specific direction is just equal to the overall concentration gradient along that direction. (38)∂CA∂x¯=1Δx∫0Δx∂CA∂xdx=1Δx∫CA,aCA,bdCA=ΔCAΔx
+
+We underline that this is in line with our choice of defining the average effective diffusivity tensor considering the three concentration differences within the domain along the x -, y - and z -directions.
+
+The clinoptilolite is massively used in a number of applications as an additive for building materials and cattle feed, as a desiccant, as an aggregate in horticulture and as a molecular sieve. Furthermore, it was also used during the nuclear disaster of Chernobyl, both as ionic exchanger to treat the waste water contaminated by radioactive substances to capture and as an additive to cattle feed to capture radioactive cations like 137-cesium in the digestive tract ( Malsy and Doebelin, 2004 ).
+
+Fig. 14 shows the digitally-reconstructed model of the real 3D clinoptilolite structure ( Fig. 14 a), whose unit cell is a parallelepiped, along with the inner structure ( Fig. 14 b) and the computational mesh built for simulation ( Fig. 14 c). In this case, the inner structure cannot be visualised easily, as it is more complex than the previous one. Therefore, predictions on the topological behaviour of the structure are not easy in this case. However, this is exactly the function and the usefulness of the proposed approach in dealing with complex structures whose topology is not known a priori.
+
+Fig. 15 shows the concentration profiles obtained from simulation, from which it is already possible to recognise qualitatively the higher degree of irregularity of this structure.
+
+This is actually confirmed by the results reported in Eqs. 39–42, which report different tortuosity values along the eigen-directions corresponding to the highest connectivity along the third direction, followed by the first and the second one. (39)R¯̲̲e=1.92E + 073.69E + 051.61E + 06- 5.53E + 051.92E + 07- 7.05E + 052.06E + 06- 1.05E + 062.01E + 07D¯̲̲e=5.26E - 08- 1.25E - 09- 4.24E - 091.32E - 095.22E - 081.72E - 09- 5.31E - 092.85E - 095.02E - 08D¯̲̲ed=5.07E - 080004.69E - 080005.73E - 08 (40)TortuosityMatrixτ̲̲ed=1.2710001.3740001.125ConnectivityMatrixφ̲̲ed=0.7870000.7280000.889 (41)NormalisedEigenvectorsν̲̲n=- 0.3780.498- 0.6800.829- 0.3800.070- 0.4120.7800.729DirectionalityVectorβ̲=0.3270.3030.370ScaledEigenvectorsu̲̲=φ1v̲n1,φ2v̲n2,φ3v̲n3=- 0.2970.362- 0.6050.652- 0.2770.062- 0.3250.5680.648 (42)OverallConnectivityFactorφov=0.804AnisotropyFactorα=0.059
+
+The overall connectivity factor of 0.804 indicates the lower degree of connectivity of this structure than the LTL one, this stating its higher irregularity in the diffusional path. Moreover, the difference among the three eigenvalues leads to an anisotropy factor of 0.06, indicating a certain dominance of the second eigen-direction over the other ones.
+
+As done for LTL zeolite, Fig. 16 shows the average concentration profiles in the clinoptilolite along the three reference directions. In this case, differently to what observed for the previous structure, this one presents profiles that cannot be considered linear along y - and z -directions. The last one, in particular, shows a significant sigmoidal trend, which confirms that the structure is doubtless more irregular than the LTL zeolite.
+
+However, it is interesting to observe that, along the z -direction, the profile slope – and, thus, the local flux – is lower than the overall average one up to a position of around 0.45 and after a position of around 0.75. This means that the solid matrix offers a higher resistance to the mass transfer at the beginning and at the end of the structure along that direction, which can enhance the adsorption selectivity but, at the same time, can reduce the penetration of the species in the bulk of the structure.
+
+Finally, Fig. 17 shows a summary of the obtained results in terms of overall connectivity factor and anisotropy factor , which represent additional new information provided to the specialized material scientists working with microporous materials. In general, we suggest that these two parameters, along with the other ones proposed, be used as standards through which characterising porous materials at whatever scale. In fact, the most common characterisation of porous media is still based on physical properties like porosity and density, which, however, do not provide any information about the inner distribution of voids.
+
+Such information is crucial because the most interesting material properties are related to the specific conformation of the void space and to how voids are interconnected to each other to form complex and hopefully selective structure.
+
+In this work, we presented a novel methodology to assess systematically the anisotropy, connectivity and tortuosity of three-dimensional porous structures at whatever scale.
+
+In particular, several novelties with respect to the open literature are given, like the introduction of the Average Effective Diffusivity Tensor ( AEDT ), the definition of a novel connectivity tensor – which is calculated as the inverse of the (diagonal) tortuosity tensor –, the development of a digital reconstruction procedure of real 3D structures, and a novel self-standing methodology for calculating the connectivity tensor , which avoids considering estimation techniques involving time-dependent diffusivities. All simulations were carried out in the environment of the commercial software COMSOL MULTIPHYSICS®.
+
+As for the methodology, once obtained the diffusivity tensor, we calculated its eigenvalues and eigenvectors. From the former, we obtained the tortuosity tensor and, taking its inverse, the novel connectivity tensor , whose definition in the three-dimensional space extends the previous definition of connectivity given in the mono-dimensional one ( Bellini et al., 2018 ).
+
+Differently, the eigenvectors of the diffusivity tensor identify the preferential directions of the internal void space with respect to the diffusive streamlines, this providing new quantitative information to evaluate the diffusional anisotropy.
+
+The proposed approach was validated first by considering a well-known isotropic structure – i.e., the FCC one –, and then by constructing an artificial structure – here referred to as straight-cylinder structure – having an evident preferential diffusional direction along the z -axis.
+
+Finally, two real three-dimensional structures – i.e., LTL zeolite and clinoptilolite – were digitally-reconstructed. After importing these solid models into the CFD software, the aforementioned set of simulations were carried out, allowing us to calculate the concentration profiles inside the structure and, from them, the topological parameters of interest.
+
+Our approach can be effectively used to characterise existing but still relatively unknown materials of interest as well as to design new materials with a specific distribution of inner voids for application as catalysts, facilitated-transport membranes and/or adsorbents with certain desired characteristics.
+
+Competing interests
+
+The Authors declare no competing financial or non-financial interests.
+
+Author contributions
+
+AC developed the original mathematical methodology, conceived the digital acquisition procedure, performed part of simulations, organized and coordinated the co-Authors work, and wrote the majority of the manuscript. PF optimized the reconstruction procedure, carried out simulations and wrote part of the manuscript. GA contributed in developing the original methodology, conducted data analysis, prepared part of the figures and wrote part of the manuscript. GDM performed the digital acquisition of the original STL meshes and contributes in converting them into solids to use for simulations.
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Based on the geometrical meaning of eigenvalues and eigenvectors, we use here the Overall Anisotropy Parameter α reported in Eq. (43) , whose definition was introduced originally by Basser and Pierpaoli (1996) in a different form. In their paper, those Authors used the eigenvalues of the local diffusivity tensor, which is formally different from but mathematically equivalent to our choice of using the connectivity factors, instead. (43)α=16φ1-φ¯2+φ2-φ¯2+φ3-φ¯2φ¯
+
+Although already present in the literature, a more detailed explanation is needed here for the reason of this definition of the parameter α , which is chosen in such a way that it be comprised within the range [0, 1], with the physical meaning at the limit values reported in Eq. (44) : (44)0Fully Isotropicφi,φj,φk→φ¯<α<1Fully Anisotropicφi≫φj,φk
+
+where is the arithmetic average of the three connectivity factors. Let us notice that, in case of isotropic systems, all the eigenvalues are equal to their average value and, thus, α is equal to zero. On the other hand, when a connectivity factor along a certain direction is dominant over the remaining two, this factor tends to the unity.
+
+It is useful to specify that the factor can be considered as introduced to express conveniently α in terms of percentage. Indeed, the factor arises from considering that the maximum anisotropy occurs when two eigenvalues ( φ_{j}, φ_{k} ) are negligible with respect to the third one ( φ_{i} ), as briefly demonstrated in Eq. (45) , where we show the example of the limit case of both φ 1 and φ 2 negligible with respect to φ 3 : (45)φ1-φ¯2+φ2-φ¯2+φ3-φ¯2φ¯φ1,φ2≪φ3≅φ329+φ329+4φ329φ33=6

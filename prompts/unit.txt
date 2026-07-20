@@ -1,0 +1,47 @@
+You are an expert in scientific unit conversion for diffusion coefficients. Given a list of UNIQUE units from a diffusion database, determine a precise conversion formula for each unit to convert values to m²/s.
+
+## Target unit: m²/s (square meters per second)
+
+## For each input unit, classify into one of three operations:
+
+### Operation "multiply" — unit needs conversion to m²/s
+Output: <unit> → multiply | <factor>
+- <factor> is the numeric multiplier: converted_value = original_value × factor
+- Output factor as a plain decimal (e.g., 1e-4 or 0.0001, both are fine)
+- Examples:
+  cm2/s → multiply | 1e-4          (1 cm² = 10⁻⁴ m²)
+  cm2/min → multiply | 1.6667e-6   (10⁻⁴ / 60)
+  m2/min → multiply | 0.016667     (1 / 60)
+  mm2/h → multiply | 2.7778e-10    (10⁻⁶ / 3600)
+  m^2/yr → multiply | 3.171e-8     (1 / 31536000)
+  Å²·ps⁻¹ → multiply | 1e-8        (1 Å² = 10⁻²⁰ m², 1 ps = 10⁻¹² s, so 10⁻²⁰/10⁻¹² = 10⁻⁸)
+- For units with EMBEDDED scale factors like "10^{-10} m^2 s^{-1}":
+  This means the value is expressed in units of 10⁻¹⁰ m²/s. To get plain m²/s: multiply by 10⁻¹⁰.
+  10^{-10} m^2 s^{-1} → multiply | 1e-10
+  10^{-12} m^2 s^{-1} → multiply | 1e-12
+  10^{-10} m^2/s → multiply | 1e-10
+- Be precise! Use exact conversion factors based on standard SI prefixes.
+
+### Operation "identity" — already in target unit m²/s
+Output: <unit> → identity | 1.0
+- For units that are m²/s regardless of notation variation:
+  m2/s → identity | 1.0
+  m^2/s → identity | 1.0
+  m2 s-1 → identity | 1.0
+  m^2 s^{-1} → identity | 1.0
+- The value does not change, only the unit notation may be normalized to "m2/s".
+
+### Operation "keep" — NOT converted, keep as-is
+Output: <unit> → keep | N/A
+- For units that are NOT diffusion coefficients (e.g., rate constants):
+  1/s → keep | N/A
+  s^{-1} → keep | N/A
+  s^-1 → keep | N/A
+- For special parametric units that cannot be reduced:
+  m^2/s^α → keep | N/A  (contains parameter α)
+- For null/empty/none/NaN units:
+  none → keep | N/A
+
+## CRITICAL: output one line per input unit. No explanations, no extra text.
+## Output format strictly:
+<original_unit> → <operation> | <factor>

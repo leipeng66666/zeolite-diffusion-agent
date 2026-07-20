@@ -1,0 +1,207 @@
+An important review of the problems related to the determination and interpretation of molecular diffusion in zeolites ends with the following sentence: “ The measurement of diffusion in zeolites can be expected to remain a challenging task also over the next decades .” Jörg Kärger in Measurement of Diffusion in Zeolites—A Never Ending Challenge? ( Adsorption , 9, 29, 2003). This statement applies both to the techniques at the microscopic and at the macroscopic scale, because diffusion measurements in nanoporous materials provide results that may differ by up to 3 orders of magnitude ( Brandani, 2007 ).
+
+Extensive reviews of diffusion in nanoporous materials are found in the literature ( Kärger, 2003 ; Dubbeldam and Snurr, 2007 ; Sholl, 2006b ; Brandani, 2007 ), only to mention a few. Measurement of transport diffusivities ( D_{T} ) are usually carried out under non-equilibrium conditions in which a finite concentration gradient exists. Typical macroscopic measurement methods are membrane permeation, zero length column (ZLC), uptake methods, and frequency response techniques ( Millot et al., 2000 ; Brandani et al., 1995 ; Onyestyák et al., 1995 ). Self diffusivity ( D_{S} ) is measured under equilibrium conditions by microscopic techniques, such as pulsed field gradient (PFG) NMR and quasi-elastic neutron scattering—QENS ( Hong et al., 1992 ; Jobic, 2000 ). It has been shown that the diffusivities may most decisively depend on the relevant space and time scales of observation, as well as on the physical state under which the measurements are carried out ( Kärger, 2003 ). Thermal effects, pore size distributions and surface roughness are other important factors that must be taken into account in diffusion measurements ( Kärger and Ruthven, 1992 ). Real zeolite samples always contain imperfections, whereas “perfect” crystals without defects are used in molecular simulations. Since experimental measurements of diffusion in zeolites can be controversial, it is best to compare simulations with multiple experiments.
+
+Our work focuses on the diffusion of propane, propylene and isobutane in zeolite 13X (faujasite framework—structure code FAU). There have been several experimental studies of diffusion of linear alkanes in zeolites, including FAU. However, experimental data on propylene self-diffusion in zeolite 13X are scarce ( Kärger and Pfeifer, 1987 ; Schwarz et al., 1995 ; Brandani et al., 1995 ; Da Silva and Rodrigues, 1999 ). Furthermore, different measurement techniques have shown enormous discrepancies between results. For example, the pulsed field gradient NMR (PFG-NMR) technique has been used to study the intracrystalline self-diffusion of methane, ethane and propane in ZSM-5, NaCa-A, and NaX zeolites ( Caro et al., 1985 ). Using the same technique, Schwarz et al. (1995) measured the self-diffusivities of several molecules, including propane and propylene, in CsNaX-60, CsNaX-60.8CsOH, and NaX zeolites. Brandani et al. (1995) reported diffusion measurements of propane and propylene in 13X and 5A zeolite crystals by tracer ZLC, and have found that propane and propylene have similar diffusivities in 13X zeolite, but propane diffusivities are much smaller than the corresponding NMR values and show an opposite trend with concentration. Comparing the diffusion coefficients measured by PFG-NMR and ZLC methods for different alkanes in silicalite, Banas et al. (2005) concluded that in PFG-NMR only intracrystalline transport is observed, while in ZLC both intracrystalline transport and desorption through the crystal surface and into the gas phase may be relevant.
+
+Another relevant study is that of Da Silva and Rodrigues (1999) , who investigated propane and propylene kinetics over 13X zeolite pellets by gravimetric and ZLC techniques. They concluded that the macropore diffusion control model was the dominant mass-transfer mechanism for this system. Malka-Edery et al. (2001) measured the kinetics of several alkanes (C 3 to C 6 ) and olefins (C 3 and C 4 ) in NaX zeolite by the thermal frequency response (TFR) method, and compared the results to those obtained by PFG-NMR. As TFR measures the transport diffusivity ( D_{T} ), the reported values for the corresponding self-diffusivities were calculated from the former by applying the Darken relation.
+
+Experimental measurements of self-diffusivities of branched alkanes found in the literature are mainly for MFI-type structure. Large deviations, of up to six orders of magnitude, between the diffusion coefficients obtained by various experimental and theoretical techniques have been reported ( Jobic et al., 1989 ). For example, the self-diffusion coefficient of isobutane in ZSM-5 derived from quasi-elastic neutron scattering (QENS) is 3.0×10 −12 m 2 s −1 at 500 K, about 3 orders of magnitude lower than the one of n-butane in the same zeolite ( Millot et al., 1999 ). It has been argued that this is due to the fact that diffusion of isobutane and of n-butane occurs on different time scales ( Jobic, 2000 ). In the case of isobutane diffusivity in NaX zeolite, experimental data available in the literature is rather limited. Onyestyák et al. (1995) reported transport diffusivities of isobutane in NaX zeolite obtained by the frequency response (FR) technique in crystals (6.9×10 −9 m 2 s −1 ), and pellets (1.7×10 −11 m 2 s −1 ).
+
+Given the difficulties in experimentally obtaining accurate and reproducible diffusion coefficients, molecular simulation methods have been shown to be particularly powerful to study diffusion in zeolites. The currently available atomic models, force fields and algorithms allow for accurate calculations of diffusion coefficients in a variety of systems ( Skoulidas and Sholl, 2003 ). Molecular dynamics (MD) is the most common method to carry out simulations of diffusional behaviour in porous adsorbents ( Catlow et al., 1991 ; Smit and Krishna, 2003 ), although the Monte Carlo method has been applied for the transition path sampling simulations of branched alkanes in silicalite ( Vlugt et al., 2000 ), and kinetic Monte Carlo was used to compute single component and binary mixture diffusion coefficients for a two-dimensional lattice model over a wide range of lattice occupancies and compositions ( Sholl, 2006a ).
+
+Krishna and co-workers performed extensive MD studies on alkanes in FAU ( Krishna and van Baten, 2005, 2006 ), as well as in other zeolite frameworks ( Krishna and Paschek, 2002 ), without taking extra-framework cations into consideration. Self-diffusivities of single components and mixtures of up to four components have been evaluated by MD simulations, providing a comparison between the Maxwell–Stefan and Onsager formulations. Wongthong et al. (2007) have investigated the diffusion of ethane, propane, and n-butane in siliceous FAU by MD techniques using a generalized valence force field (GVFF). In general, the published simulations of various authors are in reasonable agreement. More recently, the influence of the presence of cations on the diffusivities of propane in FAU and methane in LTA was studied ( Krishna and van Baten, 2007 ). The presence of cations was shown to decrease the self-diffusion coefficient, but the effect was not very pronounced for propane in FAU.
+
+The main objective of this work is to calculate the diffusivities of propane, propylene, and isobutane in zeolite 13X by molecular simulation using a realistic force field for the adsorbent that considers the influence of the sodium cations present in the zeolite framework. We apply molecular dynamics simulations for propane and propylene in a wide range of temperatures (303, 323, 343, 373, 423, and 473 K) and at several loadings (2, 4, 8, 16 and 32 molecules per unit cell). To our knowledge, it is the first time that simulations of propylene diffusion in FAU zeolites are reported. For isobutane, loadings of 2, 4, 8, 16, and 24 molecules per unit cell, and temperatures of 323 and 373 K, have been used in the simulations. We evaluate the predictions of diffusion coefficients based on a broad comparison with different experimental measurement techniques and results of simulations found in the literature. The next section presents details of the simulation method and the force field. Section 3 discusses the results for the self-diffusion coefficients, while an estimate of the transport diffusivities is given in Section 4 . A summary of our main conclusions is presented in Section 5 .
+
+Simulations of propane, propylene and isobutane diffusion in 13X have been carried out by solving Newton's equations of motion until the average system properties do not change in time. Each simulation was performed in two steps. In the first step, a configurational-bias Monte Carlo simulation in the NVT ensemble is used to generate an equilibrated system at a given temperature and adsorbate loading. The BIGMAC code is used to perform the CBMC simulations ( Vlugt and Smit, 1998 ). The results are stored in files which are subsequently used as input files for the MD simulation, using the DL_POLY package ( Smith et al., 2006 ). The MD simulations are performed in the NVT ensemble, using the Nosé–Hoover thermostat to control the temperature ( Nosé, 1984 ). We used the velocity Verlet algorithm for time integration ( Frenkel and Smit, 2002 ) with a time step of 1 fs.
+
+The self-diffusion coefficients were computed from the slope of the mean squared displacements (MSD), generated by the trajectories of all atoms along time. The self-diffusion coefficient D_{S} is defined by the Einstein expression: (1)DS=limt→∞16Nt∑i=1NΔri(t)2 where N is the number of particles and Δr_{i}(t)^{2} is the MSD covered by the molecules during an observation time t with respect to time t 0 . An example of the MSD for propane molecules in 13X at 473 K and at different loadings is shown in Fig. 1 .
+
+The zeolite framework model is described as the sodium form of Faujasite type zeolites, obtained by randomly substituting silicon by aluminium, satisfying the Löwenstein rule. We used a cation density of 88 Na per unit cell, which yields a Na 88 Al 88 Si 104 O 384 unit cell composition. The zeolite framework is assumed to be rigid, but the Na + cations are fully mobile. Calero et al. (2004) showed that simulations using fixed Na + cations overestimate the adsorption of alkanes at low pressures and underestimate the adsorption of alkanes at high pressures. Periodic boundary conditions were applied in all directions. The potential form and parameters used to describe the interactions between propane and the zeolite framework atoms, including the nonframework cations, are based on the force field from Calero et al. (2004) . The interaction parameters for propylene were taken from our previous work on adsorption equilibrium of propylene in 13X zeolite ( Granato et al., 2007 ), while those regarding interactions with tertiary sp 3 -bonded carbons were taken from our previous work on adsorption of isobutane in zeolite 13X ( Granato et al., 2008 ).
+
+Non-bonded interactions are modeled by a Lennard–Jones (LJ) potential. We use a truncated and shifted potential ( r_{cut} =12 Å) and tail corrections are not used ( Dubbeldam et al., 2004 ). In this zeolite model, LJ interactions involving Si and Al atoms are not taken into account since they are considered to be negligible with respect to those of the neighboring oxygen atoms. However, the interactions of the sodium atoms with all other atoms inside the zeolite (including Si and Al) are modelled by the sum of a LJ potential and a Coulombic potential. The charge on each zeolite oxygen atom depends on whether this atom is connected to an aluminium atom or not. Coulombic interactions are calculated by Ewald summation, which is extensively described elsewhere ( Frenkel and Smit, 2002 ; Allen and Tildesley, 1987 ). Note that a correct description of the electrostatics is necessary to accurately model the interactions between the zeolite framework atoms and the mobile nonframework cations. Tables 1 and 2 list all parameters used herein.
+
+
+[Table_1 001]
+# Table 1: Force field parameters for non-bonded interactions. [a]
+
+| Lennard–Jones | O_Al | O_Si | Na | CH_3 | CH_2-sp^3 | CH_2-sp^2 | CH-sp^3 | CH-sp^2 |
+|---------------|------|------|----|------|-----------|-----------|---------|---------|
+| **CH_3** ε/k_B (K) | 93.00 | 93.00 | 443.73 | 108.00 | 77.70 | 95.81 | 32.86 | 71.25 |
+| σ (Å) | 3.48 | 3.48 | 2.65 | 3.76 | 3.86 | 3.72 | 4.22 | 3.75 |
+| **CH_2-sp^3** ε/k_B (K) | 60.50 | 60.50 | 310.00 | 77.70 | 56.00 | 68.99 | 23.66 | 51.30 |
+| σ (Å) | 3.58 | 3.58 | 2.95 | 3.86 | 3.96 | 3.82 | 4.32 | 3.85 |
+| **CH_2-sp^2** ε/k_B (K) | 77.30[b] | 77.30[b] | 398.40[c] | 95.81 | 68.99 | 85.00 | 29.15 | 63.21 |
+| σ (Å) | 3.50[b] | 3.50[b] | 3.14[c] | 3.72 | 3.82 | 3.68 | 4.18 | 3.70 |
+| **CH-sp^3** ε/k_B (K) | 58.00[e] | 58.00[e] | 26.50[d] | 32.86 | 23.66 | 29.15 | 10.00 | 21.68 |
+| σ (Å) | 3.60[e] | 3.60[e] | 4.74[d] | 4.22 | 4.32 | 4.18 | 4.68 | 4.21 |
+| **CH-sp^2** ε/k_B (K) | 62.50[b] | 62.50[b] | 289.02[c] | 71.25 | 51.30 | 63.21 | 21.68 | 47.00 |
+| σ (Å) | 3.46[b] | 3.46[b] | 3.17[c] | 3.75 | 3.85 | 3.70 | 4.21 | 3.73 |
+| **Na** ε/k_B (K) | 23.00 | 23.00 | 124.40 | 443.73 | 310.00 | 398.40[c] | 26.50[d] | 289.02[c] |
+| σ (Å) | 3.40 | 3.40 | 2.16 | 2.65 | 2.95 | 3.14[c] | 4.74[d] | 3.17[c] |
+
+| Point Charges | O_Al | O_Si | Na | Si | Al |
+|---------------|------|------|----|---|---|
+| q [e] | -1.20 | -1.025 | +1.00 | +2.05 | +1.75 |
+
+[a]: Parameters taken from Calero et al. (2004) except where explicitly noted. O_Al are oxygens bridging one silicon and one aluminium atom, and O_Si are oxygens bridging two silicon atoms.
+[b]: Taken from Jakobtorweihen et al. (2005).
+[c]: Taken from Granato et al. (2007).
+[d]: Taken from Granato et al. (2008).
+[e]: Taken from Beerdsen et al. (2002).
+
+
+
+[Table_2 002]
+# Table 2: Intramolecular parameters for the united atom (UA) force field.
+
+| Parameter               | Molecule       | Value                                      |
+|-------------------------|----------------|--------------------------------------------|
+| Bond energy constant    |                | *k*₁/*k*ʙ = 96,500 K/Å²                   |
+| Reference bond length   | CHᵢ–CHⱼ       | *r*₀ = 1.54 Å                             |
+|                         | CHᵢ=CHⱼ       | *r*₀ = 1.33 Å                             |
+| Bend energy constant    | Propane        | *k*₂/*k*ʙ = 62,500 K/rad²                 |
+|                         | Propylene      | *k*₂/*k*ʙ = 70,400 K/rad²                 |
+| Reference bend angle    | Propane        | *θ*₀ = 114°                               |
+|                         | Propylene      | *θ*₀ = 119.7°                             |
+
+
+Self diffusion of propane and propylene molecules in zeolite 13X was calculated at 303, 323, 343, 373, 423, and 473 K, and at loadings of 2, 4, 8, 16 and 32 molecules per unit cell. A direct comparison between results for those two adsorbates is shown in Fig. 2 . As expected, the diffusivity increases with temperature in all cases. It can also be seen that the values of D_{S} for propane and propylene at the same loading are very similar, in agreement with the observations of Brandani et al. (1995) . The loading dependence of propane and propylene self diffusivities in zeolite 13X is shown in Fig. 3 , from which it is clear that D_{S} decreases markedly with loading for both adsorbates at all temperatures examined.
+
+Experimental results for propane are compared with our simulations in Table 3 . For adsorbate loadings of 16 and 32 molecules per unit cell, there is a good agreement between simulation and experiment. This agreement is also evident if we plot all data sets as a function of temperature ( Fig. 4 ). In this figure, it can be seen that our simulations reproduce well the observed trends of self-diffusivity as a function of temperature. The temperature dependency of the self-diffusion coefficient is governed by the Arrhenius equation: (2)DS=D0exp[−EactRT] in which D 0 is the self-diffusion coefficient at infinite temperature, E_{act} the activation energy for diffusion, R the ideal gas constant and T the absolute temperature. A plot of ln D_{S} against 1/ T gives a straight line with slope of E_{act} / R . The y- intercept gives the value of D 0 . From the Arrhenius plot ( Fig. 4 ), the activation energies E_{act} and pre-exponential factors D 0 were calculated and are listed in Table 4 . Once again, the values obtained from the simulation data are in good agreement with those obtained from experiments.
+
+
+[Table_3 003]
+# Table 3: Self-diffusivities of propane in zeolite 13X.
+
+| Reference               | Method         | T (K) | Loading (molecules/unit cell) | D<sub>S</sub> (m<sup>2</sup> s<sup>-1</sup>) |
+|-------------------------|----------------|-------|-------------------------------|---------------------------------------------|
+| This work              | MD Simulations | 303   | 16                            | 6.9×10<sup>-10</sup>                        |
+| Caro et al. (1985)     | PFG-NMR        | 300   | 12                            | 6.7×10<sup>-10</sup>                        |
+| Caro et al. (1985)     | PFG-NMR        | 300   | 16                            | 4.8×10<sup>-10</sup>                        |
+| This work              | MD Simulations | 303   | 32                            | 2.8×10<sup>-10</sup>                        |
+| Caro et al. (1985)     | PFG-NMR        | 300   | 32                            | 3.3×10<sup>-10</sup>                        |
+
+
+
+[Table_4 004]
+# Table 4: Arrhenius coefficients for propane in zeolite 13X.
+
+| Reference               | Method                  | Loading (molecules/unit cell) | E_act (kJ/mol) | D_0 (m^2 s^-1)     |
+|-------------------------|-------------------------|-------------------------------|----------------|--------------------|
+| This work              | MD simulations         | 16                            | 7.9            | 1.4×10^-8          |
+| Schwarz et al. (1995)  | PFG-NMR                | 16                            | 7.9            | 1.7×10^-8          |
+| Caro et al. (1985)     | PFG-NMR                | 16                            | 5.2            | 1.9×10^-8          |
+| Da Silva (1999)        | Gravimetric and ZLC    | ≈0                            | 21.1           | 1.4×10^-8          |
+
+
+In Fig. 5 , we compare our simulation results, plotted as a function of loading, to experimental data and previous simulation results at similar conditions. The agreement between our simulation results and those from the literature is reasonable, with all data sets showing a decrease in propane diffusivity with loading. Our results seem to be somewhat lower than those of previous simulations, and this is most likely due to the fact that we have taken into account the influence of the sodium cations. As we will discuss in more detail below, the strong interaction between the sodium and the adsorbates is likely to reduce the mobility of the latter.
+
+As mentioned in the introduction, experimental results for propylene diffusion in FAU are scarce and show a large amount of scatter. Fig. 6 shows a comparison between our simulations and experimental values of self diffusivities of propylene in 13X zeolite as a function of loading, while Table 5 compares results of an Arrhenius fit to both experimental and simulation data. Our results are in reasonable agreement with the values of Hong et al. (1992) and Schwarz et al. (1995) , obtained from PFG-NMR, but are significantly higher than those of Brandani et al. (1995) , obtained by Tracer ZLC. Significantly, the latter show an increase in self-diffusion with loading, which was not observed in the other experiments or in our simulations.
+
+
+[Table_5 005]
+# Table 5: Arrhenius coefficients for propylene in zeolite 13X.
+
+| Reference                  | Method         | Loading (molecules/unit cell) | Ea (kJ/mol) | D0 (m² s⁻¹)       |
+|----------------------------|----------------|-------------------------------|-------------|-------------------|
+| Brandani et al. (1995)     | Tracer ZLC     | ≈0                            | 23.8        | 5.8×10⁻¹²         |
+| Hong et al. (1992)         | PFG-NMR        | 16                            | 10.3        | 2.8×10⁻⁸          |
+| Schwarz et al. (1995)      | PFG-NMR        | 24                            | 10.2        | 1.1×10⁻⁸          |
+| This work                  | MD simulations | 16                            | 5.5         | 7.5×10⁻⁹          |
+| This work                  | MD simulations | 32                            | 5.3         | 2.9×10⁻⁹          |
+
+
+Fig. 7 shows our results of isobutane self-diffusivities in zeolite 13X at 323 and 373 K, calculated by MD simulations, for loadings of 2, 4, 8, 16, and 24 molecules/unit cell. The results from Krishna and van Baten (2005) , also obtained by molecular simulations using all-silica frameworks, are pictured for comparison. The difference of up to two orders of magnitude could be explained by our use of a force field which includes interactions between the adsorbate and the framework cations. As a consequence, the presence of cations is believed to hinder the displacement of isobutane, giving a lower self-diffusivity and a stronger loading dependence. Besides, the inclusion of cations also reduces the maximum loading. Compared to the value of 46 molecules per unit cell at 300 K reported by Krishna and van Baten (2005) , our results at 333 K provide 30 molecules per unit cell ( Granato et al., 2008 ), in excellent agreement with the experimental equilibrium data from Lamia et al. (2007) .
+
+The self-diffusivity D_{S} describes the motion of an individual sorbate molecule at thermodynamic equilibrium. When a gradient in the intracrystalline sorbate concentration exists, the proportionality between the sorbate flux, J and the concentration gradient, ∇ q is given by Fick's law: (3)J=−DT∇q where D_{T} is the transport diffusivity. A first approximation between the self- and the transport diffusivity is given by the Darken equation: (4)DT=DS[dlnpdlnq]T where p is the pressure and q is the intracrystalline sorbate concentration at a temperature T . In the low concentration limit, d ln p / d ln q →1 and the transport and self-diffusivities should coincide ( Kärger and Ruthven, 1992 ). For zeolitic systems, which typically exhibit isotherms of type I form, d ln p / d ln q generally increases as q increases; then, Eq. (4) predicts that D_{T} > D_{S} . The thermodynamic factor d ln p / d ln q is proportional to q / p divided by the slope of the equilibrium adsorption isotherm (Wang and LeVan, 2008).
+
+In this work, the Darken relation is used to estimate the transport diffusivities of propane, propylene and isobutane from the self-diffusion coefficients obtained in the MD simulations together with experimental equilibrium isotherms ( Da Silva and Rodrigues, 1999 ). Table 6 compares our simulation results with values of experimental measurements of transport diffusivities of propane ( a ), and propylene ( b ) by thermal frequency response (TFR) method and the corresponding corrected self-diffusivities obtained by applying the Darken equation ( Malka-Edery et al., 2001 ). Also shown are the limiting transport diffusivities at low concentration ( q ≈0) obtained by the traditional ZLC method ( Brandani et al., 1995 ). The Darken relationship gives a reasonable estimate of the transport diffusivities of propane and propylene in 13X.
+
+
+[Table_6 006]
+# Table 6: Diffusivity data of propane and propylene in zeolite 13X.
+
+| Reference                          | Method         | q (molecules/unit cell) | D_T (m²/s)   | Darken factor | D_S (m²/s)    |
+|------------------------------------|----------------|--------------------------|--------------|---------------|---------------|
+| **(a) Propane in NaX zeolite—303 K**                                                                                     |
+| Malka-Edery et al. (2001)          | TFR            | 2.64                     | 2.6×10⁻⁹     | 1.2           | 2.2×10⁻⁹      |
+|                                    |                | 12                       | 2.0×10⁻⁹     | 1.1           | 1.8×10⁻⁹      |
+|                                    |                | 24                       | 5.4×10⁻⁹     | 2.1           | 2.5×10⁻⁹      |
+| Brandani et al. (1995)ᵃ            | Tracer ZLC     | ≈0                       | 1.4×10⁻¹¹     | −             | –             |
+| This work                          | MD simulations | 2                        | 9.2×10⁻⁹     | 1.31          | 7.0×10⁻⁹      |
+|                                    |                | 4                        | 5.8×10⁻⁹     | 2.05          | 2.8×10⁻⁹      |
+|                                    |                | 8                        | 2.9×10⁻⁹     | 2.40          | 1.2×10⁻⁹      |
+|                                    |                | 16                       | 1.6×10⁻⁹     | 2.30          | 6.9×10⁻¹⁰     |
+|                                    |                | 32                       | 2.8×10⁻¹⁰    | 1.01          | 2.8×10⁻¹⁰     |
+
+| **(b) Propylene in NaX zeolite—303 K**                                                                                   |
+| Malka-Edery et al. (2001)          | TFR            | 24                       | 4.1×10⁻¹⁰    | 3.0           | 1.3×10⁻¹⁰     |
+|                                    |                | 42                       | 2.0×10⁻⁹     | 8.2           | 2.4×10⁻¹⁰     |
+| Brandani et al. (1995)ᵃ            | Tracer ZLC     | ≈0                       | 6.9×10⁻¹²     | –             | –             |
+| This work                          | MD simulations | 16                       | 6.7×10⁻⁸     | 86.5          | 7.8×10⁻¹⁰     |
+|                                    |                | 32                       | 3.1×10⁻⁹     | 9.75          | 3.2×10⁻¹⁰     |
+
+ᵃ T = 358 K.
+
+
+The loading dependence of the estimated transport diffusivities of propane from MD simulations ( Fig. 8 ) shows that D_{T} is approximately equal to D_{S} at a loading of 2 molecules/unit cell, in agreement with the Darken model. However, the concentration behavior depends quite sensitively on the isotherm model ( Wang and LeVan, 2008 ). It is worth noting that the Darken approximation was tested over a wide range of temperatures and loadings of CH 4 and CF 4 in silicalite by molecular simulation, and the results have shown that methane obeys the Darken relation but CF 4 deviates strongly from the Darken model ( Skoulidas and Sholl, 2002 ). Recently, an extensive review dealing with molecular simulations of adsorption and diffusion of linear and branched alkanes addresses several limitations of the Darken assumption and calls attention to the importance of a molecular understanding of the loading dependence of the transport diffusivity ( Smit and Maesen, 2008 ). In addition, the Darken relationship was tested in a very recent study of Krishna and van Baten (2009) , and was shown to be applicable for several systems, including propane in NaX. The relatively good agreement obtained between our estimates and experimental measurements of D_{T} supports this conclusion.
+
+Table 7 shows the self-diffusivities of isobutane in zeolite 13X, calculated by MD simulations, and the corresponding transport diffusivities obtained by the Darken relationship. These are compared to the data of Onyestyák et al. (1995) for intra- and inter-crystalline diffusion of isobutane in 13X crystals and pellets determined by TFR. Considering that the MD simulations are performed in “perfect” crystals, our calculated diffusivity of 2.13×10 −9 m 2 s −1 for 2 molecules/unit cell and a temperature of 373 K is in reasonable agreement with the TFR measurements.
+
+
+[Table_7 007]
+# Table 7: Diffusivity data of isobutane in zeolite 13X
+
+| Reference                          | Method                     | q (molecules/unit cell) | Dₛ (m²/s)       | Darken factor | Dₜ (m²/s)       |
+|------------------------------------|----------------------------|-------------------------|-----------------|---------------|-----------------|
+| Onyestyák et al. (1995)ᵃ          | Frequency response (crystals) | –                       | –               | –             | 6.9×10⁻⁹        |
+|                                    | Frequency response (pellets)  | –                       | –               | –             | 1.7×10⁻¹¹       |
+| This workᵇ                        | MD Simulations              | 2                       | 9.67×10⁻¹⁰      | 2.21          | 2.13×10⁻⁹       |
+|                                    |                              | 4                       | 5.55×10⁻¹⁰      | 2.16          | 1.20×10⁻⁹       |
+|                                    |                              | 8                       | 8.65×10⁻¹¹      | 2.03          | 1.76×10⁻¹⁰      |
+|                                    |                              | 16                      | 9.73×10⁻¹²      | 1.22          | 1.18×10⁻¹¹      |
+|                                    |                              | 24                      | 4.51×10⁻¹²      | 0.22          | 9.83×10⁻¹³      |
+
+Footnotes:
+- a: 423 K.
+- b: 373 K.
+
+
+Diffusion of propane, propylene and isobutane in zeolite 13X was studied by molecular dynamics simulations, using a model that takes into account the effect of extra-framework cations on adsorbate mobility. Generally speaking, the self diffusivities and activation energies of propane and propylene were observed to be in good agreement with available experimental data. Moreover, it was observed that the diffusivities of propane and propylene are very similar, while that of isobutane is significantly lower due to the bulky nature of this molecule. For all adsorbates, the self-diffusion coefficient increases with temperature and decreases with loading. From the obtained results, it follows that molecular dynamics is suitable for estimating self diffusivities in zeolite structures consisting of cages separated by wide windows, such as zeolite 13X.
+
+Comparison to previous simulations where the cation effects were not considered showed that interactions between adsorbate molecules and sodium ions reduce the mobility of the former and thus cause a decrease in the diffusivity. This effect was not very pronounced for propane, but was quite dramatic for isobutane, due to its branched structure.
+
+Finally, the Darken equation was applied to estimate the transport diffusivities of propane, propylene and isobutane in zeolite 13X, and the results have been compared with experimental data obtained at 303 K. The calculation of transport diffusivity of propane in 13X by MD simulations at 303 K is 1.6×10 −9 m 2 s −1 , in good agreement with the value of 2.0×10 −9 m 2 s −1 ( Malka-Edery et al., 2001 ). Transport diffusivity of propylene in 13X at 303 K by MD simulations is 3.1×10 −9 m 2 s −1 , which also agrees with the experimental value of 2.0×10 −9 m 2 s −1 ( Malka-Edery et al., 2001 ). The calculated isobutane transport diffusivity is 2.13×10 −9 m 2 s −1 at 373 K, which corresponds well with 6.9×10 −9 m 2 s −1 at 423 K measured by the FR technique ( Onyestyák et al., 1995 ).
+
+Ddiffusion coefficient [m^{2}/s]—subscripts are self-explanatoryE_{act}activation energy, kJ/molk_{B}Boltzmann constant, 1.3806503×10^{−23}J/KNnumber of atoms or moleculesppressureqconcentration (in[Ref:1],qdenotes the atom charge).rposition vector, mRideal gas constant, 8.314472J/Kttime, sTabsolute temperatureVvolumeGreek lettersεcharacteristic energy in Lennard–Jones potential, Kσcharacteristic distance in Lennard–Jones potential, Å
+
+MAG thanks financial support from Fundação para a Ciência e a Tecnologia (FCT) under the post-doctoral grant SFRH-BPD-47432-2008. TJHV acknowledges financial support from the Netherlands Organization for Scientific Research (NWO-CW) through a VIDI grant.
+
+
+[Table_8 0010]
+### Table: Variables and Definitions
+
+| **Symbol**         | **Description**                                                                 |
+|---------------------|---------------------------------------------------------------------------------|
+| *D*                | Diffusion coefficient [m²/s]—subscripts are self-explanatory                   |
+| *E_act*            | Activation energy, kJ/mol                                                      |
+| *k_B*              | Boltzmann constant, 1.3806503×10⁻²³ J/K                                        |
+| *N*                | Number of atoms or molecules                                                   |
+| *p*                | Pressure                                                                       |
+| *q*                | Concentration (in Table 1, *q* denotes the atom charge)                        |
+| **r**              | Position vector, m                                                             |
+| *R*                | Ideal gas constant, 8.314472 J/K                                               |
+| *t*                | Time, s                                                                        |
+| *T*                | Absolute temperature                                                           |
+| *V*                | Volume                                                                         |
+
+---
+
+#### Greek Letters
+
+| **Symbol**         | **Description**                                                                |
+|---------------------|---------------------------------------------------------------------------------|
+| *ε*                | Characteristic energy in Lennard–Jones potential, K                            |
+| *σ*                | Characteristic distance in Lennard–Jones potential, Å                          |

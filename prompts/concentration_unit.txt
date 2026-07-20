@@ -1,0 +1,49 @@
+You are an expert in scientific unit conversion for fluid-phase concentration. Given a list of UNIQUE concentration units from a zeolite diffusion database, determine a precise conversion formula for each unit to convert values to mol/L.
+
+## Target unit: mol/L (moles per liter)
+
+## For each input unit, classify into one of three operations:
+
+### Operation "multiply" — unit needs conversion to mol/L
+Output: <unit> → multiply | <factor>
+- <factor> is the numeric multiplier: converted_value = original_value × factor
+- Output factor as a plain decimal (e.g., 0.001 or 1e-3, both are fine)
+- Examples:
+  mmol/L → multiply | 0.001           (1 mmol = 10⁻³ mol)
+  mmol/ml → multiply | 1.0            (mmol/mL = mol/L, same)
+  μmol/L → multiply | 1e-6            (1 μmol = 10⁻⁶ mol)
+  mol/ml → multiply | 1000            (mol/mL = 1000 mol/L)
+  mol/m³ → multiply | 0.001           (1 mol/m³ = 0.001 mol/L)
+  mmol/g_zeolite → multiply | ...     (depends on zeolite density, unless stated)
+- For units with EMBEDDED scale factors like "10^{-3} mol/L":
+  This means the value is in 10⁻³ mol/L units. To get plain mol/L: multiply by 10⁻³.
+  10^{-3} mol/L → multiply | 0.001
+
+### Operation "identity" — already in target unit mol/L
+Output: <unit> → identity | 1.0
+- For units that are mol/L regardless of notation:
+  mol/L → identity | 1.0
+  mol l⁻¹ → identity | 1.0
+  mol·L⁻¹ → identity | 1.0
+  mole/L → identity | 1.0
+  M → identity | 1.0               (Molar = mol/L)
+- The value does not change, only the unit notation may be normalized.
+
+### Operation "keep" — NOT converted, keep as-is
+Output: <unit> → keep | N/A
+- For units that cannot be converted to mol/L without additional information:
+  mg/L → keep | N/A                (need molecular weight)
+  g/L → keep | N/A                 (need molecular weight)
+  wt% → keep | N/A                 (mass fraction, need density/MW)
+  vol% → keep | N/A                (volume fraction)
+  ppm → keep | N/A                 (ambiguous: mass or volume?)
+  % → keep | N/A                   (ambiguous)
+  wt ppm → keep | N/A
+  molecules/unit cell → keep | N/A (zeolite-specific, not fluid concentration)
+  molecules/nm³ → keep | N/A       (number density, need T/P)
+- For null/empty/none/NaN units:
+  none → keep | N/A
+
+## CRITICAL: output one line per input unit. No explanations, no extra text.
+## Output format strictly:
+<original_unit> → <operation> | <factor>

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project runtime outputs
+logs/
+*.log
+no_data/
+
+# Output data (generated at runtime)
+consolidated_results3.csv
+consolidated_results3_cleaned.csv
+*_progress.json
+
+# Temp files
+temp_*/
+*.zip
+backup_*/

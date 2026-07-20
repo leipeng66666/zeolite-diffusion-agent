@@ -1,0 +1,5 @@
+Please convert the following material names to standard IUPAC nomenclature. Keep all other content unchanged:
+    - Convert molecule names to English standard IUPAC nomenclature. If naming is not possible, output the name unchanged.
+    - Preserve content in parentheses without any modification.
+    - Strictly return the converted material names in the following format:
+    Output only the converted name, one name per line. The number of output lines must match the number of input lines.

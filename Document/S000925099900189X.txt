@@ -1,0 +1,288 @@
+Step-response experiments are a convenient method to obtain information about the transport properties of microporous materials such as zeolite crystals. The interpretation of transient response curves is however not straightforward. Studies on diffusion in zeolites in particular have led to widely varying results. Very low diffusivities have often been obtained compared to estimates from other methods, in particular NMR spectroscopy with pulsed field gradients ( Kärger & Ruthven, 1992 ; Riekert, 1995 ).
+
+The zero-length column (ZLC) elution technique was developed by Eic and Ruthven (1988a,b) to improve the experimentation for zeolite diffusion. It involves the measurement of the effluent gas concentration during non-stationary isothermal desorption of zeolite crystals packed in a differential or `zero-length’ column. The transient effluent concentration at intermediate purge-flow rates, contains information on both zeolite diffusion and adsorption. At very high purge-flow rates, zeolite diffusion and possibly other transport resistances are rate controlling, but the effluent concentration is too much diluted for accurate measurement. If the flow rate is too small however, the desorption rate will be controlled by the adsorption equilibrium. The ZLC technique has been used to investigate diffusion in a large number of zeolite–gas systems ( Eic & Ruthven, 1988a,b ; Eic, Goddard & Ruthven, 1988 ; Ruthven & Eic, 1988 ; Eic & Ruthven, 1989 ; Voogd, van Bekkum, Shavit & Kouwenhoven, 1991a,b ; Shavit, Voogd & Kouwenhoven, 1992 ; Xu, Eic & Ruthven, 1992 ; Ruthven, Stapleton & Dahlke, 1992 ; Hufton & Ruthven, 1993 ; Grenier, Meunier, Gray, Kärger, Xu & Ruthven, 1994 ; Cavalcante, Eic, Ruthven & Ocelli, 1995 ; Silva & Rodriques, 1997 ) and tracer exchange in zeolites ( Hufton, Brandani & Ruthven, 1994 ; Brandani, Hufton & Ruthven, 1995 ; Brandani, Ruthven & Kärger, 1995 ). Diffusion in zeolite–liquid systems ( Ruthven & Stapleton, 1993 ; Brandani & Ruthven, 1995 ) and ion diffusion in ion-exchange resins ( Rodriquez, Valverde & Rodriques, 1998 ) have also been studied by the ZLC method.
+
+The two-phase exchange rate model with an ideally mixed sorption zone ( Suzuki, 1990 ) applies to the ZLC technique and other flow techniques for studying diffusion in microporous materials with an ideally mixed sorption zone. Here, we use a model that includes linear Henry adsorption and Fick diffusion with concentration-independent coefficients, so that analytical solutions from classical heat conduction and diffusion theory can be used. This is the most elementary physical description. It is valid for experiments with sufficiently dilute systems. The elegance of the use of analytical solutions is that it gives direct insight in the dimensionless groups and parameters affecting the response.
+
+We performed ZLC experiments of benzene and ethylbenzene in silicalite at a range of temperatures and flow rates. In parallel, equilibrium adsorption experiments have been performed to obtain an independent set of adsorption data for comparison with the ZLC results. These systems have also been investigated by the ZLC technique by Ruthven, Eic & Richard (1991), who used the so-called long-time method, whereby only the exponential tail end of the transient effluent curve is used. We are considering here the full-time fits and interpretation of ZLC diffusion experiments at various flow rates and temperatures for the purpose investigating model validity. The aim is to estimate realistic zeolite diffusion coefficients, taking into account effects that cause ambiguity in the estimated parameters. The results are compared with long-time parameter estimation and a new short-time method. Novel, more widely applicable modeling and fit procedures are used to determine the effect of surface barriers at the zeolite pore mouths, crystal shape and anisotropy, crystal size distribution, and apparatus effect on the modeling and estimated parameters.
+
+The ZLC exchange rate model ( Eic & Ruthven, 1988b,1989 ) includes the vapor flow rate with ideal mixing in the sorption zone, film transfer, and intracrystalline diffusion. Balance equations over sorption zone, film, and crystals provide the differential equations governing the system. Heat transfer effects are neglected. We assume that the vapor phase is sufficiently dilute so that the gas–solid equilibrium can be characterized by linear adsorption with a concentration–independent Henry coefficient . In that case, diffusion in the silicalite crystals may be described by Fick diffusion with a concentration-independent diffusivity ( Krishna, 1990 ). We regard the crystals as plane sheets with diffusion in one dimension: (1)∂c^{s}(x,t)∂t=D∂^{2}c^{s}∂x^{2},−l<x<l. The balances over the film and the ZLC sorption zone with negligible accumulation can be described, respectively, by (2)−AD∂c^{s}(x,t)∂x_{x=l}=Ah(c^{g}_{l}(t)−c^{g}(t)), (3)Ah(c^{g}_{l}(t)−c^{g}(t))=−F(c^{g}_{∞}−c^{g}(t)), (4)c^{s}(l,t)=Kc^{g}_{l}(t), where and c g l ( t ) are the surface concentrations on the solid and vapor-phase side, respectively, c g ( t ) is the effluent concentration from the ideally mixed zone, h is the film transfer coefficient, A is the zeolite–gas interface area, and F is the volumetric flow rate. In this paper, the inlet concentration c g ∞ of the flow at t > t 0 is zero, so that complete desorption takes place in all ZLC experiments. The surface condition at x = l is obtained from Eqs. (2)–(4) for c g ∞ =0 after elimination of c g and c g l : (5)−l∂c^{s}(x,t)∂x_{x=l}=lFhDK(F+Ah)c^{s}(l,t)=Lc^{s}(l,t) for t > t 0 . A symmetrical condition is given for x =− l . The surface concentration from the above equations with a constant initial condition (6)c^{s}(x,t_{0})=Kc^{g}_{0},−l<x<l, where c g 0 is the inlet concentration during the adsorption stage at t ⩽ t 0 , is the following ( Carslaw & Jaeger, 1959 ; Crank, 1975 ): (7)c^{g}_{l}(t)c^{g}_{0}=c^{s}(l,t)c^{s}_{0}=2L∑n=1∞exp(−β^{2}_{n}Fo)β^{2}_{n}+L^{2}+L for t > t 0 . The β n are the positive roots of the equation and is the Fourier number. The observed effluent concentration c g ( t ) is equal to the surface concentration c g l ( t ) in the absence of a film resistance and can be calculated from Eq. (3) for a finite film resistance. The solution for slabs with non-negligible fluid-phase accumulation ( Duduković, 1981 ) may be useful for liquid–solid systems.
+
+For sufficiently large Fourier numbers, the first term dominates solution (7), so that simple exponential behavior is expected in the long-time region. Both parameters, the diffusion and the adsorption coefficient, can be evaluated from the effluent concentration in this region. This is the so-called long-time method. For small Fourier numbers, Eq. (7) is slowly convergent and the solution for a semi-infinite medium is useful ( Crank, 1975 ): (8)c^{g}_{l}(t)c^{g}_{0}=exp(L^{2}Fo)erfc(LFo^{1/2}). This solution involves only one group LFo 1/2 and, for h →∞, one parameter . Thus, diffusion and adsorption coefficients cannot be determined uniquely from the short-time behavior of the effluent concentration.
+
+The interpretation of L in the analytical solutions in terms of a physical model depends on the system under investigation. We can express L for this purpose in more common groups: (9)L=BiSt+1→BiifSt≪1,Bi/StifSt≫1. The number L may represent the ratio of film transfer and intraparticle diffusion or the relative importance of forced convection and intraparticle diffusion, respectively. For a gas film, the lower limit of the Stanton number St can be calculated with the help of the Sherwood number Sh that should be greater than two. Gas-phase Stanton numbers are relatively large so that a gas film is usually not important. It has, however, often been put forward that a solid-phase film resistance or surface barrier is present at the zeolite pore mouths to explain low zeolite diffusivities from sorption-rate experiments ( Kärger & Ruthven, 1992 ). The existence of a film resistance does not affect the model fit, so that it can not be detected directly, but it affects parameter estimation if unaccounted for. A suitable test to determine the influence of a surface barrier is a combined fit of ZLC experiments at several different flow rates. There is no rate-controlling surface barrier if it is observed that the behavior of L is proportional to the vapor flow rate. This can be seen from Eq. (5) , where the surface barrier h is assumed to be independent of the flow rate.
+
+Below, we will discuss some extensions of the model that may be useful in the application to zeolite diffusion experiments.
+
+The morphology of the crystals can be introduced in the model. Solutions for parallelepiped crystal shapes and intracrystalline diffusion anisotropy may be obtained relatively easy as product solutions of Eq. (7) for parallel-sided slabs ( Carslaw & Jaeger, 1959 ). For example, (10)c^{g}_{l}(t)c^{g}_{0}=2L∑n=1∞exp(−β^{2}_{n}Fo)β^{2}_{n}+L^{2}+L^{γ} represents exact solutions for a slab, square rod, and cube for integer values of γ =1, 2, and 3, respectively. In the limiting case of a constant boundary concentration ( L →∞), the influence of the shape on the average intraparticle concentration is well known ( Ruthven & Loughlin, 1971 ). Here, the influence of shape depends on the value of L . It vanishes for L →0 when diffusion is not rate determining, but it is important in diffusion experiments, especially when the effluent concentration is observed. An option for parameter estimation is to use the shape factor γ as an empirical parameter to investigate the shape effect before definitively adopting an exact solution.
+
+The combined effect of crystals of different sizes in the sample cannot easily be found computationally. Linear superposition of the concentrations in crystals of different sizes is allowed when the crystals are independent, neglecting for example the possibility of re-adsorption. This was performed by Ruthven and Loughlin (1971) for the average intracrystalline concentrations in uptake rate experiments for the case of a constant boundary concentration, where the influence of each size class depends on the volume fraction. Here, similar to the influence of the shape, the influence of the size distribution depends on the value of L . In this work, we have also used experimentally found size distributions. The influence of each size class on the effluent concentration is calculated weighing it with the corresponding fraction of the total exchange area.
+
+The measured effluent concentration is influenced by various apparatus effects, such as dispersion, dead volume, adsorption on tube walls, and detector response time. The influence of these effects can be calculated via the superposition integral. This leads to a new and more widely applicable equation for ZLC experiments. With an exponential function a ( t )=exp(( t 0 − t )/ τ ) with time τ for the apparatus effect and Eq. (7) for the input function g ( t ), the following equation is obtained for slabs: (11)c^{g}_{l}(t)c^{g}_{0}=a(t)g(0)−∫0ta′(t−s)g(s)ds=2L∑n=1∞exp(−β^{2}_{n}Fo)−(τβ^{2}_{n}D/l^{2})exp((t_{0}−t)/τ)(β^{2}_{n}+L^{2}+L)(1−τβ^{2}_{n}D/l^{2}), using the equality ∑ ∞ n=1 2 L /( β 2 n + L 2 + L )=1. This equation reduces to Eq. (7) for τ →0.
+
+The approximation of linear adsorption with a concentration-independent Henry coefficient is strictly valid only at infinite dilution. Estimated values may depend on the start point ( c g 0 , c s 0 ) of the desorption if the system is not sufficiently dilute. We may try to predict the onset of non-linear behavior and the influence on the estimated parameters to determine the region of applicability of the linear model. We assume that the estimated value is equal to the average slope c s 0 / c g 0 of the isotherm. In that case, the desorbed amount in the model will be equal to the amount initially adsorbed. For Langmuir adsorption, this leads to the following relation: (12)K=K1+c^{g}_{0}c^{s}_{sat}K^{−1}, where c s sat is the intracrystalline concentration at saturation and K is the initial slope of the Langmuir isotherm at infinite dilution. The corresponding Langmuir correction factor for the concentration dependence of the Fick diffusivity can be calculated from the well-known Darken equation ( Krishna, 1990 ; Loos, Verheijen & Moulijn, 1992 ; Kärger & Ruthven, 1992 ): (13)D=D̵1−c^{s}_{0}c^{s}_{sat}^{−1}=D̵1+c^{g}_{0}c^{s}_{sat}K, where Đ is the intrinsic diffusivity at infinite dilution. Eqs. (12) and (13) should be considered as pragmatic but consistent parameterizations with c g 0 / c s sat as a measure of non-linearity. The approximate temperature dependences of and can be found by substitution of (14)K=K_{r}expΔH^{gs}R1T−1T_{r} and (15)D̵=D̵_{r}exp−ΔH_{act}R1T−1T_{r} in Eqs. (12) and (13) , where Δ H gs and Δ H act are the desorption and activation enthalpy, respectively.
+
+The zero length column consists of a small tube connector mounted in the oven of a gas chromatograph. A thin layer of silicalite crystals of 3.9 mg was spread out between quartz wool plugs in the connector. The calcined crystals were dehydrated in a helium flow at 573 K for 8–12 h. Next, a small helium stream was saturated at room temperature with the adsorbate and supplied to the main helium stream. The sample was equilibrated with this stream. Desorption was started by switching off the saturated flow. The effluent concentration was measured with a thermal conductivity detector. Data sets of benzene and ethylbenzene desorption rates were collected at a range of temperatures and flow rates. Empty column experiments without silicalite crystals were also performed to determine the apparatus effect.
+
+A standard barometric vacuum apparatus was used for the equilibrium adsorption experiments. Adsorption of benzene and ethylbenzene was measured in silicalite crystals from the same sample and at the same temperatures to enable an independent comparison with the transient adsorption coefficients from the ZLC experiments.
+
+Large, 90°-rotated, intergrown silicalite crystals ( Loos, 1997a ), synthesized by Voogd (1991) according to the method of Guth, Kessler & Wey (1986), were used. No discoloring, a sign of coke deposition, was observed even at the highest measuring temperatures. The molar Si/Al ratio was determined at more than 2×10 4 by elemental analysis ( Voogd, 1991 ). The distribution of the crystal volume was measured by the Coulter Counter sieving technique. Fig. 1 shows the size distribution of the crystal surfaces, which have been calculated from the crystal volumes assuming the crystals are square-rod shaped with a length-to-thickness ratio of 2.3. The average half-thickness is 33.4±7.5 μm. This is in agreement with the average crystal size of (63±6)×(63±6)×(145±12) μm 3 , evaluated from electron microscopy ( Voogd, 1991 ).
+
+The experiments have been fitted by various model equations of increasing detail. First, the exchange model for uniform slabs with a single, average size l̄ =33.4 μm was fitted and the adsorption and diffusion coefficients were estimated: (16)y(t)−y_{∞}y_{0}−y_{∞}=c^{g}(t;l̄)c^{g}_{0}, where y ( t ) is the measured signal and is given by Eq. (7) .
+
+The influence of the distribution of crystal sizes was approximated by a summation of size classes: (17)y(t)−y_{∞}y_{0}−y_{∞}=∑m=1Ma_{m}c^{g}(t;l_{m})c^{g_{0}}, where c g ( t ; l m ) is also given by Eq. (7) . Ten size classes l m were selected from Fig. 1 so that each class contains an approximately equal fraction a m of the total surface of the sample.
+
+Subsequently, the apparatus effect was included using apparatus constants determined from the empty ZLC experiments. A function consisting of two exponentials, (18)y(t)−y_{∞}y_{0}−y_{∞}=rexpt_{0}−tτ_{1}+(1−r)expt_{0}−tτ_{2}, was able to fit the empty ZLC experiments ( Fig. 2 ). The characteristic times τ 1 and τ 2 ( Table 1 ) are probably related to dead volume and wall desorption, respectively. The influence of τ 2 is then understandingly larger for ethylbenzene than for benzene. The model equation corresponding to the experimental apparatus function (18) is the following: (19)y(t)−y_{∞}y_{0}−y_{∞}=∑m=1Ma_{m}rc^{g}(t;l_{m},τ_{1})c^{g}_{0}+(1−r)c^{g}(t;l_{m},τ_{2})c^{g}_{0}, where c g ( t ; l m , τ 1 ) and c g ( t ; l m , τ 2 ) are given by Eq. (11) for slabs.
+
+
+[Table_1 001]
+# Table 1: Estimated parameters in Eq. (18) from empty ZLC experiments (Fig. 2)
+
+| F(ml STP/min) | T(K)      | τ₁(s)       | τ₂(s)       | π             | SSres/(n−p) |
+|---------------|-----------|-------------|-------------|---------------|-------------|
+| Benzene       |           |             |             |               |             |
+| 10            | 375       | 2.11±0.02   | 21.9±2.5    | 0.974±0.003   | 0.93        |
+| 15            | 395-455   | 1.45±0.02   | 12.2±1.0    | 0.964±0.003   | 0.49        |
+| 20            | 375       | 1.25±0.01   | 7.8±0.5     | 0.956±0.003   | 0.07        |
+|               |           |             |             |               |             |
+| Ethylbenzene  |           |             |             |               |             |
+| 10            | 455       | 1.97±0.03   | 15.7±0.7    | 0.919±0.004   | 0.79        |
+| 15            | 375       | 1.66±0.03   | 14.0±1.1    | 0.921±0.006   | 1.05        |
+| 20            | 375       | 1.51±0.03   | 10.5±1.1    | 0.932±0.008   | 0.66        |
+
+
+Finally, the parameter estimation problem was extended to include an empirical shape factor γ , defined in Eq. (10) , in order to evaluate the effect of crystal shape: (20)y(t)−y_{∞}y_{0}−y_{∞}=∑m=1Ma_{m}c^{g}(t;l_{m})c^{g}_{0}^{γ}, where c g ( t ; l m ) is given by Eq. (7) .
+
+The implementation of the above model equations is not without obstacles. The curve fitting in the time domain, which allows the implementation of an error model, requires substantial computing time. Therefore, considerable effort was made to streamline the algorithms. A tailor-made Newton–Raphson procedure was used for the time-consuming β n root search ( Appendix A ). The implementation of analytical rather than numerical derivatives of the parameters in the Levenberg–Marquardt algorithm reduced computing time by a factor of 40 ( Appendix A ). Furthermore, twenty terms in the summation of Eq. (7) were generally sufficient to calculate the analytical solutions.
+
+Special attention was paid to achieve weighted least-squares fits of the data, including estimated errors from the associated error model ( Appendix B ), with estimation of errors in the found parameters. First, the standard long-time exponential solution was fitted for those data that show an approximately linear dependence between ln( y ( t )− y ∞ )/( y 0 − y ∞ ) and t − t 0 . This allows estimation of the asymptotic baseline position y ∞ of each experiment and avoids the rather arbitrary visual estimation, which may seriously affect the estimation of long-time diffusivities. ( Hufton & Ruthven, 1993 ; Brandani & Ruthven, 1996 ). The long-time values of y ∞ were subsequently used in the fits of the full response curves. The initial data points with c g / c g 0 >0.66 (typically 2–3 s) were omitted because of uncertainty in the fast switching behavior. Isothermal ZLC experiments at several different flow rates were fitted simultaneously with one set of parameters and estimated.
+
+The best results were achieved with the detailed Eq. (19) for slabs that includes the experimental crystal size distribution and apparatus effect. Combined fits of this equation are shown in Fig. 3 at three gas flow velocities. The linear exchange model is able to describe the behavior over the full time range. The influence of the flow rate is also correctly described. This is a good test of model adequacy.
+
+The dimensionless group L was defined by Bi / St in the fitted model according to Eq. (9) , so that the film resistance is negligible and L is proportional to the flow rate according to Eq. (5) . The combined fits in Fig. 3 show that the behavior of L is indeed proportional to the flow rate. There is no evidence of a surface barrier under these conditions. The proportionality of L and F would be destroyed if the transfer coefficient h is too small according to Eq. (5) , even if h depends on the effluent concentration ( Micke, Bülow & Kocirik, 1994 ). The presence of a surface barrier might also be determined from a comparison of desorption rates starting from fully and from partially equilibrated samples ( Brandani & Ruthven, 1996 ). These should be equal if a surface barrier is important. However, for quantitative evaluations, solutions for non-constant initial conditions are needed and carrying out experiments with non-constant initial conditions is not straightforward. The method used here is experimentally straightforward and only requires the ZLC solution for a constant initial condition to estimate values of the transfer coefficient h . This method equally applies to uptake rate experiments.
+
+The short-time solution (8) can be used as a check of the fit results. The satisfactory prediction of short-time behavior by Eq. (8) for a semi-infinite slab using long-time parameter values is shown in Fig. 3 . At large times, the solution for a semi-infinite medium leads to higher concentrations, as expected. We did not estimate diffusivities from short-time behavior, but this is, in fact, possible if the adsorption coefficient from equilibrium experiments is substituted.
+
+Further full-time fits at a range of temperatures are shown in Fig. 4 . The general impression is that the linear exchange model is adequate. The full-time and long-time parameters from the parallel fits of Eqs. (16), (17) and (19) are collected in Table 2 for benzene and Table 3 for ethylbenzene. The 95% confidence intervals may be found by multiplication of the standard errors by a factor of two. The full-time diffusivities at the highest temperatures are larger than the corresponding long-time values. The agreement improves when the experimental size distribution and apparatus effect are included in the model. The differences are however also the result of the relatively large baseline errors from the error model in the long-time region at low concentrations ( Figs. 3–5 ). The asymptotic slope of the full-time fits may therefore deviate from the experimental long-time slope, although it stays for the main part within the error margins, as required. This affects the estimation of full-time diffusivities compared to long-time diffusivities in particular.
+
+Below, we will discuss the parameter estimation results from the various model implementations in more detail.
+
+The fit results of Eq. (17) compared to Eq. (16) in Tables 2 and 3 show that the summation over 10 selected size classes instead of one average size reduces sums of squares by a factor of 1.5–2 typically. Remarkably, the full-time parameter values are not severely affected by the distribution of crystal sizes. This may be explained by the fact that ZLC experiments have to be carried out at intermediate values of L, so that the desorption is not completely controlled by intracrystalline diffusion. The long-time parameters are more affected (by 5–25%), because the tailing effect caused by the largest crystals is corrected.
+
+The implementation of the apparatus effect in Eq. (19) enables the extension of the ZLC method to fast diffusion processes on small time-scales, for example at high temperatures. A comparison of the fit results of Eqs. (19) and (17) in Tables 2 and 3 shows that here the response of the equipment is sufficiently fast so that there is no important apparatus effect at low temperatures. The apparatus effect becomes increasingly important at high temperatures and its inclusion substantially improves the fits. At the highest temperatures the full-time diffusion coefficients are overestimated (by up to 100%) rather than underestimated if this effect is not compensated. As expected, the long-time parameters are not affected, not even at the highest temperatures.
+
+The most realistic geometry for diffusion in zeolite crystals with a complex pore structure and shape is difficult to determine a priori. It is possible to use the observations and consider the shape factor γ in Eq. (20) as an empirical fit parameter to be estimated from the full solution. The shape effect cannot be investigated by the long-time method. The fits are substantially improved when the empirical shape factor is allowed to vary ( Table 4 ). However, the shape factor increases with temperature, which is physically not acceptable, while the estimated values are much larger and the diffusion coefficients are much smaller (by a factor of 2–5).
+
+To further resolve the question of the most appropriate shape of the crystals, the ZLC adsorption coefficients from the slab model have been compared to independent equilibrium values, which can be reliably determined. For this purpose, the equilibrium adsorption data from barometric experiments were fitted by the Langmuir model over a range of temperatures and pressures ( Loos, 1997b ). The Langmuir parameter values ( Table 5 ) have been used in Eq. (12) to calculate the adsorption coefficients at the ZLC adsorbate pressures c g 0 that exist in the sorption zone before the start of the desorption (0.34 kPa for benzene and 0.13 kPa for ethylbenzene).
+
+The results in Tables 2 and 3 for slabs and in Table 4 for a variable shape show that the dimension of the shape should be increased if the transient ZLC adsorption coefficients are smaller than the barometric equilibrium values to avoid overestimation of the diffusivities. However, with the choice of γ =1, suggested by the low-temperature fits of Table 4 , rather than γ =2, the ethylbenzene sorption coefficients are in remarkably good agreement with the equilibrium results ( Fig. 6 ). The benzene ZLC adsorption coefficients from the slab model at the highest temperatures are somewhat smaller than the barometric values. This is an indication, along with the behavior of γ in Table 4 , that the shape factor should possibly be increased due to another diffusion process, which is activated at higher temperatures. Because we need a constant, temperature independent, integer value of the shape factor for all experiments, the crude slab model with γ =1 was maintained. A more refined model for diffusion anisotropy with two diffusivities and two activation enthalpies in two directions may resolve the temperature dependent, increasing behavior of the empirical shape factor. This more complex model was found to be too difficult for experimental verification since more than one diffusivity could not be estimated from a ZLC curve. In view of the uncertainty of zeolite diffusivities in the literature, the agreement of transient and equilibrium adsorption coefficients is necessary to determine physically meaningful zeolite diffusivities and especially re-assuring here for the ethylbenzene data.
+
+
+[Table_4 004]
+# Table 4: Benzene and Ethylbenzene Full-Time Parameter Estimation Results
+
+**Caption:** Benzene and ethylbenzene full-time parameter estimation results from Eq. (20) with size distribution and variable shape factor γ.
+
+| F(ml STP/min) | T(K) | D(10⁻¹² m²/s)   | K        | γ         | SS_res/(n-p) |
+|---------------|------|-----------------|----------|-----------|--------------|
+|               | 325  | 0.873 ± 0.013   | 5690 ± 100 | 1.000 ± 0.004 | 3.08         |
+|               | 335  | 0.771 ± 0.015   | 7740 ± 200 | 1.067 ± 0.006 | 6.27         |
+| 10            | 355  | 1.030 ± 0.018   | 4670 ± 110 | 1.041 ± 0.005 | 15.22        |
+| 10            | 375  | 2.334 ± 0.016   | 5020 ± 83  | 1.161 ± 0.005 | 8.85         |
+|               | 395  | 3.565 ± 0.067   | 4480 ± 120 | 1.565 ± 0.011 | 1.20         |
+|               | 415  | 4.71 ± 0.027    | 3130 ± 180 | 1.808 ± 0.026 | 1.29         |
+|               | 455  | 0.323 ± 0.01    | 8420 ± 630 | 2.427 ± 0.061 | 0.62         |
+
+**Benzene, full-time fits of Eq. (20)**
+
+| F(ml STP/min) | T(K) | D(10⁻¹² m²/s)   | K          | γ           | SS_res/(n-p) |
+|---------------|------|-----------------|------------|-------------|--------------|
+| 10            | 355  | 0.603 ± 0.012   | 9980 ± 480  | 0.797 ± 0.009 | 433          |
+| 10            | 375  | 1.065 ± 0.005   | 20210 ± 380 | 1.106 ± 0.007 | 243          |
+|               | 395  | 1.940 ± 0.014   | 17460 ± 420 | 1.846 ± 0.016 | 8.02         |
+|               | 415  | 2.607 ± 0.031   | 10550 ± 270 | 2.205 ± 0.020 | 2.60         |
+|               | 435  | 2.55 ± 0.16     | 7280 ± 480  | 2.748 ± 0.046 | 2.65         |
+| 10            | 455  | 9.50 ± 0.52     | 2330 ± 310  | 2.77 ± 0.13  | 5.74         |
+| 10            | 485  | 13.5 ± 3.7      | 1160 ± 410  | 2.84 ± 0.32  | 0.02         |
+
+**Ethylbenzene, full-time fits of Eq. (20)**
+
+
+The temperature dependences in Figs. 6 and 7 of the adsorption and diffusion coefficients from Eq. (19) in Tables 2 and 3 have been fitted by Eqs. (12) and (13) to investigate the possible non-linearity due to insufficient dilution. First, the temperature dependence of was fitted ( Fig. 6 ) and the adsorption parameters in Eqs. (12) and (14) were estimated ( Table 5 ). These values were substituted in Eqs. (13) and (15) for the diffusivity, so that the temperature dependence of could be fitted ( Fig. 7 ) and the activation enthalpy and intrinsic diffusivity could be estimated ( Table 5 ). Figs. 6 and 7 show that the system is sufficiently diluted at higher temperatures. The onset of non-linear behavior can be seen at the lowest temperatures. This behavior is also visible from the original response curves in Fig. 4 , where the curve at T =355 K crosses that at T =375 K. This cannot be explained by the linear model and is attributed to the onset of non-linear adsorption. The gradual deviations are correctly predicted by the theoretical non-linearity corrections. In practice, the strict condition of linearity of adsorption for the use of analytical solutions can be relaxed.
+
+
+[Table_2 002]
+# Table 2: Benzene parameter estimation results from Eqs. (16), (17) and (19) for slabs
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+|               | 325   | 0.905±0.014                  | 5578±43          | 5.55        | 0.505±0.014                  | 4360±140         |
+|               | 335   | 0.927±0.018                  | 6431±60          | 14.50       | 0.426±0.002                  | 4998±16          |
+| 10            | 15    | 20                           | 355              | 1.218±0.002 | 4055±27                      | 22.39            |
+| 10            | 15    | 20                           | 375              | 2.968±0.019 | 3792±9                       | 40.31            |
+|               | 395   | 8.52±0.23                    | 2054±22          | 35.92       | 3.151±0.037                  | 1606±15          |
+|               | 415   | 17.70±0.77                   | 1065±19          | 24.17       | 4.788±0.064                  | 782±12           |
+|               | 455   | 62.0±4.7                     | 379±12           | 10.21       | 17.13±0.94                   | 315.7±5.4        |
+
+## Eq. (17) for slabs with a distribution of sizes
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+|               | 325   | 0.872±0.011                  | 5701±34          | 3.1         | 0.680±0.026                  | 5790±240         |
+|               | 335   | 0.908±0.014                  | 6533±48          | 8.0         | 0.541±0.004                  | 6195±40          |
+| 10            | 15    | 20                           | 355              | 1.142±0.014 | 4213±24                      | 16.1             |
+| 10            | 15    | 20                           | 375              | 2.814±0.014 | 3973±7                       | 18.0             |
+|               | 395   | 8.15±0.20                    | 2142±20          | 23.9        | 4.103±0.023                  | 1987±9           |
+|               | 415   | 16.97±0.72                   | 1110±18          | 18.0        | 6.766±0.061                  | 1086±11          |
+|               | 455   | 63.4±4.8                     | 389±11           | 7.9         | 18.74±0.97                   | 347.1±5.2        |
+
+## Eq. (19) for slabs with a distribution of sizes apparatus effect
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+|               | 325   | 0.856±0.018                  | 5649±57          | 8.1         | 0.680±0.026                  | 5790±240         |
+|               | 335   | 0.891±0.014                  | 6552±48          | 8.3         | 0.541±0.004                  | 6205±40          |
+| 10            | 15    | 20                           | 355              | 1.045±0.014 | 4266±26                      | 15.3             |
+| 10            | 15    | 20                           | 375              | 2.694±0.010 | 3970±5                       | 9.4              |
+|               | 395   | 6.78±0.10                    | 2141±13          | 6.8         | 4.096±0.023                  | 1976±9           |
+|               | 415   | 11.72±0.26                   | 1090±9           | 2.4         | 6.749±0.061                  | 1074±11          |
+|               | 455   | 27.44±0.53                   | 306.6±2.3        | 0.08        | 18.64±0.97                   | 332.9±4.6        |
+
+
+
+[Table_3 003]
+# Table 3: Ethylbenzene Parameter Estimation Results
+
+**Caption:** Ethylbenzene parameter estimation results from Eqs. (16), (17) and (19) for slabs.
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+|               |       |                               |                  | **Full-time fits** |                               | **Long-time fits** |
+| *Eq. (16) for uniform slabs* |       |                               |                  |             |                               |                  |
+| 10            | 355   | 0.423±0.007                   | 15850±130        | 602         | 0.314±0.002                   | 15139±44         |
+| 10, 15, 20    | 375   | 1.115±0.004                   | 17535±22         | 1184        | 0.769±0.004                   | 14638±68         |
+| 15            | 395   | 3.218±0.023                   | 9652±25          | 259         | 1.998±0.008                   | 8228±24          |
+| 15            | 415   | 6.41±0.10                     | 4445±29          | 165         | 3.471±0.027                   | 3804±16          |
+| 15            | 435   | 14.83±0.47                    | 1811±24          | 79.5        | 6.394±0.031                   | 1729±3           |
+| 10            | 455   | 26.25±0.73                    | 911±10           | 63.2        | 14.02±0.42                    | 788.5±8.2        |
+| 10            | 485   | 56.9±3.9                      | 396±10           | 0.08        | 36.66±0.43                    | 408.3±1.5        |
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+| *Eq. (17) for slabs with a distribution of sizes* |       |                               |                  |             |                               |                  |
+| 10            | 355   | 0.397±0.007                   | 16510±140        | 567         | 0.343±0.003                   | 16521±59         |
+| 10, 15, 20    | 375   | 1.147±0.002                   | 18199±10         | 277         | 1.149±0.007                   | 18717±71         |
+| 15            | 395   | 3.192±0.016                   | 10034±17         | 93.0        | 2.779±0.021                   | 10078±45         |
+| 15            | 415   | 6.263±0.092                   | 4619±24          | 101.2       | 4.352±0.047                   | 4414±24          |
+| 15            | 435   | 14.54±0.42                    | 1881±20          | 51.5        | 6.990±0.041                   | 1884±3           |
+| 10            | 455   | 26.09±0.65                    | 940.9±8.7        | 38.7        | 15.64±0.47                    | 861.7±7.8        |
+| 10            | 485   | 55.2±3.8                      | 414.4±9.8        | 0.06        | 36.14±0.65                    | 434.5±2.2        |
+
+| F(ml STP/min) | T (K) | D (10⁻¹² m²/s) Full-time fits | K Full-time fits | SSres/(n−p) | D (10⁻¹² m²/s) Long-time fits | K Long-time fits |
+|---------------|-------|-------------------------------|------------------|-------------|-------------------------------|------------------|
+| *Eq. (19) for slabs with a distribution of sizes apparatus effect* |       |                               |                  |             |                               |                  |
+| 10            | 355   | 0.382±0.008                   | 16570±160        | 655         | 0.343±0.003                   | 16517±59         |
+| 10, 15, 20    | 375   | 1.142±0.002                   | 18190±22         | 264         | 1.151±0.007                   | 18717±71         |
+| 15            | 395   | 3.128±0.013                   | 10002±14         | 60.8        | 2.663±0.004                   | 9772±3           |
+| 15            | 415   | 5.689±0.063                   | 4571±18          | 49.3        | 4.342±0.046                   | 4391±24          |
+| 15            | 435   | 10.96±0.29                    | 1795±18          | 25.9        | 6.948±0.04                    | 1854±3           |
+| 10            | 455   | 19.30±0.28                    | 802.5±4.1        | 6.36        | 15.46±0.46                    | 818.6±6.6        |
+| 10            | 485   | 28.7±1.3                      | 285.4±4.9        | 0.003       | 38.83±0.72                    | 388.6±2.4        |
+
+
+The silicalite diffusivities obtained here are substantially larger than those reported in the literature. In Fig. 7 , short-time uptake rate data ( Zikánová, Bülow & Schlodder, 1987 ; Shen & Rees, 1991 ) and long-time ZLC data ( Ruthven et al., 1991 ) from literature are included. The diffusivities of Zikánová et al. (1987) in parallelepiped shaped crystals were obtained from the so-called square root law for a constant boundary concentration ( L →∞). The diffusivities of Shen and Rees (1991) in small cube-like crystals were determined from the square root law for uptake from a finite volume. These data have been multiplied in Fig. 7 by a factor of four to adapt the ratio of exchange area to crystal volume to that of two-sided slabs for comparison with the other results. This brings the literature results closer to our results, but it is clear that different techniques, models, and assumptions (crystal shape, size) may strongly affect the results.
+
+Most interesting for comparison are the long-time ZLC diffusivities of Ruthven et al. (1991) in large silicalite single crystals. These are considerably smaller than our results ( Fig. 7 ), although both results are obtained from the linear exchange rate model for slabs. Many reasons for the different diffusivity values can be imagined. Differences may develop due of the estimation of the asymptotic baseline position, which affects long-time diffusivities in particular. The estimation of full-time diffusivities on the other hand is affected by the error model. Another possibility, of course, is that crystals from different samples were used with a different adsorption behavior or different boundaries between silicalite crystal sections ( Masarik, Novák, Zikánová, Kornatowski, Maixner & Kocirik, 1998 ). However, the available equilibrium ethylbenzene adsorption coefficients and desorption enthalpy of Ruthven et al. (1991) appear to be in reasonable agreement with our equilibrium (and ZLC) results ( Table 5 ). The activation enthalpies of diffusion found here are larger than those of Ruthven et al. (1991) ( Table 5 ), although the confidence intervals are large due to the limited number of data points. A minimum, physical requirement is that activation enthalpies of diffusion are smaller than the accompanying desorption enthalpies, since presumably only part of the desorption enthalpy has to be overcome for molecular movement. This condition is fulfilled by our data. The benzene desorption enthalpy, calculated from the and L data reported by Ruthven et al. (1991), is smaller than the diffusion enthalpy, so that those and L data are not coherent in this respect. In any case, it is well known that zeolite diffusivities reported in the literature differ substantially. Probably, in view of the large discrepancies for many systems and techniques, larger values from satisfactory full-time fits should be closest to the truth.
+
+
+[Table_5 005]
+# Table 5
+
+Sorption enthalpies, activation enthalpies, and intrinsic adsorption and diffusion coefficients from equilibrium adsorption experiments and ZLC diffusion experiments. For 95% confidence intervals multiply errors by a factor of three.
+
+|                | ΔH_act (kJ/mol) | ΔH^gs (kJ/mol) | D̄_395 (10^-12 m^2/s) | K_395 (10^3) |
+|----------------|-----------------|----------------|-----------------------|--------------|
+| **This work, Langmuir equilibrium adsorption parameters**, c^s_sat=1247±15 mol/m^3 |                 |                |                       |              |
+| Benzene        |                 | 40.87±0.66     |                       | 4.04±1.5     |
+| Ethylbenzene   |                 | 71.8±1.5       |                       | 12.92±4.5    |
+| **This work, full-time ZLC fits** |               |                |                       |              |
+| Benzene        | 45.7±4.7        | 63.9±6.0       | 5.16±0.36             | 3.90±0.64    |
+| Ethylbenzene   | 52.5±2.9        | 74.8±4.1       | 2.71±0.13             | 16.5±1.6     |
+| **This work, long-time ZLC fits** |               |                |                       |              |
+| Benzene        | 49±10           | 57±10          | 3.69±0.5              | 3.15±0.59    |
+| Ethylbenzene   | 45.4±4.1        | 78.2±5.6       | 2.54±0.14             | 19.0±3.0     |
+| **Ruthven et al. (1991), equilibrium adsorption** |            |                |                       |              |
+| Benzene        |                 | –              |                       | –            |
+| Ethylbenzene   |                 | 73.5           |                       | 13           |
+| **Ruthven et al. (1991), from long-time ZLC data with constant relative errors** | |         |                       |              |
+| Benzene        | 24.5±6.1        | 10.8±9.5       | 0.447±0.095           | –            |
+| Ethylbenzene   | 32.9±2.9        | 47.5±4.4       | 0.366±0.035           | –            |
+
+
+The fits of the full-time response curves show that the linear exchange model is adequate for ZLC experiments on dilute systems of benzene-silicalite and ethylbenzene-silicalite. The values of the diffusion coefficients obtained are up to one order of magnitude larger than those reported in the literature. The inclusion of the known systematic effects of crystal size distribution and apparatus substantially improves full-time fits and leads to more realistic parameter values. In all cases, diffusivities are larger than in the literature. A definitive, more complete, and accurate data set than so far available has been provided. The full-time fits are much more reliable than the long-time fits, because all data points are included. This allows the investigation of model validity and improves the understanding of the exchange process. We have shown that the full-time fit method may also be applied to rapid diffusion on short time scales by incorporating the apparatus effect in the model solution using experimental apparatus coefficients. The evaluation of the surface barrier effect from the effect of flow rate variation is a new method that may find wider application in the field of zeolite diffusion. In this case, we showed that no surface barrier effect was present. The comparison of transient ZLC adsorption coefficients and independent equilibrium coefficients showed that the simple two-sided slab model for one-dimensional diffusion was most appropriate. The investigation of the influence of crystal shape provides evidence that diffusion in more than one direction may become important at higher temperatures. Further progress in zeolite diffusion may be achieved by simultaneous fitting of experiments at different temperatures, so that different activation enthalpies and diffusivities can be distinguished. Notationa_{m}fractional gas–solid interface area of size fractionm,dimensionlessAgas-solid interface area=mγ/(lρ),m^{2}B^{i}Biot number(=hl/(DK)),dimensionlessc^{s}(x,t)intracrystalline concentration,mol/m^{3}c^{s}(l,t)solid-phase surface concentration,mol/m^{3}c^{g}_{l}(t)gas-phase surface concentration,mol/m^{3}c^{g}(t)effluent concentration,mol/m^{3}c_{0}equilibrium concentration att⩽t_{0},mol/m^{3}c_{∞}equilibrium concentration att→∞,mol/m^{3}c^{s}_{sat}intracrystalline saturation concentration,mol/m^{3}DFick diffusivity,m^{2}/sĐintrinsic diffusivity at infinite dilution,m^{2}/sFoFourier number(=D(t−t_{0})/l^{2}),dimensionlessFvolumetric flow rate,m^{3}/s or ml/minhfilm or surface transfer coefficient,m/sKintrinsic adsorption coefficient at infinite dilution,dimensionlessK(=c^{s}/c^{g}), Henry adsorption coefficient,dimensionlesslhalf thickness of slab,mL[Ref:5](=Bi/(St+1)),dimensionlessMnumber of crystal size classes,dimensionlessnnumber of data points,dimensionlesspnumber of parameters,dimensionlessrratio defined by[Ref:18],dimensionlessRgas constant,8.314 J/(mol K)serror,dimensionlessŝestimated error,dimensionlessShSherwood number(=hzl/D^{g}),dimensionlessSS_{res}weighted residual sum of squares(=∑^{n}_{i=1}(y_{i,fit}−y_{i,exp})^{2}/ŝ^{2}_{i}),dimensionlessSTPstandard temperature and pressure (298K, 10^{5}Pa)StStanton number(=Ah/F),dimensionlessttime,st_{0}start time,sT_{r}reference temperature,395Kxposition in silicalite slab,mythermal conductivity detector signal,dimensionlessy_{0}start position,dimensionlessy_{∞}baseline position,dimensionlessZLCzero length columnGreek lettersβ_{n}roots of equationL=β_{n}tanβ_{n},dimensionlessΔH_{act}molar diffusion activation enthalpy,kJ/molΔH^{gs}molar desorption enthalpy,kJ/molε̂estimated relative error,dimensionlessγcrystal shape factor,dimensionlessρsilicalite density,1.78×10^{3}kg/m^{3}σ̂_{∞}estimated baseline error,dimensionlessτ,τ_{1},τ_{2}relaxation times of ZLC apparatus,s
+
+This work was carried out at the Technisch-Chemisches Laboratorium, ETH, Zürich, Switzerland. The authors thank Dr.ir. P. Voogd for provision of the silicalite crystals, and Dr. D. Shavit, Dr. H. Kouwenhoven, and Prof. Dr. R. Prins for their hospitality and support. Helpful discussions with Dr. W. Niessen are much appreciated.
+
+Numerical problems consist of the time-consuming Newton–Raphson evaluation of the roots of the equation . Good start values must be provided to find correct roots. These can be estimated by using the approximation L=β_{n}tanβ_{n}≈β_{n}π(n−1/2)−β_{n}, so that the initial Newton–Raphson estimates are the following: β_{n}≈LL+1πn−12,n⩾1.
+
+The use of analytical derivatives of Eq. (7) with respect to the parameters and in the Levenberg–Marquardt algorithm proved to be very efficient in time domain fitting ( ζ = , ): dc^{g}dζ=∑n=1∞∂c^{g}∂L_{D,β_{n}}+∂c^{g}∂β^{2}_{n}_{D,L}2β^{2}_{n}β^{2}_{n}+L^{2}+LdLdζ+∂c^{g}∂D_{L,β_{n}}dDdζ,∂c^{g}∂L_{D,β_{n}}=2L∑n=1∞exp(−β^{2}_{n}Fo)β^{2}_{n}+L^{2}+L1L−2(L+1)β^{2}_{n}+L^{2}+L,∂c^{g}∂D_{L,β_{n}}=2L∑n=1∞exp(−β^{2}_{n}Fo)β^{2}_{n}+L^{2}+L(−β^{2}_{n}Fo),∂c^{g}∂β^{2}_{n}_{D,L}=2Lexp(−β^{2}_{n}Fo)β^{2}_{n}+L^{2}+LFo−1β^{2}_{n}+L^{2}+L.
+
+To observe the fast initial desorption behavior, large data sets have been collected at one second intervals. A filter program was used to process these files ( Loos, 1997b ). The program calculates the variance of each data-point i , s^{2}_{i}=y_{i}−y_{i−1}+y_{i+1}2^{2}. It was observed that the variances could be approximated by a linear, amplitude dependent error model: ŝ^{2}_{i}=σ̂^{2}+ε̂^{2}(y_{i}−y_{∞})^{2}=f(y_{i}), whereby the variance consists of a constant variance and a relative variance . The filter program estimates and for each curve and selects time-dependent sampling intervals, depending on the rate of change in the signal y , so that the variance in the interval does not exceed the estimated variance . This reduces the number of data points typically by a factor of 3–4.
+
+
+[Table_6 0010]
+# Notation
+
+| Symbol | Description | Unit |
+|---|---|---|
+| \( a_m \) | Fractional gas–solid interface area of size fraction \( m \) | Dimensionless |
+| \( A \) | Gas-solid interface area \( =m\gamma/(l\rho) \) | \( \text{m}^2 \) |
+| \( B^i \) | Biot number \( (=hl/(DK)) \) | Dimensionless |
+| \( c^s(x, t) \) | Intracrystalline concentration | \( \text{mol/m}^3 \) |
+| \( c^s(l, t) \) | Solid-phase surface concentration | \( \text{mol/m}^3 \) |
+| \( c^g_l(t) \) | Gas-phase surface concentration | \( \text{mol/m}^3 \) |
+| \( c^g(t) \) | Effluent concentration | \( \text{mol/m}^3 \) |
+| \( c_0 \) | Equilibrium concentration at \( t \leq t_0 \) | \( \text{mol/m}^3 \) |
+| \( c_\infty \) | Equilibrium concentration at \( t \to \infty \) | \( \text{mol/m}^3 \) |
+| \( c^s_{\text{sat}} \) | Intracrystalline saturation concentration | \( \text{mol/m}^3 \) |
+| \( D \) | Fick diffusivity | \( \text{m}^2/\text{s} \) |
+| \( Đ \) | Intrinsic diffusivity at infinite dilution | \( \text{m}^2/\text{s} \) |
+| \( Fo \) | Fourier number \( (=D(t-t_0)/l^2) \) | Dimensionless |
+| \( F \) | Volumetric flow rate | \( \text{m}^3/\text{s} \) or \( \text{ml/min} \) |
+| \( h \) | Film or surface transfer coefficient | \( \text{m/s} \) |
+| \( K \) | Intrinsic adsorption coefficient at infinite dilution | Dimensionless |
+| \( \overline{K} \) | \( (=c^s/c^g) \), Henry adsorption coefficient | Dimensionless |
+| \( l \) | Half thickness of slab | \( \text{m} \) |
+| \( L \) | Eq. (5) \( (=Bi/(St+1)) \) | Dimensionless |
+| \( M \) | Number of crystal size classes | Dimensionless |
+| \( n \) | Number of data points | Dimensionless |
+| \( p \) | Number of parameters | Dimensionless |
+| \( r \) | Ratio defined by Eq. (18) | Dimensionless |
+| \( R \) | Gas constant | \( 8.314 \, \text{J/(mol K)} \) |
+| \( s \) | Error | Dimensionless |
+| \( ŝ \) | Estimated error | Dimensionless |
+| \( Sh \) | Sherwood number \( (=hzl/D^g) \) | Dimensionless |
+| \( \text{SS}_{\text{res}} \) | Weighted residual sum of squares \( (=∑^n_{i=1}(y_{\text{i,fit}}−y_{\text{i,exp}})^2/ŝ^2_i) \) | Dimensionless |
+| STP | Standard temperature and pressure (298 K, \( 10^5 \) Pa) | - |
+| \( St \) | Stanton number \( (=Ah/F) \) | Dimensionless |
+| \( t \) | Time | \( \text{s} \) |
+| \( t_0 \) | Start time | \( \text{s} \) |
+| \( T_r \) | Reference temperature | \( 395 \, \text{K} \) |
+| \( x \) | Position in silicalite slab | \( \text{m} \) |
+| \( y \) | Thermal conductivity detector signal | Dimensionless |
+| \( y_0 \) | Start position | Dimensionless |
+| \( y_\infty \) | Baseline position | Dimensionless |
+| ZLC | Zero length column | - |
+
+## Greek letters
+
+| Symbol | Description | Unit |
+|---|---|---|
+| \( β_n \) | Roots of equation \( L=β_n \tan β_n \) | Dimensionless |
+| \( ΔH_{\text{act}} \) | Molar diffusion activation enthalpy | \( \text{kJ/mol} \) |
+| \( ΔH^{gs} \) | Molar desorption enthalpy | \( \text{kJ/mol} \) |
+| \( \hat{ε} \) | Estimated relative error | Dimensionless |
+| \( γ \) | Crystal shape factor | Dimensionless |
+| \( ρ \) | Silicalite density | \( 1.78×10^3 \, \text{kg/m}^3 \) |
+| \( \hat{σ}_∞ \) | Estimated baseline error | Dimensionless |
+| \( τ, τ_1, τ_2 \) | Relaxation times of ZLC apparatus | \( \text{s} \) |

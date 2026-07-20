@@ -1,0 +1,7 @@
+Convert all temperatures to Kelvin.
+    All Kelvin temperatures remain unchanged.
+    Remove all decimal places.
+    Remove all parentheses and content within parentheses.
+    Remove uncertainty after Celsius conversion (e.g., 28.8 +/- 0.25 C -> 301K).
+    Room temperature typically refers to 298K (25 C).
+    Output only the converted standard Kelvin temperature, no text other than the temperature and unit. One temperature per line. The number of output lines must match the number of input lines.

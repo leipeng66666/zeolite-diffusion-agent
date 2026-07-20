@@ -1,0 +1,195 @@
+﻿experimental_method,method_type,method_category
+Pulse Response (CSTR),Experimental,Other
+Membrane permeation,Experimental,Membrane Permeation
+Reaction-diffusion model fitting from catalytic xylene isomerization,Experimental,Other
+Pervaporation,Experimental,Membrane Permeation
+constant volumetric method (Raman spectroscopy),Experimental,Uptake/Release
+Molecular Dynamics,Computational,MD
+Nonlinear Frequency Response (NFR),Experimental,FR
+Interference Microscopy (IFM),Experimental,Microimaging
+Molecular Dynamics (MD),Computational,MD
+Breakthrough modeling (LDF),Experimental,Column Dynamics
+ZLC,Experimental,ZLC
+Computational Fluid Dynamics (CFD),Computational,Other
+QENS,Experimental,QENS
+IGA (gravimetric uptake),Experimental,Uptake/Release
+Isotopic exchange with diffusive-reactive modeling,Experimental,Uptake/Release
+Diffusion model fitting to batch sorption data,Experimental,Uptake/Release
+Fick diffusion analysis,Computational,Other
+"Fick diffusion analysis, concentration dependence fitting",Computational,Other
+"IR spectroscopy (transient uptake, square root law)",Experimental,Microimaging
+Molecular Simulations,Computational,MD
+Gravimetric uptake (IGA),Experimental,Uptake/Release
+PFG-NMR,Experimental,PFG NMR
+Molecular dynamics,Computational,MD
+1H PFG NMR,Experimental,PFG NMR
+Molecular Dynamics (MD) simulation,Computational,MD
+PFG NMR,Experimental,PFG NMR
+Renkin correlation,Computational,Other
+Reversed-Flow Inverse Gas Chromatography (RF-GC),Experimental,Column Dynamics
+Non-equilibrium Molecular Dynamics,Computational,MD
+Electrochemical Impedance Spectroscopy (EIS),Experimental,Other
+TPD,Experimental,Other
+ion exchange kinetics,Experimental,Uptake/Release
+membrane permeation (constant pressure),Experimental,Membrane Permeation
+"membrane permeation (binary mixture), Maxwell-Stefan model",Experimental,Membrane Permeation
+Model fitting (2D heterogeneous reactor model),Computational,Other
+Simulation (Knudsen equation),Computational,Other
+Millington-Quirk model calculation,Computational,Other
+diffusion cell experiment and numerical parameter estimation,Experimental,Membrane Permeation
+Batch adsorption kinetics (Helfferich model),Experimental,Uptake/Release
+batch kinetic adsorption (micropore diffusion model),Experimental,Uptake/Release
+Batch uptake (Boyd model),Experimental,Uptake/Release
+Homogeneous Particle Diffusion Model (Batch Adsorption),Experimental,Uptake/Release
+batch ion exchange kinetics,Experimental,Uptake/Release
+Isotopic exchange and diffusion modeling,Experimental,Uptake/Release
+Batch adsorption kinetics modeling,Experimental,Uptake/Release
+volumetric sorption rate method (inverse analysis of uptake curves),Experimental,Uptake/Release
+"volumetric sorption rate method (inverse analysis, derived from surface diffusion coefficients)",Experimental,Uptake/Release
+in situ IR spectroscopy,Experimental,Microimaging
+mercury intrusion porosimetry and Knudsen estimation,Experimental,Other
+TGA (gravimetric uptake),Experimental,Uptake/Release
+Membrane Permeation,Experimental,Membrane Permeation
+Vapor Permeation,Experimental,Membrane Permeation
+time lag method,Experimental,Membrane Permeation
+Calculation (Knudsen equation),Computational,Other
+permporometry,Experimental,Membrane Permeation
+membrane permeation,Experimental,Membrane Permeation
+Knudsen diffusion (calculated),Computational,Other
+Membrane permeation (Fick's law),Experimental,Membrane Permeation
+Single gas permeation (corrected diffusivity method),Experimental,Membrane Permeation
+Knudsen diffusion model,Computational,Other
+Gravimetric uptake (TGA),Experimental,Uptake/Release
+gravimetric uptake,Experimental,Uptake/Release
+gravimetric uptake (IGA),Experimental,Uptake/Release
+Knudsen model,Computational,Other
+PFG NMR and 1H T1/T2 relaxometry,Experimental,PFG NMR
+PFG NMR and T1/T2 relaxometry (calculated D_long-range),Experimental,PFG NMR
+Kinetic theory calculation,Computational,Other
+Monte Carlo,Computational,Other
+Vermeulen kinetic modeling (batch uptake),Experimental,Uptake/Release
+Empirical calculation,Computational,Other
+FT-IR uptake,Experimental,Microimaging
+Gravimetric uptake,Experimental,Uptake/Release
+HSDM batch adsorption kinetics,Experimental,Uptake/Release
+Breakthrough curve analysis,Experimental,Column Dynamics
+1D advection-dispersion model,Computational,Other
+Breakthrough curve fitting,Experimental,Column Dynamics
+Wilke-Chang correlation,Computational,Other
+Correlation,Computational,Other
+Stray field NMR (D-D correlation spectroscopy),Experimental,Solid-state NMR
+MAS PFG NMR,Experimental,PFG NMR
+Crank model fitting of batch adsorption kinetics,Experimental,Uptake/Release
+Simulation,Computational,Other
+Cyclic voltammetry desorption measurement,Experimental,Other
+FTIR,Experimental,Microimaging
+Theoretical calculation,Computational,Other
+batch uptake kinetics (particle diffusion model),Experimental,Uptake/Release
+batch uptake (graphical method),Experimental,Uptake/Release
+batch uptake (numerical method),Experimental,Uptake/Release
+Process simulation (axial dispersion correlation),Computational,Other
+Uptake kinetics (Crank model),Experimental,Uptake/Release
+gas breakthrough experiment and LDF model fitting,Experimental,Column Dynamics
+Equilibrium Molecular Dynamics (EMD),Computational,MD
+Batch adsorption kinetics (Crank model),Experimental,Uptake/Release
+Molecular Dynamics (ReaxFF),Computational,MD
+Batch adsorption kinetics,Experimental,Uptake/Release
+Calculation (Vignes equation),Computational,Other
+"Column experiment, Brigham method",Experimental,Column Dynamics
+Homogenous particle diffusion,Experimental,Uptake/Release
+Intraparticle diffusion model,Experimental,Uptake/Release
+Breakthrough curve (tracer),Experimental,Column Dynamics
+Packed bed breakthrough curve fitting,Experimental,Column Dynamics
+Knudsen equation,Computational,Other
+MRI with analytical diffusion equation fitting,Experimental,MRI
+HS-PPM molecular dynamics simulation,Computational,MD
+uptake rate method (IGA),Experimental,Uptake/Release
+Inverse gas chromatography,Experimental,Column Dynamics
+Adsorption Kinetics,Experimental,Uptake/Release
+Microscope FTIR mapping,Experimental,Microimaging
+frequency response,Experimental,FR
+Estimation from membrane permeance,Experimental,Membrane Permeation
+Frequency Response,Experimental,FR
+gravimetric uptake (TGA),Experimental,Uptake/Release
+DRIFTS,Experimental,Other
+pulse method,Experimental,Column Dynamics
+Frequency Response (FR),Experimental,FR
+"Raman spectroscopy (liquid phase, constant volume method)",Experimental,Uptake/Release
+gravimetric uptake (Fickian analysis),Experimental,Uptake/Release
+Breakthrough experiments,Experimental,Column Dynamics
+PFG NMR (DEXSY),Experimental,PFG NMR
+PFG NMR (13-interval),Experimental,PFG NMR
+FT PFG NMR,Experimental,PFG NMR
+Gravimetric vapor sorption (DVS),Experimental,Uptake/Release
+Thermal gravimetric analysis (TGA),Experimental,Uptake/Release
+volumetric uptake method,Experimental,Uptake/Release
+release kinetics (model fitting),Experimental,Uptake/Release
+batch uptake (ultrasonication-assisted),Experimental,Uptake/Release
+SFG NMR,Experimental,PFG NMR
+piezometric,Experimental,Uptake/Release
+Chromatography,Experimental,Column Dynamics
+Volumetric uptake; Concentration variable model,Experimental,Uptake/Release
+Batch adsorption kinetics (LDF model),Experimental,Uptake/Release
+Quasielastic Neutron Scattering (Singwi-Sjolander jump diffusion),Experimental,QENS
+Molecular Dynamics (Einstein relation),Computational,MD
+Molecular Dynamics (simulated QENS),Computational,MD
+Volumetric uptake kinetics (LDF),Experimental,Uptake/Release
+dynamic adsorption (intra-particle diffusion model),Experimental,Uptake/Release
+Calculation,Computational,Other
+TEX-PEP,Experimental,Other
+micro-FTIR,Experimental,Microimaging
+Batch adsorption kinetics (Fick's second law),Experimental,Uptake/Release
+Boyd plot analysis,Experimental,Uptake/Release
+Batch kinetic adsorption,Experimental,Uptake/Release
+batch adsorption kinetics with HSDM,Experimental,Uptake/Release
+IET,Experimental,Other
+gravimetric uptake (constant pressure static method),Experimental,Uptake/Release
+gravimetric sorption (Cahn microbalance),Experimental,Uptake/Release
+pervaporation,Experimental,Membrane Permeation
+IR spectroscopy,Experimental,Microimaging
+Release rate measurement (Barrer-Vaughan method),Experimental,Uptake/Release
+Neutron Transmission,Experimental,QENS
+Kinetic Monte Carlo,Computational,Other
+batch adsorption,Experimental,Uptake/Release
+batch desorption,Experimental,Uptake/Release
+Breakthrough experiment,Experimental,Column Dynamics
+dynamic adsorption/desorption (Drehkorbadsorber),Experimental,Uptake/Release
+adsorption uptake,Experimental,Uptake/Release
+Confocal Laser Scanning Microscopy,Experimental,Microimaging
+Interference Microscopy,Experimental,Microimaging
+Single pellet moment technique,Experimental,Column Dynamics
+Fixed-bed adsorption kinetics,Experimental,Column Dynamics
+Calculated from effective pore diffusivity and isotherm,Computational,Other
+Weisz-Prater analysis,Experimental,Other
+isotopic exchange kinetics,Experimental,Uptake/Release
+Non-equilibrium Monte Carlo,Computational,Other
+batch sorption kinetics,Experimental,Uptake/Release
+Batch uptake kinetics (HPDM/SPM),Experimental,Uptake/Release
+Batch kinetic sorption,Experimental,Uptake/Release
+batch uptake with HSDM regression,Experimental,Uptake/Release
+Gravimetric method (IGA-002),Experimental,Uptake/Release
+2H NMR,Experimental,Solid-state NMR
+Gravimetric uptake with non-isothermal model,Experimental,Uptake/Release
+gravimetric uptake (constant pressure static),Experimental,Uptake/Release
+gravimetric sorption,Experimental,Uptake/Release
+membrane permeation (pervaporation),Experimental,Membrane Permeation
+IR-spectroscopic desorption curves,Experimental,Microimaging
+batch desorption kinetics,Experimental,Uptake/Release
+Quasielastic Neutron Scattering,Experimental,QENS
+Neutron transmission,Experimental,QENS
+Kinetic Monte Carlo (KMC) simulations,Computational,Other
+Batch desorption kinetics,Experimental,Uptake/Release
+adsorption kinetics,Experimental,Uptake/Release
+Confocal laser scanning microscopy (CLSM),Experimental,Microimaging
+interference microscopy (IFM),Experimental,Microimaging
+Packed bed column uptake,Experimental,Column Dynamics
+frequency response (FR),Experimental,FR
+batch adsorption kinetics,Experimental,Uptake/Release
+Calculated,Computational,Other
+isotopic exchange,Experimental,Uptake/Release
+batch kinetic sorption (particle diffusion model),Experimental,Uptake/Release
+Batch kinetic experiments; HPDM and SPM analysis,Experimental,Uptake/Release
+batch uptake kinetics (HPDM/SPM fitting),Experimental,Uptake/Release
+"Batch uptake experiment, HSDM regression",Experimental,Uptake/Release
+Column breakthrough fitting,Experimental,Column Dynamics
+Gravimetric uptake (kinetic sorption),Experimental,Uptake/Release

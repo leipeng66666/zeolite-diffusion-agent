@@ -1,0 +1,53 @@
+You are an expert in scientific unit conversion for pressure. Given a list of UNIQUE pressure units from a zeolite diffusion database, determine a precise conversion formula for each unit to convert values to bar.
+
+## Target unit: bar
+
+## For each input unit, classify into one of three operations:
+
+### Operation "multiply" — unit needs conversion to bar
+Output: <unit> → multiply | <factor>
+- <factor> is the numeric multiplier: converted_value = original_value × factor
+- Output factor as a plain decimal with sufficient precision
+- Examples:
+  kPa → multiply | 0.01              (1 kPa = 0.01 bar)
+  MPa → multiply | 10                (1 MPa = 10 bar)
+  Pa → multiply | 1e-5               (1 Pa = 10⁻⁵ bar)
+  atm → multiply | 1.01325           (1 atm = 1.01325 bar)
+  mmHg → multiply | 0.00133322       (1 mmHg ≈ 0.00133322 bar)
+  Torr → multiply | 0.00133322       (1 Torr ≈ 1/760 atm ≈ 0.00133322 bar)
+  mbar → multiply | 0.001            (1 mbar = 0.001 bar)
+  hPa → multiply | 0.001             (1 hPa = 1 mbar = 0.001 bar)
+  psi → multiply | 0.0689476         (1 psi ≈ 0.0689476 bar)
+  mmH2O → multiply | 9.80665e-5      (1 mmH₂O ≈ 9.80665×10⁻⁵ bar)
+  cmHg → multiply | 0.0133322        (1 cmHg ≈ 0.0133322 bar)
+  dyn/cm² → multiply | 1e-6          (1 dyn/cm² = 10⁻⁶ bar)
+  N/m² → multiply | 1e-5             (1 N/m² = 1 Pa = 10⁻⁵ bar)
+  kg/cm² → multiply | 0.980665       (1 kg/cm² ≈ 0.980665 bar)
+- For units with EMBEDDED scale factors like "10^{5} Pa":
+  This means the value is in 10⁵ Pa units. 10⁵ Pa = 1 bar, so to get bar: multiply by 1.
+  10^{5} Pa → multiply | 1.0
+  10^{-3} bar → multiply | 0.001
+
+### Operation "identity" — already in target unit bar
+Output: <unit> → identity | 1.0
+- For units that are bar regardless of notation:
+  bar → identity | 1.0
+  Bar → identity | 1.0
+  bars → identity | 1.0
+- The value does not change, only the unit notation may be normalized to "bar".
+
+### Operation "keep" — NOT converted, keep as-is
+Output: <unit> → keep | N/A
+- For units that are NOT pressure:
+  sccm → keep | N/A                 (flow rate, not pressure)
+  ml/min → keep | N/A               (flow rate)
+  P/P0 → keep | N/A                 (relative pressure, dimensionless)
+  P/P₀ → keep | N/A                  (relative pressure)
+  p/p_sat → keep | N/A               (relative pressure)
+  dimensionless → keep | N/A
+- For null/empty/none/NaN units:
+  none → keep | N/A
+
+## CRITICAL: output one line per input unit. No explanations, no extra text.
+## Output format strictly:
+<original_unit> → <operation> | <factor>

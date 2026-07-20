@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?><full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S000926140101466X</prism:url><dc:identifier>doi:10.1016/S0009-2614(01)01466-X</dc:identifier><eid>1-s2.0-S000926140101466X</eid><prism:doi>10.1016/S0009-2614(01)01466-X</prism:doi><pii>S0009-2614(01)01466-X</pii><dc:title>Diffusional behaviour of simple sorbates in zeolites: effect of anisotropic frameworks and geometrical correlations </dc:title><prism:publicationName>Chemical Physics Letters</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>00092614</prism:issn><prism:volume>352</prism:volume><prism:issueIdentifier>3-4</prism:issueIdentifier><prism:startingPage>294</prism:startingPage><prism:endingPage>300</prism:endingPage><prism:pageRange>294-300</prism:pageRange><prism:number>3-4</prism:number><dc:format>application/xml</dc:format><prism:coverDate>2002-01-30</prism:coverDate><prism:coverDisplayDate>30 January 2002</prism:coverDisplayDate><prism:copyright>Copyright © 2002 Published by Elsevier B.V.</prism:copyright><prism:publisher>Published by Elsevier B.V.</prism:publisher><dc:creator>Kar, Sudeshna</dc:creator><dc:creator>Chakravarty, Charusita</dc:creator><dc:description>
+                  Molecular dynamics (MD) studies of helium and argon diffusion in all-silica analogues of ZSM-5, ZSM-11 and ferrierite are used to study diffusional anisotropy. All three zeolites have channels running parallel to only two of the three crystallographic axes. ZSM-5 and ZSM-11, however, allow for three-dimensional diffusional motion due to the presence of geometrical correlations. Motion in the correlated direction, which has no direct displacement channels, is distinctly subdiffusional on time scales of the order of 1 ns. The ballistic to diffusional crossover times are much greater for displacements in the direction showing correlated, as opposed to, direct displacements.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href="https://api.elsevier.com/content/article/pii/S000926140101466X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S000926140101466X" rel="scidir"/></coredata><objects><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="125" height="89" size="2548">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="433" height="308" size="13610">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-gr1.gif?httpAccept=%2A%2F%2A</object><object ref="si1" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="83" height="20" size="408">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si1.gif?httpAccept=%2A%2F%2A</object><object ref="si10" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="114" height="20" size="490">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si10.gif?httpAccept=%2A%2F%2A</object><object ref="si11" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="123" height="43" size="768">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si11.gif?httpAccept=%2A%2F%2A</object><object ref="si12" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="48" height="18" size="332">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si12.gif?httpAccept=%2A%2F%2A</object><object ref="si13" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="49" height="18" size="344">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si13.gif?httpAccept=%2A%2F%2A</object><object ref="si14" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="49" height="18" size="336">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si14.gif?httpAccept=%2A%2F%2A</object><object ref="si15" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="48" height="18" size="336">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si15.gif?httpAccept=%2A%2F%2A</object><object ref="si16" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="325" height="22" size="1386">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si16.gif?httpAccept=%2A%2F%2A</object><object ref="si17" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="341" height="22" size="1439">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si17.gif?httpAccept=%2A%2F%2A</object><object ref="si18" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="110" height="19" size="568">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si18.gif?httpAccept=%2A%2F%2A</object><object ref="si19" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="110" height="19" size="582">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si19.gif?httpAccept=%2A%2F%2A</object><object ref="si2" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="83" height="20" size="408">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si2.gif?httpAccept=%2A%2F%2A</object><object ref="si20" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="110" height="19" size="593">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si20.gif?httpAccept=%2A%2F%2A</object><object ref="si21" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="253" height="52" size="1763">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si21.gif?httpAccept=%2A%2F%2A</object><object ref="si22" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="48" height="18" size="332">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si22.gif?httpAccept=%2A%2F%2A</object><object ref="si23" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="49" height="18" size="344">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si23.gif?httpAccept=%2A%2F%2A</object><object ref="si24" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="49" height="18" size="336">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si24.gif?httpAccept=%2A%2F%2A</object><object ref="si25" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="48" height="18" size="336">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si25.gif?httpAccept=%2A%2F%2A</object><object ref="si3" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="71" height="16" size="305">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si3.gif?httpAccept=%2A%2F%2A</object><object ref="si4" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="71" height="16" size="305">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si4.gif?httpAccept=%2A%2F%2A</object><object ref="si5" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="71" height="16" size="305">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si5.gif?httpAccept=%2A%2F%2A</object><object ref="si6" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="71" height="16" size="305">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si6.gif?httpAccept=%2A%2F%2A</object><object ref="si7" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="114" height="20" size="490">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si7.gif?httpAccept=%2A%2F%2A</object><object ref="si8" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="114" height="20" size="490">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si8.gif?httpAccept=%2A%2F%2A</object><object ref="si9" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="114" height="20" size="490">https://api.elsevier.com/content/object/eid/1-s2.0-S000926140101466X-si9.gif?httpAccept=%2A%2F%2A</object></objects><scopus-id>0037196546</scopus-id><scopus-eid>2-s2.0-0037196546</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/0037196546" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271350</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291687</xocs:ssid>
+         <xocs:ssid type="subj">291720</xocs:ssid>
+         <xocs:ssid type="subj">291790</xocs:ssid>
+         <xocs:ssid type="subj">291821</xocs:ssid>
+         <xocs:ssid type="subj">291940</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Chemical Physics Letters</xocs:srctitle>
+      <xocs:normalized-srctitle>CHEMICALPHYSICSLETTERS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20020103">2002-01-03</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20020103">2002-01-03</xocs:available-online-date>
+      <xocs:ew-transaction-id>2019-02-07T05:15:28</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S000926140101466X</xocs:eid>
+      <xocs:pii-formatted>S0009-2614(01)01466-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>S000926140101466X</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S0009-2614(01)01466-X</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0009261400X13292</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240101">2024-01-01T16:39:06.306163Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20020130</xocs:date-search-begin>
+      <xocs:year-nav>2002</xocs:year-nav>
+      <xocs:indexeddate epoch="1010016000">2002-01-03T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0009-2614</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00092614</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>352</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>352</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>3</xocs:iss-first>
+      <xocs:iss-last>4</xocs:iss-last>
+      <xocs:issue-list>
+         <xocs:issue>3</xocs:issue>
+         <xocs:issue>4</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 352, Issues 3–4</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>23</xocs:sort-order>
+      <xocs:first-fp>294</xocs:first-fp>
+      <xocs:last-lp>300</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>294</xocs:first-page>
+         <xocs:last-page>300</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>20020130</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>30 January 2002</xocs:cover-date-text>
+      <xocs:cover-date-start>2002-01-30</xocs:cover-date-start>
+      <xocs:cover-date-year>2002</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2002 Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>DIFFUSIONALBEHAVIOURSIMPLESORBATESINZEOLITESEFFECTANISOTROPICFRAMEWORKSGEOMETRICALCORRELATIONS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>KAR</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Computational details</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Zeolite structures</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Potential energy surface</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Molecular dynamics</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1">
+            <xocs:ref-normalized-surname>BARRER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1978</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ZEOLITESCLAYMINERALSSORBENTSMOLECULARSIEVES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB2">
+            <xocs:ref-normalized-surname>BRECK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1974</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ZEOLITEMOLECULARSIEVES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB3">
+            <xocs:ref-normalized-surname>KARGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>DIFFUSIONINZEOLITESOTHERMICROPOROUSSOLIDS</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB4">
+            <xocs:ref-normalized-surname>DEMONTIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2845</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB5">
+            <xocs:ref-normalized-surname>KARGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5558</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB6">
+            <xocs:ref-normalized-surname>MAGINN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7155</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB7">
+            <xocs:ref-normalized-surname>JOST</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6375</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB8">
+            <xocs:ref-normalized-surname>KARGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1163</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB9">
+            <xocs:ref-normalized-surname>JOUSSE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1531</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB10">
+            <xocs:ref-normalized-surname>KAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5785</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB11">
+            <xocs:ref-normalized-surname>GHOSH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9354</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB12">
+            <xocs:ref-normalized-surname>OLSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1981</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2238</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB13">
+            <xocs:ref-normalized-surname>LERMER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>131</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB14">
+            <xocs:ref-normalized-surname>KOKOTAILO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1978</xocs:ref-pub-year>
+            <xocs:ref-first-fp>119</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB15">
+            <xocs:ref-normalized-surname>MEIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ATLASZEOLITESTRUCTURETYPES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB16">
+            <xocs:ref-normalized-surname>BEZUS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1978</xocs:ref-pub-year>
+            <xocs:ref-first-fp>367</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB17">
+            <xocs:ref-normalized-surname>KISELEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>261</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB18">
+            <xocs:ref-normalized-surname>KISELEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1981</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB19">
+            <xocs:ref-normalized-surname>CHAKRAVARTY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1878</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB20">
+            <xocs:ref-normalized-surname>ELAMRANI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9417</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB21">
+            <xocs:ref-normalized-surname>FRENKEL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>UNDERSTANDINGMOLECULARSIMULATIONALGORITHMSAPPLICATIONS</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB22">
+            <xocs:ref-normalized-surname>MEHRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2740</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB23">
+            <xocs:ref-normalized-surname>DEMONTIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1482</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB24">
+            <xocs:ref-normalized-surname>HAHN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>316</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB25">
+            <xocs:ref-normalized-surname>KUKLA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>702</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>KARX2002X294</xocs:refkey3>
+         <xocs:refkey4lp>KARX2002X294X300</xocs:refkey4lp>
+         <xocs:refkey4ai>KARX2002X294XS</xocs:refkey4ai>
+         <xocs:refkey5>KARX2002X294X300XS</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0009-2614(01)01466-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>S000926140101466X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S000926140101466X</xocs:eid>
+         <xocs:doi>10.1016/S0009-2614(01)01466-X</xocs:doi>
+         <xocs:cid>271350</xocs:cid>
+         <xocs:timestamp>2024-01-01T16:39:06.306163Z</xocs:timestamp>
+         <xocs:cover-date-start>2002-01-30</xocs:cover-date-start>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/MAIN/application/pdf/9d7628607c0bc8d8f3f8ac276a74ce49/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>133142</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S000926140101466X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/PREVIEW/image/png/7f308967f7bc7b6540b864dfbd7b5ac9/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>56524</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/gr1/THUMBNAIL/image/gif/af8a6a69b22ebf755af3918ce410dee0/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2548</xocs:filesize>
+               <xocs:pixel-height>89</xocs:pixel-height>
+               <xocs:pixel-width>125</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-gr1.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/gr1/DOWNSAMPLED/image/gif/e155688b7548802fc0b0d12cc9511693/gr1.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>13610</xocs:filesize>
+               <xocs:pixel-height>308</xocs:pixel-height>
+               <xocs:pixel-width>433</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si1.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/aca05328c6b56ef9f291d995e2c947b4/si2.gif</xocs:ucs-locator>
+               <xocs:file-basename>si1</xocs:file-basename>
+               <xocs:filename>si1.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>408</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>83</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si10.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/19c0e73264e3138e8ef1954e6e05abf2/si10.gif</xocs:ucs-locator>
+               <xocs:file-basename>si10</xocs:file-basename>
+               <xocs:filename>si10.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>490</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>114</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si11.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/18d036005675d84c0907ec2daaa88c4b/si11.gif</xocs:ucs-locator>
+               <xocs:file-basename>si11</xocs:file-basename>
+               <xocs:filename>si11.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>768</xocs:filesize>
+               <xocs:pixel-height>43</xocs:pixel-height>
+               <xocs:pixel-width>123</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si12.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/00bff218cad916837b7a75ba49bd1308/si22.gif</xocs:ucs-locator>
+               <xocs:file-basename>si12</xocs:file-basename>
+               <xocs:filename>si12.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>332</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>48</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si13.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/3c1b6bc8981d26f34394a02ac6ea3490/si13.gif</xocs:ucs-locator>
+               <xocs:file-basename>si13</xocs:file-basename>
+               <xocs:filename>si13.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>344</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>49</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si14.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/e225d24e954e98aa7081a417487b69b5/si24.gif</xocs:ucs-locator>
+               <xocs:file-basename>si14</xocs:file-basename>
+               <xocs:filename>si14.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>336</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>49</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si15.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/ddd23dc2d3177f2f6b0f69bc700620b7/si25.gif</xocs:ucs-locator>
+               <xocs:file-basename>si15</xocs:file-basename>
+               <xocs:filename>si15.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>336</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>48</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si16.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/96733398ebac7ba8d2293c1af9648858/si16.gif</xocs:ucs-locator>
+               <xocs:file-basename>si16</xocs:file-basename>
+               <xocs:filename>si16.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>1386</xocs:filesize>
+               <xocs:pixel-height>22</xocs:pixel-height>
+               <xocs:pixel-width>325</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si17.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/be92aca2109fe9ba32a229d3d0e69206/si17.gif</xocs:ucs-locator>
+               <xocs:file-basename>si17</xocs:file-basename>
+               <xocs:filename>si17.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>1439</xocs:filesize>
+               <xocs:pixel-height>22</xocs:pixel-height>
+               <xocs:pixel-width>341</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si18.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/622e7b5777db8160cdccf82648497107/si18.gif</xocs:ucs-locator>
+               <xocs:file-basename>si18</xocs:file-basename>
+               <xocs:filename>si18.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>568</xocs:filesize>
+               <xocs:pixel-height>19</xocs:pixel-height>
+               <xocs:pixel-width>110</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si19.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/8b8cc331ec97bf2126d24022d460d341/si19.gif</xocs:ucs-locator>
+               <xocs:file-basename>si19</xocs:file-basename>
+               <xocs:filename>si19.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>582</xocs:filesize>
+               <xocs:pixel-height>19</xocs:pixel-height>
+               <xocs:pixel-width>110</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si2.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/aca05328c6b56ef9f291d995e2c947b4/si2.gif</xocs:ucs-locator>
+               <xocs:file-basename>si2</xocs:file-basename>
+               <xocs:filename>si2.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>408</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>83</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si20.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/abc1aeb1e445bbeb9abdfbf3cb16458a/si20.gif</xocs:ucs-locator>
+               <xocs:file-basename>si20</xocs:file-basename>
+               <xocs:filename>si20.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>593</xocs:filesize>
+               <xocs:pixel-height>19</xocs:pixel-height>
+               <xocs:pixel-width>110</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si21.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/c4df26afda809f55167671e3b662a0be/si21.gif</xocs:ucs-locator>
+               <xocs:file-basename>si21</xocs:file-basename>
+               <xocs:filename>si21.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>1763</xocs:filesize>
+               <xocs:pixel-height>52</xocs:pixel-height>
+               <xocs:pixel-width>253</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si22.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/00bff218cad916837b7a75ba49bd1308/si22.gif</xocs:ucs-locator>
+               <xocs:file-basename>si22</xocs:file-basename>
+               <xocs:filename>si22.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>332</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>48</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si23.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/3c1b6bc8981d26f34394a02ac6ea3490/si13.gif</xocs:ucs-locator>
+               <xocs:file-basename>si23</xocs:file-basename>
+               <xocs:filename>si23.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>344</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>49</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si24.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/e225d24e954e98aa7081a417487b69b5/si24.gif</xocs:ucs-locator>
+               <xocs:file-basename>si24</xocs:file-basename>
+               <xocs:filename>si24.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>336</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>49</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si25.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/ddd23dc2d3177f2f6b0f69bc700620b7/si25.gif</xocs:ucs-locator>
+               <xocs:file-basename>si25</xocs:file-basename>
+               <xocs:filename>si25.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>336</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>48</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si3.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/7f6d35eeaa66ad7caa0397812d68b531/si6.gif</xocs:ucs-locator>
+               <xocs:file-basename>si3</xocs:file-basename>
+               <xocs:filename>si3.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>305</xocs:filesize>
+               <xocs:pixel-height>16</xocs:pixel-height>
+               <xocs:pixel-width>71</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si4.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/7f6d35eeaa66ad7caa0397812d68b531/si6.gif</xocs:ucs-locator>
+               <xocs:file-basename>si4</xocs:file-basename>
+               <xocs:filename>si4.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>305</xocs:filesize>
+               <xocs:pixel-height>16</xocs:pixel-height>
+               <xocs:pixel-width>71</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si5.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/7f6d35eeaa66ad7caa0397812d68b531/si6.gif</xocs:ucs-locator>
+               <xocs:file-basename>si5</xocs:file-basename>
+               <xocs:filename>si5.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>305</xocs:filesize>
+               <xocs:pixel-height>16</xocs:pixel-height>
+               <xocs:pixel-width>71</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si6.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/7f6d35eeaa66ad7caa0397812d68b531/si6.gif</xocs:ucs-locator>
+               <xocs:file-basename>si6</xocs:file-basename>
+               <xocs:filename>si6.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>305</xocs:filesize>
+               <xocs:pixel-height>16</xocs:pixel-height>
+               <xocs:pixel-width>71</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si7.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/19c0e73264e3138e8ef1954e6e05abf2/si10.gif</xocs:ucs-locator>
+               <xocs:file-basename>si7</xocs:file-basename>
+               <xocs:filename>si7.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>490</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>114</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si8.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/19c0e73264e3138e8ef1954e6e05abf2/si10.gif</xocs:ucs-locator>
+               <xocs:file-basename>si8</xocs:file-basename>
+               <xocs:filename>si8.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>490</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>114</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S000926140101466X-si9.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S000926140101466X/STRIPIN/image/gif/19c0e73264e3138e8ef1954e6e05abf2/si10.gif</xocs:ucs-locator>
+               <xocs:file-basename>si9</xocs:file-basename>
+               <xocs:filename>si9.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>490</xocs:filesize>
+               <xocs:pixel-height>20</xocs:pixel-height>
+               <xocs:pixel-width>114</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="sco" xml:lang="en">
+         <item-info>
+            <jid>CPLETT</jid>
+            <aid>16423</aid>
+            <ce:pii>S0009-2614(01)01466-X</ce:pii>
+            <ce:doi>10.1016/S0009-2614(01)01466-X</ce:doi>
+            <ce:copyright type="unknown" year="2002"/>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="FIG1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0010">Exponents of the time-dependence of the directional mean square displacements as a function of the lower bound, <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">min</ce:inf>, of the diffusional regime in: (a) the <ce:italic>x</ce:italic>-direction (<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>); (b) the <ce:italic>y</ce:italic>-direction (<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>); (c) the <ce:italic>z</ce:italic>-direction (<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf>).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:table id="TBL1" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0015">Structural details of ZSM-5, ZSM-11 and Ferrierite</ce:simple-para>
+               </ce:caption>
+               <tgroup xmlns="http://www.elsevier.com/xml/common/cals/dtd" cols="7">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <colspec colname="col7" colsep="0"/>
+                  <thead>
+                     <row>
+                        <ce:entry>Zeolite</ce:entry>
+                        <ce:entry morerows="2" rowsep="1">Crystal system</ce:entry>
+                        <ce:entry morerows="2" rowsep="1">Unit cell composition</ce:entry>
+                        <ce:entry morerows="2" rowsep="1">Space group</ce:entry>
+                        <ce:entry namest="col5" nameend="col7" rowsep="1">Lattice parameters</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry colname="col5">
+                           <ce:italic>a</ce:italic>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>b</ce:italic>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>c</ce:italic>
+                        </ce:entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <ce:entry rowsep="1"/>
+                        <ce:entry colname="col5" rowsep="1">(Å)</ce:entry>
+                        <ce:entry rowsep="1">(Å)</ce:entry>
+                        <ce:entry rowsep="1">(Å)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-5</ce:entry>
+                        <ce:entry>Orthorhombic</ce:entry>
+                        <ce:entry>Si<ce:inf loc="post">96</ce:inf>O<ce:inf loc="post">196</ce:inf>
+                        </ce:entry>
+                        <ce:entry>Pnma</ce:entry>
+                        <ce:entry>20.07</ce:entry>
+                        <ce:entry align="char" char=".">19.92</ce:entry>
+                        <ce:entry>13.42</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-11</ce:entry>
+                        <ce:entry>Tetragonal</ce:entry>
+                        <ce:entry>Si<ce:inf loc="post">96</ce:inf>O<ce:inf loc="post">192</ce:inf>
+                        </ce:entry>
+                        <ce:entry>I4̄m2</ce:entry>
+                        <ce:entry>20.07</ce:entry>
+                        <ce:entry align="char" char=".">20.07</ce:entry>
+                        <ce:entry>13.41</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>Ferrierite</ce:entry>
+                        <ce:entry>Orthorhombic</ce:entry>
+                        <ce:entry>Si<ce:inf loc="post">36</ce:inf>O<ce:inf loc="post">72</ce:inf>
+                        </ce:entry>
+                        <ce:entry>Pnnm</ce:entry>
+                        <ce:entry>14.07</ce:entry>
+                        <ce:entry align="char" char=".">7.42</ce:entry>
+                        <ce:entry>18.72</ce:entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table id="TBL2" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0020">Lennard–Jones parameters for the sorbate–sorbate and sorbate–oxygen interactions</ce:simple-para>
+               </ce:caption>
+               <tgroup xmlns="http://www.elsevier.com/xml/common/cals/dtd" cols="5">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <thead>
+                     <row>
+                        <ce:entry>Sorbate</ce:entry>
+                        <ce:entry>
+                           <ce:italic>ϵ</ce:italic>
+                           <ce:inf loc="post">SS</ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>σ</ce:italic>
+                           <ce:inf loc="post">SS</ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>ϵ</ce:italic>
+                           <ce:inf loc="post">OS</ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>σ</ce:italic>
+                           <ce:inf loc="post">OS</ce:inf>
+                        </ce:entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row rowsep="1">
+                        <ce:entry/>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si1.gif">(<rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry>(Å)</ce:entry>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si2.gif">(<rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry>(Å)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry>0.085</ce:entry>
+                        <ce:entry>2.28</ce:entry>
+                        <ce:entry>0.426</ce:entry>
+                        <ce:entry>2.62</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry>1.183</ce:entry>
+                        <ce:entry>3.35</ce:entry>
+                        <ce:entry>1.028</ce:entry>
+                        <ce:entry>3.03</ce:entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table id="TBL3" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0025">Molecular dynamics simulation parameters used for helium and argon in the zeolites ZSM-5, ZSM-11 and ferrierite</ce:simple-para>
+               </ce:caption>
+               <tgroup xmlns="http://www.elsevier.com/xml/common/cals/dtd" cols="11">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <colspec colname="col7" colsep="0"/>
+                  <colspec colname="col8" colsep="0"/>
+                  <colspec colname="col9" colsep="0"/>
+                  <colspec colname="col10" colsep="0"/>
+                  <colspec colname="col11" colsep="0"/>
+                  <thead>
+                     <row>
+                        <ce:entry>Zeolite</ce:entry>
+                        <ce:entry morerows="1" rowsep="1">Rare gas</ce:entry>
+                        <ce:entry>
+                           <ce:italic>m</ce:italic>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>h</ce:italic>
+                        </ce:entry>
+                        <ce:entry>Conc.</ce:entry>
+                        <ce:entry>
+                           <ce:italic>t</ce:italic>
+                           <ce:inf loc="post">equil</ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>t</ce:italic>
+                           <ce:inf loc="post">prod</ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>T</ce:italic>
+                        </ce:entry>
+                        <ce:entry>〈<ce:italic>U</ce:italic>
+                           <ce:inf loc="post">gh</ce:inf>〉</ce:entry>
+                        <ce:entry>〈<ce:italic>U</ce:italic>
+                           <ce:inf loc="post">gg</ce:inf>〉</ce:entry>
+                        <ce:entry morerows="1" rowsep="1">Simulation cell</ce:entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <ce:entry rowsep="1"/>
+                        <ce:entry colname="col3" rowsep="1"/>
+                        <ce:entry rowsep="1">(amu)</ce:entry>
+                        <ce:entry rowsep="1">(fs)</ce:entry>
+                        <ce:entry rowsep="1">(atoms/u.c)</ce:entry>
+                        <ce:entry rowsep="1">(ns)</ce:entry>
+                        <ce:entry rowsep="1">(K)</ce:entry>
+                        <ce:entry rowsep="1">(<math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si3.gif">
+                              <rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>
+                           </math>)</ce:entry>
+                        <ce:entry rowsep="1">(<math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si4.gif">
+                              <rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>
+                           </math>)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-5</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>0.24</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">1.20</ce:entry>
+                        <ce:entry>309</ce:entry>
+                        <ce:entry align="char" char=".">−2.31</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry>(1,1,2)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">40</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>6.00</ce:entry>
+                        <ce:entry align="char" char=".">6.00</ce:entry>
+                        <ce:entry>296</ce:entry>
+                        <ce:entry align="char" char=".">−11.08</ce:entry>
+                        <ce:entry align="char" char=".">−0.60</ce:entry>
+                        <ce:entry>(1,1,2)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-11</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>0.24</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">4.80</ce:entry>
+                        <ce:entry>294</ce:entry>
+                        <ce:entry align="char" char=".">−2.33</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry>(1,1,2)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">40</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>6.00</ce:entry>
+                        <ce:entry align="char" char=".">12.00</ce:entry>
+                        <ce:entry>320</ce:entry>
+                        <ce:entry align="char" char=".">−10.94</ce:entry>
+                        <ce:entry align="char" char=".">−0.60</ce:entry>
+                        <ce:entry>(1.1.2)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>Ferrierite</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>0.24</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">4.80</ce:entry>
+                        <ce:entry>286</ce:entry>
+                        <ce:entry align="char" char=".">−2.76</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry>(2,3,1)</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">40</ce:entry>
+                        <ce:entry>1.20</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>6.00</ce:entry>
+                        <ce:entry align="char" char=".">12.00</ce:entry>
+                        <ce:entry>283</ce:entry>
+                        <ce:entry align="char" char=".">−12.87</ce:entry>
+                        <ce:entry align="char" char=".">−0.39</ce:entry>
+                        <ce:entry>(2,3,1)</ce:entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:legend>
+                  <ce:simple-para view="all" id="simple-para.0030">The time step, equilibration and production times are denoted by <ce:italic>h</ce:italic>, <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">equil</ce:inf> and <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">prod</ce:inf>, respectively.</ce:simple-para>
+               </ce:legend>
+            </ce:table>
+            <ce:table id="TBL4" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 4</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0035">The exponents of the time-dependence of the mean-square displacements of helium and argon in ZSM-5, ZSM-11 and ferrierite in the ballistic and diffusional regimes</ce:simple-para>
+               </ce:caption>
+               <tgroup xmlns="http://www.elsevier.com/xml/common/cals/dtd" cols="11">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <colspec colname="col7" colsep="0"/>
+                  <colspec colname="col8" colsep="0"/>
+                  <colspec colname="col9" colsep="0"/>
+                  <colspec colname="col10" colsep="0"/>
+                  <colspec colname="col11" colsep="0"/>
+                  <thead>
+                     <row>
+                        <ce:entry morerows="1" rowsep="1">Zeolite</ce:entry>
+                        <ce:entry morerows="1" rowsep="1">Sorbate</ce:entry>
+                        <ce:entry>Conc. (sorbates/u.c.)</ce:entry>
+                        <ce:entry namest="col4" nameend="col7" rowsep="1">Ballistic</ce:entry>
+                        <ce:entry colname="col8" namest="col8" nameend="col11" rowsep="1">Diffusional</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry colname="col3" rowsep="1"/>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>x</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>y</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>z</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>x</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>y</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>z</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry rowsep="1">
+                           <ce:italic>n</ce:italic>
+                        </ce:entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <ce:entry>ZSM-5</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.98</ce:entry>
+                        <ce:entry>1.02</ce:entry>
+                        <ce:entry>0.87</ce:entry>
+                        <ce:entry>0.99</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.94</ce:entry>
+                        <ce:entry>0.97</ce:entry>
+                        <ce:entry>0.87</ce:entry>
+                        <ce:entry>0.93</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-11</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.97</ce:entry>
+                        <ce:entry>1.01</ce:entry>
+                        <ce:entry>0.93</ce:entry>
+                        <ce:entry>0.98</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">12</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.96</ce:entry>
+                        <ce:entry>0.99</ce:entry>
+                        <ce:entry>0.91</ce:entry>
+                        <ce:entry>0.96</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>Ferrierite</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.95</ce:entry>
+                        <ce:entry>1.00</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>0.98</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">4</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>1.99</ce:entry>
+                        <ce:entry>0.95</ce:entry>
+                        <ce:entry>0.95</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>0.97</ce:entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table id="TBL5" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 5</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all" id="simple-para.0040">Average guest–guest and guest–host potential energies and diffusion coefficients of helium and argon in ZSM-5, ZSM-11 and ferrierite at 300 K (±20 K)</ce:simple-para>
+               </ce:caption>
+               <tgroup xmlns="http://www.elsevier.com/xml/common/cals/dtd" cols="10">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <colspec colname="col7" colsep="0"/>
+                  <colspec colname="col8" colsep="0"/>
+                  <colspec colname="col9" colsep="0"/>
+                  <colspec colname="col10" colsep="0"/>
+                  <thead>
+                     <row>
+                        <ce:entry>Zeolite</ce:entry>
+                        <ce:entry>Sorbate</ce:entry>
+                        <ce:entry>〈<ce:italic>U</ce:italic>
+                           <ce:inf loc="post">gg</ce:inf>〉</ce:entry>
+                        <ce:entry>〈<ce:italic>U</ce:italic>
+                           <ce:inf loc="post">gh</ce:inf>〉</ce:entry>
+                        <ce:entry>
+                           <ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>x</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>y</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>z</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>D</ce:italic>
+                        </ce:entry>
+                        <ce:entry>
+                           <ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>y</ce:italic>
+                           </ce:inf>/<ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>x</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                        <ce:entry>(<ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>x</ce:italic>
+                           </ce:inf>+<ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>y</ce:italic>
+                           </ce:inf>)/2<ce:italic>D</ce:italic>
+                           <ce:inf loc="post">
+                              <ce:italic>z</ce:italic>
+                           </ce:inf>
+                        </ce:entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row rowsep="1">
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry>(<math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si5.gif">
+                              <rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>
+                           </math>)</ce:entry>
+                        <ce:entry>(<math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si6.gif">
+                              <rm>kJ<ce:hsp sp="0.35"/>mol</rm>
+                              <sup loc="post">−1</sup>
+                           </math>)</ce:entry>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si7.gif">(10<sup loc="post">−8</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>m</rm>
+                              <sup loc="post">2</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>s</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si8.gif">(10<sup loc="post">−8</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>m</rm>
+                              <sup loc="post">2</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>s</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si9.gif">(10<sup loc="post">−8</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>m</rm>
+                              <sup loc="post">2</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>s</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry>
+                           <math xmlns="http://www.elsevier.com/xml/ja/dtd" altimg="si10.gif">(10<sup loc="post">−8</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>m</rm>
+                              <sup loc="post">2</sup>
+                              <ce:hsp sp="0.35"/>
+                              <rm>s</rm>
+                              <sup loc="post">−1</sup>)</math>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-5</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry align="char" char=".">−2.31</ce:entry>
+                        <ce:entry>6.28</ce:entry>
+                        <ce:entry>7.22</ce:entry>
+                        <ce:entry>1.97</ce:entry>
+                        <ce:entry>5.10</ce:entry>
+                        <ce:entry>1.15</ce:entry>
+                        <ce:entry>3.43</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">−0.60</ce:entry>
+                        <ce:entry align="char" char=".">−11.08</ce:entry>
+                        <ce:entry>0.63</ce:entry>
+                        <ce:entry>0.76</ce:entry>
+                        <ce:entry>0.23</ce:entry>
+                        <ce:entry>0.53</ce:entry>
+                        <ce:entry>1.21</ce:entry>
+                        <ce:entry>3.02</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>ZSM-11</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry align="char" char=".">−2.33</ce:entry>
+                        <ce:entry>7.15</ce:entry>
+                        <ce:entry>6.09</ce:entry>
+                        <ce:entry>1.46</ce:entry>
+                        <ce:entry>4.85</ce:entry>
+                        <ce:entry>0.85</ce:entry>
+                        <ce:entry>4.53</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">−0.60</ce:entry>
+                        <ce:entry align="char" char=".">−10.94</ce:entry>
+                        <ce:entry>0.70</ce:entry>
+                        <ce:entry>0.71</ce:entry>
+                        <ce:entry>0.22</ce:entry>
+                        <ce:entry>0.54</ce:entry>
+                        <ce:entry>1.01</ce:entry>
+                        <ce:entry>3.20</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry>
+                           <ce:vsp sp="0.5"/>
+                        </ce:entry>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                        <ce:entry/>
+                     </row>
+                     <row>
+                        <ce:entry>Ferrierite</ce:entry>
+                        <ce:entry>He</ce:entry>
+                        <ce:entry align="char" char=".">0.02</ce:entry>
+                        <ce:entry align="char" char=".">−2.71</ce:entry>
+                        <ce:entry>5.63</ce:entry>
+                        <ce:entry>6.03</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>5.95</ce:entry>
+                        <ce:entry>1.07</ce:entry>
+                        <ce:entry>–</ce:entry>
+                     </row>
+                     <row>
+                        <ce:entry/>
+                        <ce:entry>Ar</ce:entry>
+                        <ce:entry align="char" char=".">−0.39</ce:entry>
+                        <ce:entry align="char" char=".">−12.87</ce:entry>
+                        <ce:entry>0.12</ce:entry>
+                        <ce:entry>0.62</ce:entry>
+                        <ce:entry>–</ce:entry>
+                        <ce:entry>0.38</ce:entry>
+                        <ce:entry>5.17</ce:entry>
+                        <ce:entry>–</ce:entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:title>Diffusional behaviour of simple sorbates in zeolites: effect of anisotropic frameworks and geometrical correlations</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>Sudeshna</ce:given-name>
+                  <ce:surname>Kar</ce:surname>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Charusita</ce:given-name>
+                  <ce:surname>Chakravarty</ce:surname>
+                  <ce:cross-ref refid="COR1">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+                  
+               </ce:author>
+               <ce:affiliation>
+                  <ce:textfn>Department of Chemistry, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="COR1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author. Fax: +91-011-686-2122</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="11" month="9" year="2001"/>
+            <ce:date-revised day="4" month="12" year="2001"/>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:simple-para view="all" id="simple-para.0045">Molecular dynamics (MD) studies of helium and argon diffusion in all-silica analogues of ZSM-5, ZSM-11 and ferrierite are used to study diffusional anisotropy. All three zeolites have channels running parallel to only two of the three crystallographic axes. ZSM-5 and ZSM-11, however, allow for three-dimensional diffusional motion due to the presence of geometrical correlations. Motion in the correlated direction, which has no direct displacement channels, is distinctly subdiffusional on time scales of the order of 1 ns. The ballistic to diffusional crossover times are much greater for displacements in the direction showing correlated, as opposed to, direct displacements.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+         </head>
+         <body>
+            <ce:sections>
+               <ce:section view="all" id="section.0010">
+                  <ce:label>1</ce:label>
+                  <ce:section-title>Introduction</ce:section-title>
+                  <ce:para view="all" id="para.0010">Transport properties of simple sorbates in zeolites provide convenient models for understanding the effect of confinement in a microporous medium on the dynamics of fluids since zeolites are ordered porous media with well-characterised crystallographic structures which provide a very wide variety of pore dimensions, binding energies and channel geometries <ce:cross-refs refid="BIB1 BIB2 BIB3 BIB4">[1–4]</ce:cross-refs>. An obvious way in which confinement in a zeolite can alter the dynamics of a fluid is by inducing diffusional anisotropy due to a framework geometry belonging to a non-cubic space group resulting in unequal magnitudes of the three principal components of the diffusion tensor <ce:cross-refs refid="BIB3 BIB4">[3,4]</ce:cross-refs>. A related effect of confinement is the interdependence of the directional diffusivities due to special features of the channel network. Such geometrical correlations are said to occur when diffusion in a particular direction is possible as a result of correlated motions in orthogonal directions <ce:cross-ref refid="BIB3">[3]</ce:cross-ref>. Examples of zeolites in which this is known to occur are ZSM-5, ZSM-11 and gismondine.</ce:para>
+                  <ce:para view="all" id="para.0015">Diffusional anisotropy and associated geometrical correlations have been most extensively studied in the pure silica analogue of the industrially important zeolite ZSM-5 <ce:cross-refs refid="BIB5 BIB6 BIB7 BIB8 BIB9">[5–9]</ce:cross-refs>. ZSM-5 belongs to an orthorhombic space group and contains channels parallel to the <ce:italic>x</ce:italic>- and <ce:italic>y</ce:italic>-directions. The channel connectivity is such that at a channel intersection the sorbate can move in one of the four directions in the <ce:italic>x</ce:italic>,<ce:italic>y</ce:italic>-channel system and sorbate diffusion along the <ce:italic>z</ce:italic>-direction is only possible by alternation of the sorbate between straight and zig-zag channels. To understand the effect of such geometrical correlations on the diffusional anisotropy, Kärger developed a Markovian random walk model for diffusion in ZSM-5 which predicts the following relationship between the diffusion coefficients, <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>, <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf> and <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf>, in the <ce:italic>x</ce:italic>-, <ce:italic>y</ce:italic>- and <ce:italic>z</ce:italic>-directions <ce:cross-ref refid="BIB5">[5]</ce:cross-ref>
+                     <display>
+                        <formula id="FD1">
+                           <ce:label>(1)</ce:label>
+                           <math altimg="si11.gif">
+                              <fr shape="built" align="c" style="s">
+                                 <nu>c<sup loc="post">2</sup>
+                                 </nu>
+                                 <de>D<inf loc="post">z</inf>
+                                 </de>
+                              </fr>=<fr shape="built" align="c" style="s">
+                                 <nu>a<sup loc="post">2</sup>
+                                 </nu>
+                                 <de>D<inf loc="post">x</inf>
+                                 </de>
+                              </fr>+<fr shape="built" align="c" style="s">
+                                 <nu>b<sup loc="post">2</sup>
+                                 </nu>
+                                 <de>D<inf loc="post">y</inf>
+                                 </de>
+                              </fr>,</math>
+                        </formula>
+                     </display>where <ce:italic>a</ce:italic>, <ce:italic>b</ce:italic> and <ce:italic>c</ce:italic> are the unit cell dimensions <ce:cross-refs refid="BIB8 BIB9">[8,9]</ce:cross-refs>. This model predicts that the anisotropy parameter, <ce:italic>A</ce:italic>=(<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>+<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>)/2<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf>, should be greater than 4.4 and the randomisation parameter, <ce:italic>β</ce:italic>=(<ce:italic>c</ce:italic>
+                     <ce:sup loc="post">2</ce:sup>/<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf>)/(<ce:italic>a</ce:italic>
+                     <ce:sup loc="post">2</ce:sup>/<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>+<ce:italic>b</ce:italic>
+                     <ce:sup loc="post">2</ce:sup>/<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>), should be unity. A recent molecular dynamics (MD) study of simple Lennard–Jones sorbates in ZSM-5 showed that the degree and nature of diffusional anisotropy depended significantly on the properties of the sorbate <ce:cross-ref refid="BIB10">[10]</ce:cross-ref>. Helium, the smallest and most weakly bound sorbate, was found to comply most closely with the behaviour expected on the basis of the simple random walk model of Kärger with <ce:italic>β</ce:italic> close to unity and <ce:italic>A</ce:italic> close to 4. The larger and more strongly bound sorbates (Ne, Ar, CH<ce:inf loc="post">4</ce:inf> and Xe) showed significant deviations from this model. While the correlation rule in <ce:cross-ref refid="FD1">Eq. (1)</ce:cross-ref> depends on the specific channel network seen in ZSM-5, two novel features of diffusional anisotropy emerged from this study which were related to the presence of geometrical correlations. These are: (a) slow crossover from ballistic to diffusional motion in the direction showing correlated displacements when compared to the directions showing direct displacements; and (b) subdiffusional behaviour in the correlated direction which persists over fairly long time scales of the order of 1 ns. For example, other than helium, all the other rare gases showed distinctly subdiffusional motion along the <ce:italic>z</ce:italic>-direction with the mean square displacement growing as ≈<ce:italic>t</ce:italic>
+                     <ce:sup loc="post">0.85</ce:sup> while in the <ce:italic>x</ce:italic>- and <ce:italic>y</ce:italic>-direction, the exponents were between 0.94 and 1.00. This suggests that the presence of geometrical correlations slows down the onset of Fickian or true diffusional behaviour to a sufficient degree that the resulting anisotropic subdiffusional behaviour in the direction showing correlated displacements may be potentially observable experimentally. The deviation from true diffusional behaviour for motion along the <ce:italic>z</ce:italic>-direction was found to depend on the following factors: (i) the geometrical connectivity of the ZSM-5 channel network; (ii) the nature of the potential energy landscape seen by a sorbate located within the channel spaces; and (iii) the packing density.</ce:para>
+                  <ce:para view="all" id="para.0020">In this work, we present further tests of the effect of geometrical correlations on the behaviour of the mean square displacement as a function of time using MD simulations. The time dependence of the ensemble-averaged mean square displacement, <math altimg="si12.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>r</b>
+                        </rm>(t)</math>, and its directional components, <math altimg="si13.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>x</b>
+                        </rm>(t)</math>, <math altimg="si14.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>y</b>
+                        </rm>(t)</math> and <math altimg="si15.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>z</b>
+                        </rm>(t)</math>, on time can be represented by the relations:<display>
+                        <formula id="FD2">
+                           <ce:label>(2)</ce:label>
+                           <math altimg="si16.gif">Δ<sup loc="post">2</sup>
+                              <rm>
+                                 <b>r</b>
+                              </rm>(t)=<rm>ln</rm>〈|<rm>
+                                 <b>r</b>
+                              </rm>(t)−<rm>
+                                 <b>r</b>
+                              </rm>(0)|<sup loc="post">2</sup>〉=<rm>ln</rm>(6D)+n<rm>ln</rm>t,</math>
+                        </formula>
+                     </display>
+                     <display>
+                        <formula id="FD3">
+                           <ce:label>(3)</ce:label>
+                           <math altimg="si17.gif">Δ<sup loc="post">2</sup>
+                              <rm>
+                                 <b>x</b>
+                              </rm>(t)=<rm>ln</rm>〈|<rm>
+                                 <b>x</b>
+                              </rm>(t)−<rm>
+                                 <b>x</b>
+                              </rm>(0)|<sup loc="post">2</sup>〉=<rm>ln</rm>(2D<inf loc="post">x</inf>)+n<inf loc="post">x</inf>
+                              <rm>ln</rm>t</math>
+                        </formula>
+                     </display>and their analogues in the <ce:italic>y</ce:italic>- and <ce:italic>z</ce:italic>-directions. Typically, in condensed phases, at very short times, ballistic behaviour is seen and the exponents, <ce:italic>n</ce:italic>, <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>, <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf> and <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf>, are 2. Over long time scales, diffusional behaviour sets in and the exponents are all unity. In sorbate–zeolite systems, deviations from integer power dependence are observed due to the effects of the confining potential <ce:cross-ref refid="BIB11">[11]</ce:cross-ref>. In the present work, MD simulations are performed to compute the diffusivities, (<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>, <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>, <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> and <ce:italic>D</ce:italic>) and exponents (<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>, <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>, <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> and <ce:italic>n</ce:italic>) for helium and argon in three zeolites: ZSM-5, ZSM-11 and ferrierite. ZSM-11, like ZSM-5, shows geometrical correlations, whereas ferrierite forms a simple two-dimensional channel system. This Letter is organised as follows. Zeolite structures, potential energy functions and simulation details are given in <ce:cross-ref refid="SEC1">Section 2</ce:cross-ref>. <ce:cross-ref refid="SEC2">Section 3</ce:cross-ref> contains a discussion of the results and <ce:cross-ref refid="SEC3">Section 4</ce:cross-ref> summarises the main conclusions of the study.</ce:para>
+               </ce:section>
+               <ce:section id="SEC1" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title>Computational details</ce:section-title>
+                  <ce:section view="all" id="section.0015">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title>Zeolite structures</ce:section-title>
+                     <ce:para view="all" id="para.0025">Crystallographic data on ZSM-5, ZSM-11 and ferrierite are summarised in <ce:cross-ref refid="TBL1">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="TBL1"/>
+                        <ce:cross-refs refid="BIB12 BIB13 BIB14 BIB15">[12–15]</ce:cross-refs>. The essential features of the channel topology from the point of view of this study are as follows. ZSM-5 has straight channels parallel to the <ce:italic>y</ce:italic>-axis with elliptical cross-sections of size <math altimg="si18.gif">(5.7<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>×5.1<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>)</math>. The zig-zag channels run parallel to the <ce:italic>x</ce:italic>-axis with a circular cross-section of 5.4 Å radius. Diffusion along the <ce:italic>z</ce:italic>-direction is only possible by alternation of the sorbate between the straight and zig-zag channels. ZSM-11 has straight channels running along <ce:italic>x</ce:italic>- and <ce:italic>y</ce:italic>-directions with nearly circular cross-sectional radii of 5.4 Å. Like ZSM-5, ZSM-11 can also show geometrical correlation. Ferrierite has channels parallel to the <ce:italic>y</ce:italic>- and <ce:italic>x</ce:italic>-direction with elliptical cross-sections of dimensions <math altimg="si19.gif">(5.4<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>×4.2<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>)</math> and <math altimg="si20.gif">(4.8<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>×3.5<ce:hsp sp="0.35"/>
+                           <a valign="u">
+                              <ac>
+                                 <rm>A</rm>
+                              </ac>
+                              <ac>̊</ac>
+                           </a>)</math>, respectively.</ce:para>
+                  </ce:section>
+                  <ce:section view="all" id="section.0020">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title>Potential energy surface</ce:section-title>
+                     <ce:para view="all" id="para.0030">The functional form of the potential energy surface for the Lennard–Jones sorbates in all-silica ZSM-5, ZSM-11 and ferrierite is based on the Kiselev model <ce:cross-refs refid="BIB16 BIB17 BIB18">[16–18]</ce:cross-refs>. The total potential energy is subdivided into a guest–host term, <ce:italic>U</ce:italic>
+                        <ce:inf loc="post">gh</ce:inf>, and a guest–guest term, <ce:italic>U</ce:italic>
+                        <ce:inf loc="post">gg</ce:inf>. The latter is a pairwise additive Lennard–Jones potential between the sorbate atoms. <ce:italic>U</ce:italic>
+                        <ce:inf loc="post">gh</ce:inf> is parametrised assuming that the silicon atoms in the framework are completely shielded from interaction with the sorbate by the lattice oxygen atoms. Only the short-range repulsion and dispersion interactions between the lattice oxygen atoms and the sorbates are considered and the functional form of <ce:italic>U</ce:italic>
+                        <ce:inf loc="post">gh</ce:inf> is given by<display>
+                           <formula>
+                              <ce:label>(4)</ce:label>
+                              <math altimg="si21.gif">U<inf loc="post">
+                                    <rm>gh</rm>
+                                 </inf>=∑<inf loc="post">j=1</inf>
+                                 <sup loc="post">n<inf loc="post">
+                                       <rm>O</rm>
+                                    </inf>
+                                 </sup>∑<inf loc="post">i=1</inf>
+                                 <sup loc="post">N</sup>4ϵ<inf loc="post">
+                                    <rm>OS</rm>
+                                 </inf>
+                                 <fen>
+                                    <cp type="lpar" style="s"/>
+                                    <fr shape="built" align="c" style="s">
+                                       <nu>σ<inf loc="post">
+                                             <rm>OS</rm>
+                                          </inf>
+                                          <sup loc="post">12</sup>
+                                       </nu>
+                                       <de>r<inf loc="post">ij</inf>
+                                          <sup loc="post">12</sup>
+                                       </de>
+                                    </fr>−<fr shape="built" align="c" style="s">
+                                       <nu>σ<inf loc="post">
+                                             <rm>OS</rm>
+                                          </inf>
+                                          <sup loc="post">6</sup>
+                                       </nu>
+                                       <de>r<inf loc="post">ij</inf>
+                                          <sup loc="post">6</sup>
+                                       </de>
+                                    </fr>
+                                    <cp type="rpar" style="s"/>
+                                 </fen>,</math>
+                           </formula>
+                        </display>where <ce:italic>n</ce:italic>
+                        <ce:inf loc="post">O</ce:inf> and <ce:italic>N</ce:italic> are the number of framework oxygen and sorbate atoms, respectively, <ce:italic>r</ce:italic>
+                        <ce:inf loc="post">
+                           <ce:italic>ij</ce:italic>
+                        </ce:inf> is the distance between the <ce:italic>j</ce:italic>th framework oxygen and the <ce:italic>i</ce:italic>th sorbate atom and <ce:italic>ϵ</ce:italic>
+                        <ce:inf loc="post">SO</ce:inf> and <ce:italic>σ</ce:italic>
+                        <ce:inf loc="post">SO</ce:inf> are the Lennard–Jones parameters for the sorbate–oxygen interaction. We use the same set of potential energy parameters for the three zeolites (see <ce:cross-ref refid="TBL2">Table 2</ce:cross-ref>
+                        <ce:float-anchor refid="TBL2"/>) <ce:cross-refs refid="BIB10 BIB19 BIB20">[10,19,20]</ce:cross-refs>.</ce:para>
+                  </ce:section>
+                  <ce:section view="all" id="section.0025">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title>Molecular dynamics</ce:section-title>
+                     <ce:para view="all" id="para.0035">Molecular dynamics simulations were carried out in the microcanonical (NVE) ensemble using the velocity Verlet algorithm <ce:cross-ref refid="BIB21">[21]</ce:cross-ref>. The reference temperature was taken to be 300 K when equilibrating the system using velocity scaling; actual temperatures during a run were within ±20 K of this value. Orthorhombic periodic boundary conditions were imposed with a spherical cut-off radius of 12 Å for sorbate–sorbate and sorbate–zeolite interactions. The time step for each system was chosen to ensure energy conservation to better than the third significant figure. In accordance with previous studies, the zeolite framework was assumed to be rigid <ce:cross-refs refid="BIB10 BIB11 BIB20 BIB22 BIB23">[10,11,20,22,23]</ce:cross-refs>. To ensure adequate equilibration in a rigid lattice framework, the system was thermalised at a high temperature of 500 K and then cooled slowly to 300 K in steps of 50 K. Simulation parameters for helium and argon in ZSM-5, ZSM-11 and ferrierite were determined on the basis of detailed convergence tests for Lennard–Jones sorbates in ZSM-5 reported previously. Diffusion coefficients were calculated using an order-N algorithm with error bars of approximately ±10 to ±20%. The simulation parameters used for helium and argon are given in <ce:cross-ref refid="TBL3">Table 3</ce:cross-ref>
+                        <ce:float-anchor refid="TBL3"/>. When comparing diffusional behaviour in ZSM-5, ZSM-11 and ferrierite, we considered helium and argon as sorbates since the former is the smallest and argon is the largest rare-gas sorbate able to traverse the three zeolite channel systems considered in this work.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="SEC2" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title>Results and discussion</ce:section-title>
+                  <ce:para view="all" id="para.0040">
+                     <ce:cross-ref refid="TBL4">Table 4</ce:cross-ref>
+                     <ce:float-anchor refid="TBL4"/> compares the exponents for the time dependence of the mean square displacement of helium and argon in ZSM-5, ZSM-11 and ferrierite in both the ballistic and diffusional regimes. The extent of the ballistic, crossover and diffusional regimes can be determined from plots of <math altimg="si22.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>r</b>
+                        </rm>(t)</math> (or <math altimg="si23.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>x</b>
+                        </rm>(t)</math>, <math altimg="si24.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>y</b>
+                        </rm>(t)</math>, or <math altimg="si25.gif">Δ<sup loc="post">2</sup>
+                        <rm>
+                           <b>z</b>
+                        </rm>(t)</math>) on a logarithmic scale. In determining the exponents in <ce:cross-ref refid="TBL4">Table 4</ce:cross-ref>, the ballistic regime for He and Ar was assumed to extend up to 0.05 and 0.1 ps, respectively, while the diffusional regime was assumed to begin at 1 and 24 ps, respectively. All the exponents for all six sorbate–zeolite pairs are very close to 2 in the ballistic regime. The behaviour in the diffusional regime is much more variable. In general, the exponents for He are slightly greater than the corresponding ones for Ar indicating that the motion of the smaller He sorbate is more rapidly randomised in the zeolite pore spaces. In both ZSM-5 and ZSM-11, the <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> values are significantly lower than the corresponding value of (<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>+<ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>)/2, confirming the distinctly subdiffusional character of sorbate motion along the <ce:italic>z</ce:italic>-direction. These low values of <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> correspond to time scales of the order of nanoseconds (≈<ce:italic>t</ce:italic>
+                     <ce:inf loc="post">prod</ce:inf>) and may therefore be observable by pulsed field-gradient NMR. It is possible that in the long time limit true diffusional behaviour with an <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> exponent of unity is restored, as has been suggested in the case of single-file diffusion in zeolites <ce:cross-refs refid="BIB24 BIB25">[24,25]</ce:cross-refs>.</ce:para>
+                  <ce:para view="all" id="para.0045">To examine the crossover behaviour when going from the ballistic to the diffusional regime, the following procedure was adopted. The diffusional regime was defined by a minimum time, <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">min</ce:inf>, and a maximum time, <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">max</ce:inf>=<ce:italic>t</ce:italic>
+                     <ce:inf loc="post">prod</ce:inf>/2, where <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">prod</ce:inf> is the production run length. <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">min</ce:inf> was varied from 5 to 50 ps for argon and from 0.5 to 30 ps for helium. The exponents in the diffusional regime were determined as a function of <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">min</ce:inf> by fitting the data over the corresponding length of time in the diffusional regime to <ce:cross-refs refid="FD2 FD3">Eqs. (2) and (3)</ce:cross-refs>. One may expect that if the crossover is sharp then the exponents will rapidly settle to a value characteristic of the diffusional regime.</ce:para>
+                  <ce:para view="all" id="para.0050">
+                     <ce:cross-ref refid="FIG1">Fig. 1a</ce:cross-ref>
+                     <ce:float-anchor refid="FIG1"/> shows the <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> versus <ce:italic>t</ce:italic>
+                     <ce:inf loc="post">min</ce:inf> plots. Except for Ar in ferrierite, for all other sorbate–zeolite pairs, <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> settles down fairly quickly to an asymptotic value with fluctuations of ±0.01. The anomalous and slow rise of <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> in the case of Ar in ferrierite is because the minor axis of the elliptical channels in the <ce:italic>x</ce:italic>-direction is almost the same as the van der Waals diameter of Ar resulting in constrained motion in this direction. <ce:cross-ref refid="FIG1">Fig. 1b</ce:cross-ref> shows that the value of <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf> stabilises to an asymptotic value fairly quickly in all the cases studied and therefore the crossover regime must be very narrow. <ce:cross-ref refid="FIG1">Fig. 1c</ce:cross-ref> clearly shows the slow crossover behaviour in the correlated <ce:italic>z</ce:italic>-direction for both He and Ar in ZSM-5 and ZSM-11, which is more pronounced for Ar. The variation of <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> is much wider than for <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> and <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>. The <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> values in ZSM-11 are larger than those for sorbates in ZSM-5 possibly indicating that the connectivity of the channel network allows for more rapid randomisation of motion in the correlated direction in the case of ZSM-11.</ce:para>
+                  <ce:para view="all" id="para.0055">
+                     <ce:cross-ref refid="TBL5">Table 5</ce:cross-ref>
+                     <ce:float-anchor refid="TBL5"/> shows the average sorbate–sorbate and sorbate–zeolite potential energies as well as diffusion coefficients for argon in ZSM-5, ZSM-11 and ferrierite. Interestingly the structural similarity of ZSM-5 and ZSM-11 is reflected in the values of 〈<ce:italic>U</ce:italic>
+                     <ce:inf loc="post">gg</ce:inf>〉, 〈<ce:italic>U</ce:italic>
+                     <ce:inf loc="post">gh</ce:inf>〉 as well as the diffusion coefficients. Directional diffusivities of He are always greater than those of Ar as a consequence of the much smaller size, mass and polarisability of the He atom. Given the ±10–20% errors in the diffusivities, the <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>/<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> ratio is remarkably close to unity for all the cases except Ar in Ferrierite while <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> (for ZSM-5 and ZSM-11) is always much less than <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf> or <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf>. The high value of <ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>y</ce:italic>
+                     </ce:inf>/<ce:italic>D</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> for Ar in ferrierite is due to the constrained motion of Ar in the channels parallel to the <ce:italic>x</ce:italic>-direction.</ce:para>
+                  <ce:para view="all" id="para.0060">Before concluding this discussion, it is important to consider the effect of including lattice vibrations on our results. Clearly the presence of both simple geometrical constraints e.g. narrow channel dimensions, and long length scale features of the channel network can result in incomplete or slow randomisation of sorbate motion and subdiffusional behaviour. If lattice vibrations are explicitly included, they will tend to promote randomisation within a given channel system but are unlikely to significantly affect properties which depend on the large length scale features of the zeolite. Thus, the <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>x</ce:italic>
+                     </ce:inf> exponent of Ar in ferrierite is expected to be more sensitive to lattice vibrations than the <ce:italic>n</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:italic>z</ce:italic>
+                     </ce:inf> coefficients in ZSM-5 and ZSM-11. One can also conjecture that any increase in constraints on the passage of a sorbate through a zeolite will result in a tendency to slow down the onset of true diffusional or Fickian behaviour. Geometrical correlations present just one example of this type of behaviour.</ce:para>
+               </ce:section>
+               <ce:section id="SEC3" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title>Conclusions</ce:section-title>
+                  <ce:para view="all" id="para.0065">The results of the MD studies of He and Ar in ZSM-5, ZSM-11 and ferrierite indicate that the presence of geometrical correlations substantially reduces the exponent of the time dependence of the mean square displacement in the correlated direction from the true diffusional value of unity for time scales of the order of 1 ns. Geometrical correlations also increase the time taken for the system to crossover from ballistic to diffusional behaviour.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment>
+               <ce:section-title>Acknowledgements</ce:section-title>
+               <ce:para view="all" id="para.0070">This work was supported by Indian National Science Academy (INSA) and Council of Scientific and Industrial Research (CSIR).</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail>
+            <ce:bibliography view="all" id="bibliography.0010">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec id="bibliography-sec.0010">
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.M.</ce:given-name>
+                                 <ce:surname>Barrer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Zeolites and Clay Minerals as Sorbents and Molecular Sieves</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1978</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Academic Press</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.W.</ce:given-name>
+                                 <ce:surname>Breck</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Zeolite Molecular Sieves</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1974</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Wiley Interscience</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kärger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.M.</ce:given-name>
+                                 <ce:surname>Ruthven</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Diffusion in Zeolites and Other Microporous Solids</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1992</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Wiley</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Demontis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Suffriti</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>97</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2845</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kärger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>95</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5558</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.J.</ce:given-name>
+                                 <ce:surname>Maginn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.T.</ce:given-name>
+                                 <ce:surname>Bell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.N.</ce:given-name>
+                                 <ce:surname>Theodorou</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>100</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7155</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB7">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Jost</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.-K.</ce:given-name>
+                                 <ce:surname>Bär</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Fritzsche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Haberlandt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kärger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>102</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6375</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kärger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Demontis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Suffriti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Tilocca</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>110</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1163</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB9">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Jousse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Auerbach</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.P.</ce:given-name>
+                                 <ce:surname>Vercauteren</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>112</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1531</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB10">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chakravarty</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>105</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5785</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB11">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ghosh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Ananthakrishna</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yashonath</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Demontis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Suffriti</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>98</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9354</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Olson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.T.</ce:given-name>
+                                 <ce:surname>Kokotailo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.L.</ce:given-name>
+                                 <ce:surname>Lawton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.M.</ce:given-name>
+                                 <ce:surname>Meier</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>85</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1981</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2238</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB13">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Lermer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Draeger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Steffen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.K.</ce:given-name>
+                                 <ce:surname>Unger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Zeolites</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>131</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.T.</ce:given-name>
+                                 <ce:surname>Kokotailo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Chu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.L.</ce:given-name>
+                                 <ce:surname>Lawton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.M.</ce:given-name>
+                                 <ce:surname>Meier</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>275</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1978</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>119</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB15">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.M.</ce:given-name>
+                                 <ce:surname>Meier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Olson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Atlas of Zeolite Structure Types</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1988</sb:date>
+                              <sb:publisher>
+                                 <sb:name>University Press</sb:name>
+                                 <sb:location>Cambridge</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.G.</ce:given-name>
+                                 <ce:surname>Bezus</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.V.</ce:given-name>
+                                 <ce:surname>Kiselev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Lopatkin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Quang Du</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Chem. Soc., Faraday Trans.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>74</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1978</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>367</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.V.</ce:given-name>
+                                 <ce:surname>Kiselev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Lopatkin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Shulga</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Zeolites</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>261</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.V.</ce:given-name>
+                                 <ce:surname>Kiselev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Quang Du</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Chem. Soc., Faraday Trans.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>77</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1981</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB19">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chakravarty</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. B</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>101</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1878</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB20">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>El Amrani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Vigné-Maeder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Bigot</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>96</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9417</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Frenkel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Smit</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Understanding Molecular Simulation: From Algorithms to Applications</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1996</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Academic Press</sb:name>
+                                 <sb:location>USA</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB22">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Mehra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Basra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Khanna</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chakravarty</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. B</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2740</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Demontis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Suffriti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.S.</ce:given-name>
+                                 <ce:surname>Fois</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Quartieri</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>96</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1482</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB24">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Hahn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Karger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>100</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>316</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB25">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Kukla</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kornatowksi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Demuth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Girnus</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Pfeifer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.V.C.</ce:given-name>
+                                 <ce:surname>Rees</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Schunk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.K.</ce:given-name>
+                                 <ce:surname>Unger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kärger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>272</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>702</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

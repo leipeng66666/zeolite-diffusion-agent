@@ -1,0 +1,16 @@
+# Core dependencies — Python >= 3.10 (recommended 3.12)
+
+# OpenAI-compatible API client (for DeepSeek)
+openai>=1.73.0
+
+# Data processing
+pandas>=2.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# File system monitoring (agent.py watch mode)
+watchdog>=4.0.0
+
+# XML / HTML parsing (xml-clean.py / html-clean.py)
+lxml>=5.0.0

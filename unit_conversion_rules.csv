@@ -1,0 +1,20 @@
+﻿original_unit,operation,factor
+10^-12 m^2 s^-1,multiply,1e-12
+10^{-10} m^2 s^{-1},multiply,1e-10
+cm2 s-1,multiply,0.0001
+cm2/min,multiply,1.6667e-06
+cm2/s,multiply,0.0001
+cm^2 s^{-1},multiply,0.0001
+cm^2/min,multiply,1.6667e-06
+cm^2/s,multiply,0.0001
+m2 s-1,identity,1.0
+m2/min,multiply,0.016667
+m2/s,identity,1.0
+m^2/s,identity,1.0
+m^2/s^α,keep,
+m^2/yr,multiply,3.171e-08
+mm2/h,multiply,2.7778e-10
+Å²·ps⁻¹,multiply,1e-08
+none,keep,
+??·ps??,keep,
+??/million MC steps,keep,N/A

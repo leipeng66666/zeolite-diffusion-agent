@@ -1,0 +1,11 @@
+﻿original_unit,operation,factor
+MPa,multiply,10
+Pa,multiply,1e-5
+Torr,multiply,0.00133322
+atm,multiply,1.01325
+bar,identity,1.0
+kPa,multiply,0.01
+mbar,multiply,0.001
+mmHg,multiply,0.00133322
+torr,multiply,0.00133322
+none,keep,N/A

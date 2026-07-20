@@ -1,0 +1,222 @@
+Since the pioneering studies of Binning (1961) , Binning et al. (1958, 1962) in the early 1960s, many works have been reported on pervaporation (PV) for membrane-based separation processes, as described in several reviews ( Bowen et al., 2004; Jonquières et al., 2002; Feng and Huang, 1997; Karlsson and TrägÅrdh, 1993 ). In the mid 1990s a strong interest in the use of zeolite membranes for PV applications emerged when Kita et al. (1995) , Kondo et al. (1997) and Okamoto and Kita (1995) published and patented the first polycrystalline hydrophilic zeolite membrane (A-type) suitable for dehydrating short-chain alcohols, now implemented at industrial scale ( Morigami et al., 2001 ). Since then, a great number of hydrophilic zeolite membranes (e.g., zeolites NaA, Pera-Titus et al., 2005; Okamoto et al., 2001; Shah et al., 2000; Jafar and Budd, 1997; Kumakiri et al., 1999 , NaX and NaY, Li et al., 2005; Kita et al., 2001 , T, Cui et al., 2004 , mordenite, Navajas et al., 2006; Casado et al., 2003; Li et al., 2003; Huang et al., 2004 ), characterized by their low Si/Al ratios, have been successfully prepared and tested in a film-like configuration for dehydrating organic solvents.
+
+The main problem when preparing zeolite membranes either for gas separation or PV purposes is the presence of intercrystalline defects. These defects or non-zeolite pores usually consist of mesopores and grain boundaries, but might also include pinholes and cracks generated during synthesis or operation. These defects are responsible for non-selective permeation, thus being detrimental to membrane selectivity. In order to improve the quality of supported zeolite membranes and their multipurpose character, a number of strategies have been suggested in the past to minimize the number of defects in the layers. A first possibility relies on refining the conventional hydrothermal synthesis methods, either by using a seeding step prior to synthesis ( Okamoto et al., 2001; Kita et al., 2001; Cui et al., 2004; Navajas et al., 2006; Casado et al., 2003; Li et al., 2003; Huang et al., 2004; Deng and Balkus, 2002; Boudreau et al., 1999; Balkus and Scott, 1999 ) or by implementing some recent technical advances to the synthesis process (e.g., microwave heating ( Li et al., 2006; Xu et al., 2001 ), electrophoretic synthesis ( Huang and Yang, 2007 ), synthesis in a centrifugal force field ( Pera-Titus et al., 2005; Tiscareño-Lechuga et al., 2003 ) and gel renewal ( Pera-Titus et al., 2006b, 2008; Culfaz et al., 2006 )). Another possibility involves the use of alternative synthesis recipes, such as dry-gel conversion methods ( Cheng, 2006; Alfaro et al., 2001; Nishiyama et al., 1996 ) or nanocomposite architectures rather than film-like configurations ( Miachon et al., 2006, 2007 ). Moreover, some researchers have also insisted on the benefits of using post-synthetic treatments, including short-time treatments with alkaline solutions to remove Si-rich amorphous materials ( Navajas et al., 2006 ) and defect plugging by deposition of a convenient material (e.g., silica, Morón et al., 2002; Nomura et al., 2001 , Pd, Yan et al., 1997 or C, Niwa et al., 1986 ), which might also open up new routes for membrane functionalization.
+
+Another interesting point deals with how to characterize intercrystalline defects in zeolite layers, especially those active to permeation. Notwithstanding the broad range of techniques currently available for membrane characterization, only a limited number of them can be used confidently to provide insights into the structure of intercrystalline domains in microporous membranes. Beyond high resolution microscopy techniques such as HRTEM, FTIR-TEM, AFM and STM, confocal microscopy has recently shown high potential for visualizing the fine structure and grain boundaries in oriented polycrystalline MFI and NaY zeolite membranes ( Snyder et al., 2004; Bonilla et al., 2001 ). Other techniques relying on the variation of the surface diffusivity of target molecules with the nano-environment have also been surveyed to assess for the presence of defects in zeolite powders and films, including pulse field-gradient spin-echo NMR (PFG-NMR) and Quasi-elastic Neutron Scattering ( Takaba et al., 2005; Heink et al., 1999; Millot et al., 1999 ).
+
+Regardless of the benefits of the aforementioned techniques for surface characterization, active pores to permeation cannot be always easily distinguished from dead-end pores, thus under- or overestimating intercrystalline pore sizes. On the contrary, single-gas permeance measurements constitute the simplest and most straightforward way for a rapid and rough assessment of the presence of defects active to permeation in zeolite membrane. In fact, the order of magnitude of the gas permeance, especially that of large molecules such as 1,3,5-triisopropylbenzene and SF 6 , with kinetic diameters of 8.5 and 5.5 Å, respectively, and the Knudsen contribution to mass transfer, provide a first insight into the presence of large defects in zeolite layers ( Farrusseng et al., 2001 ). In this context, Sanchez et al. (2001) reported a transient time-lag method to characterize large pores in supported MFI-type membranes from experimental He and SF 6 permeance data. Hanebuth et al. (2005) developed an algorithm to calculate the contribution of intracrystalline diffusion of adsorbed molecules together with Knudsen diffusion in mesoporous defects and grain boundaries to predict experimental single H 2 and SF 6 permeance data.
+
+Although gas permeance-based methods constitute a feasible tool for obtaining a picture of the defective structure of a membrane, the results provided by these methods might not be realistic in PV applications. In fact, PV is a ‘generous’ technique in the sense that the strong adsorption processes usually taking place in zeolite micropores and grain boundaries allow circumventing to a certain extent the contribution of large defects to mass transfer. Furthermore, as we have recently pointed out in a previous work ( Pera-Titus et al., 2006a ), grain boundaries might behave as fast diffusion paths in mass transfer of strong adsorbing species. Therefore, a technique that allows the characterization of the intercrystalline structure of a zeolite layer using an environment similar to that present in real PV applications would be of great interest.
+
+To this end, a first possibility might involve the use of permporometry and related techniques by monitoring the gas permeation behavior of a membrane in the presence of adsorbable species ( Tsuru et al., 2004; Pachtová et al., 2003; Bernal et al., 2002 ). Nevertheless, the underlying principle of these techniques, based on capillary condensation phenomena, acts itself as a deterrent in many practical applications. Indeed, problems arise when interpreting experimental data from this technique due to pore necking, which in practice only allows measuring pore sizes in the range of tens of nanometers. Moreover, pores active to permeation are still difficult to discriminate from dead-end pores, a problem that becomes more severe in the separation of liquid mixtures by PV.
+
+To avoid these shortcomings, this paper provides a mass-balance-based model inspired in the original work of Sidhu and Cussler (2001) that allows a rapid inspection of the active intercrystalline porous structure of a membrane using explicit PV data. At low feed pressures (<20bar) , the activity of each species in the liquid feed is not expected to depend strongly on pressure, but on the saturation vapor pressure. This implies that, in absence of defects, mass transfer across a membrane proceeds via solution–diffusion or adsorption–diffusion-type mechanisms with no remarkable dependence on feed pressure ( Sidhu and Cussler, 2001; Abeles et al., 1991 ). Accordingly, in the case of a membrane with defects, the dependence of the pervaporated flux with the feed pressure should capture the information related to the nature of the active pores whose mass transfer is governed by pressure-driven mechanisms, as happens in single-gas permeance experiments. This might allow discrimination of intercrystalline defects from zeolite pores and grain boundaries, whose behavior might be rather ascribed to strong adsorbent–adsorbate interactions. We illustrate an example of application of the present model using a collection of zeolite NaA membranes synthesized in our laboratory with different quality towards dehydration of ethanol/water mixtures.
+
+We take the work of Sidhu and Cussler (2001) as starting point. In general terms, as illustrated in Fig. 1 , a polycrystalline zeolite NaA membrane is visualized as an ensemble of zeolite grains with two kinds of pores: (1) intracrystalline or zeolite pores defined by the zeolitic crystalline lattice (<1nm) , and (2) intercrystalline or non-zeolite pores that might include grain boundaries between adjacent zeolite single crystals lying in the microporous range, and large meso- and macroporous defects in lower intergrown regions. In this work, we focus our attention on large pores, whose number and mean size might be responsible to a great extent for the partial loss of selectivity of zeolite A membranes.
+
+As a first approach, intercrystalline large defects are regarded as cylindrical and straight capillaries. In the PV process within these pores, the molecules in the liquid feed are expected be transferred from the liquid feed to the low pressure vapor permeate side of the membrane by three main mechanisms: (1) Knudsen diffusion, (2) pressure-driven viscous flux and (3) surface diffusion of adsorbed molecules by skating along the pore walls.
+
+Another point deals with the description of how the liquid feed evaporates before reaching the vapor permeate. Fig. 2 illustrates the process. Because the mean pore size of the support is much higher than that of defects in the zeolite layer, the evaporation of the liquid can be expected to take place at position C within the latter at a certain distance η_{L} comprised between the liquid feed and the zeolite layer support surface (S) in a similar manner as that proposed by Abeles et al. (1991) when modeling capillary condensation within mesopores. Accordingly, at interfacial equilibrium, the pressure at which the liquid evaporates in a pore, , is assumed to differ from the bulk saturation pressure following the Kelvin equation: (1)PvC=Poexp-4M¯γρLRTd¯C, where it has been implicitly assumed a 0^{∘} contact angle (hemispherical meniscus). Furthermore, the pressure difference between the gas and liquid phases at position C might be accounted by the Young–Laplace equation: (2)ΔP=PvC-PLC=4γd¯Ccos(θ).
+
+In the special case of binary mixtures, which are more suitable than pure solvents for a direct assessment of the presence of defects through evaluation of membrane selectivity, some rigorous models are available that describe the effect of capillarity on the saturation vapor pressure (e.g., Shapiro and Stenby, 1997 ). Since the binary mixtures used here are highly enriched in one of the species (i.e. the alcohol, concentration >91wt% ), we use in this work Kelvin equation combined with Raoult's Law at position C to account for interfacial L – V equilibrium. Moreover, the molar fraction of water at position C has been approached to the corresponding feed value, that is →x_{w} , taking into account that viscous flux is non-selective. The activity coefficients at position C have been estimated by the UNIFAC method ( Reid et al., 1987 ).
+
+It is well known that surface tension is strongly reduced from the corresponding bulk values, γ_{∞} , in mesopores lying in the range 2–10 nm due to curvature effects. Here, the equation provided by Choi et al. (1970) has been used to account for this effect, that is (3)γγ∞=1-4Zd¯C, where Z is a length of the order of the molecular diameter of the solvent. Here, this value has been approached to the molecular diameter of ethanol, i.e. 4.3 Å.
+
+On the other hand, the application of bulk density values to the liquid condensed in confining mesopores is well supported by Morishige and Shikimi (1998) and Tzevelekos et al. (1998) . In the case of liquid viscosity in confining mesopores, this is only believed to differ significantly from the corresponding bulk values for very small mesopores (i.e. 2–3 nm) ( Debye and Cleland, 1959 ).
+
+A next point deals with the quantification of the overall mass transfer within a zeolite membrane with defects. As depicted in Fig. 2 , this includes contributions of pressure-driven viscous capillary flux within the liquid-filled intercrystalline volume (zone I), Knudsen diffusion within the low pressure vapor intercrystalline volume (zone II) and Knudsen diffusion within the macroporous support (zone III). Table 1 summarizes the equations used to describe the flux in each zone in the special case of defects with a narrow unimodal pore size distribution. Note that in Eqs. (4) and (5) , η_{L} corresponds to the dimensionless length of zone I, which is proportional to the intercrystalline volume filled by the liquid.
+
+
+[Table_1 001]
+# Table 1: Equations to describe mass transfer pathways within intercrystalline mesoporous defects
+
+| Zone | Mechanism       | Descriptive Equation                                                                                     | Definitions                                                                                   |
+|------|-----------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| I    | Viscous         | \( N_{I}^{V} = \frac{D_{L}}{RT} \frac{(P_{o} - P_{L}^{C})}{\eta_{L} \ell_{ZA}} \)                      | \( D_{L} = RT \left[ \frac{\rho_{L} \varepsilon_{inter} \bar{d}_{C}^{2}}{32 \bar{M} \mu_{L}} \right] \) |
+| II   | Knudsen \(^a\) | \( N_{II}^{Kn} = \sum_{i=1}^{N} \frac{D_{Kn,i}^{II}}{RT} \frac{(P_{v,i}^{C} - P_{v,i}^{S})}{(1-\eta_{L}) \ell_{ZA}} \) | \( D_{Kn,i}^{II} = \frac{\varepsilon_{inter} \bar{d}_{C}}{3} \sqrt{\frac{8RT}{\pi M_{i}}} \)          |
+| III  | Knudsen \(^b\) | \( N_{III}^{Kn} = \sum_{i=1}^{N} \frac{D_{Kn,i}^{III}}{RT} \frac{(P_{v,i}^{S} - P_{v,i})}{\ell_{S}} \) | \( D_{Kn,i}^{III} = \frac{\varepsilon_{S} \bar{d}_{S}}{3RT} \sqrt{\frac{8RT}{\pi M_{i}}} \)           |
+
+### Footnotes
+\( ^a \) Zone II, \( P_{v}^{C} \bar{d}_{C} < 0.01 \, \text{Pa m} \).
+
+\( ^b \) Conditions to be fulfilled for Knudsen diffusion in Zone III, \( P_{v}^{C} \bar{d}_{S} < 0.01 \, \text{Pa m} \).
+
+
+Although diffusion of adsorbed molecules skating along the surface of intercrystalline pores cannot be in principle ruled out, in this work we have omitted this contribution on the basis of the expected high liquid loadings in the intercrystalline pores. This might imply in its turn a reduction of the thickness of zone II and therefore a reduction of the available intercrystalline porous surface.
+
+At steady state, == must hold. Therefore, the unknown η_{L} can be determined by the following equation: (10)ηL=zLℓZA≈DL(Po-PLC)DL(Po-PLC)+∑i=1NDKn,i(Pv,iC-Pv,iS).
+
+The total flux measured in a PV experiment also includes the contribution of surface diffusion of adsorbed molecules, N^{S} , within zeolite pores and grain boundaries. Taking into account all the aforementioned considerations together with the fact that the macroporous support is not expected to contribute to a great extent to mass transfer (contribution < 8% according to our previous work ( Pera-Titus et al., 2006b )), that is →P_{v,i} , Eq. (11) is obtained that accounts for the total flux across a membrane with defects (11)NT=NS+1ℓZADLRT(Po-PLC)+∑i=1NDKn,iRT(Pv,iC-Pv,i).
+
+Eq. (11) allows the determination of the mean pore size and intercrystalline porosity of large defects by representing N^{T} vs. P_{o} . In other words, the presence of large defects in a zeolite layer should in principle involve a linear trend of the total flux with the total pressure. The slope, λ , and intercept, ϕ , can be described, respectively, by Eqs. (12) and (13) (12)λ=slope=δNTδPo=DLRTℓZA=ρL32M¯μLεinterd¯C2ℓZA, (13)ϕ=intercept=NS-ρL32M¯μLεinterd¯C2PLCℓZA+εinterd¯C3ℓZA∑I=1N8πMiRT(Pv,iC-Pv,i).
+
+Using the set of Eqs. (4)–(13) , the mean size and intercrystalline porosity can be determined, respectively, by Eqs. (14) and (15) (14)d¯C=32M¯μLρL∑I=1N8πMiRT(Pv,iC-Pv,i)3ℓZA(ϕ-NS+λPLC)2, (15)εinter=9ℓZA(ϕ-NS+λPLC)2λ32M¯μLρL∑I=1N8πMiRT(Pv,iC-Pv,i)2. Note that the former equations must be solved iteratively using the set of Eqs. (1)–(3) to relate the interfacial pressure with the mean diameter.
+
+The main characteristics of the membranes used in the present study are summarized in Table 2 . Zeolite NaA membranes with different PV performance towards the separation of ethanol/water mixtures were selected to assess for differences in intercrystalline porosities in the zeolite NaA layers. The membranes consisted of a continuous polycrystalline film (thickness: 7–30μm ) of randomly oriented and intergrown zeolite NaA crystals located on the inner surface of porous tubular α -alumina (Inocermic, Germany) and titania (TAMI, France) supports, with mean pore diameters of 1.9 and 0.8μm , respectively. Before synthesis, the tubes (7–8 mm i.d. and 10 mm o.d.) were subjected to enameling at both ends with a commercial glaze (Duncan AN 313 Antique Blue) and a home-made glaze, defining a permeation length of approximately 5 cm.
+
+The zeolite NaA were grown in 1–3 seeded hydrothermal synthesis cycles. The inner surface of the supports were first coated with A-type zeolite crystals (2μm) supplied by IQE (Industrias Químicas del Ebro, Zaragoza, Spain) using either cross-flow filtration or brush-seeding techniques, as described in a previous study ( Pera-Titus et al., 2005 ). Subsequently, crystallization was carried out at hydrothermal conditions at 353–373 K for periods of 3–7 h with a cloudy gel enriched with Al nutrient (composition: 1.0 Al 2 O 3 : 1.8–2.0 SiO 2 : 2.0–3.9 Na 2 O : 120–270 H 2 O). Three different techniques were used to achieve gel renewal in the lumen of the tubes during the synthesis, namely synthesis in a low- g centrifugal field by rotating the support along its axis at 100 rpm, synthesis in a semi-continuous synthesis system, and synthesis in a continuous flow system. More details concerning these techniques can be found elsewhere ( Pera-Titus et al., 2005, 2006b, 2008 ).
+
+After the synthesis, the membranes were washed with boiling water for 1 h and kept at 343 K under vacuum overnight with a ramp of 1Kmin^{-1} to avoid any thermal stress in the zeolitic layer. The as-synthesized membranes were then characterized in terms of single-gas permeance at room temperature (N 2 , He and/or SF 6 ) and by a PV test (see Table 2 ).
+
+A set of steady-state PV experiments with a set of C2–C5 primary alcohol/water mixtures were performed by means of a laboratory-scale PV unit. Ethanol and 1-propanol were supplied by Panreac (Spain), 1-butanol by Romil (England) and 1-pentanol by Aldrich (Germany), with at least 99.0% purity. The details concerning the experimental set-up used in the PV experiments are described elsewhere ( Pera-Titus et al., 2005 ). The PV experiments were carried out by pumping (300mLmin^{-1}) an ethanol/water liquid mixture (8.05–9.16 wt% water) contained in a pressurized feed reservoir (1–8 bar) through the PV membrane module placed in a temperature-controlled oil bath kept at the desired temperature and recirculated to the feed tank. The retentate temperature and pressure were monitored, respectively, by means of a thermocouple (±1K) and a manometer (±0.1bar) . Samples were taken at the feed inlet and retentate outlet of the membrane module by two needle valves. Care was taken in the experiments carried out with C4 and C5 alcohols (i.e. 1-butanol and 1-pentanol) to ensure miscibility of their liquid mixtures with water. The physical properties of the alcohol/water mixtures at the liquid-filled zone were obtained from ( Weast, 1971–1972 ; Vazquez et al., 1995 ).
+
+The permeate pressure, kept at 1–3 mbar in all the experiments, was measured using a digital vacuum gauge (±0.5mbar) (Schlee Gmbh & Co V-D3, Witten, Germany) installed in the line connecting the PV module and the condenser. The condenser consisted of a set of cold traps cooled with liquid nitrogen, and located among the membrane module and the oil vacuum pump (Telstar, Spain). Two cold traps were set in parallel to allow continuous mode operation, and in series with an additional cold trap to prevent the oil pump from any vapor contamination.
+
+The water/ethanol selectivity was calculated as the quotient between the ratios of the weight fractions of water and alcohol at the permeate and feed sides, i.e. α_{w/A}=(Y_{w}/Y_{A})/(X_{w}/X_{A}) . The composition in the feed and permeate were analyzed in a HP6980A GC equipped with a 50cm×0.2mm×0.5mm methyl silicone capillary column and a TCD detector. The final values correspond to the mean of at least 2–6 steady-state measurements during 1–3 h taken after 2–4 hours of stabilization. The standard deviation of the total flux and selectivity was found to be <5% and <10% , respectively, for all the experiments.
+
+Fig. 3 shows the experimental trends observed for the total flux, water/ethanol selectivity and surface diffusion flux with the feed pressure for the membranes listed in Table 2 . As can be seen in Figs. 3 a and b, the total flux increases linearly with the feed pressure for all the membranes except for ZA6, which shows no dependence on the feed pressure. The slopes and intercepts of the linear fittings are listed in Table 3 .
+
+The trends above outlined for the total flux are consistent with those obtained for water/ethanol selectivity plotted in Fig. 3 c and support the relevant role of intercrystalline defects in membranes ZA1–ZA5. As can be seen in Fig. 3 c, the membranes with higher water/ethanol selectivities correspond to those with lower PV fluxes. Moreover, the membranes displaying a sharper increase in the PV flux with the feed pressure lose their selectivity more easily. In the case of membrane ZA6, with a selectivity approaching 10 000, no change of the selectivity with the feed pressure is observed. The absence of pressure-dependence of the total flux and water/ethanol selectivity for this latter membrane suggests that this membrane is ‘defect-free’ in the sense that only zeolite pores and grain boundaries appear to govern its PV performance.
+
+Furthermore, the contribution of surface diffusion to the overall mass transfer at each feed pressure can be determined by assuming that ethanol is essentially transferred through defective zones. This means that all the ethanol collected at the permeate side of the membrane in a PV experiment is assumed to be transferred across defects rather than within zeolite pores. This approach seems reasonable for the feed compositions here taken into account (8 wt% water), since near this value, a maximum in the selectivity is observed in defect-free membranes ( Okamoto and Kita, 1995; Shah et al., 2000 ). Therefore, the surface diffusion flux, essentially related to water surface diffusion within zeolite pores, can be approached to the following equation: (16)NS≈NwS≈YwNT-YENTYwCYEC=Yw-YEawCPwoaECPEoMwMENT≈Yw-YEawPwoaEPEoMwMENT≈YwNT.
+
+As expected, Fig. 3 d shows that this flux is independent of the feed pressure. Table 3 lists the values of this flux for membranes ZA1–ZA5.
+
+
+[Table_3 003]
+### Table 3: Experimental data obtained from the linear fittings shown in Fig. 3a–c
+
+| Parameter | ZA1       | ZA2       | ZA3        | ZA4         | ZA5        |
+|-----------|-----------|-----------|------------|-------------|------------|
+| λ × 10⁹ (mol m⁻² s⁻¹ Pa⁻¹) | 54 ± 2    | 11 ± 3    | 2.4 ± 0.5   | 1.27 ± 0.07 | 1.2 ± 0.2  |
+| φ × 10³ (mol m⁻² s⁻¹)      | 9.8 ± 0.9 | 4.6 ± 1.2 | 8.4 ± 0.2   | 5.11 ± 0.03 | 7.3 ± 0.1  |
+| Nˢ × 10³ (mol m⁻² s⁻¹)     | 3.8 ± 0.5 | 5.8 ± 0.5 | 8.5 ± 0.2   | 4.8 ± 0.3   | 7.02 ± 0.09|
+
+
+Table 4 summarizes the main results obtained for the characterization of the set of membranes listed in Table 2 . As can be seen, the mean pore sizes computed for all the membranes fall into the range 400–600 nm, all of them corresponding to macropores (>50nm) . As expected, these values are lower than the mean pore size of the support (1900 nm). Despite the high values computed for defects, the condition P·_{C}<0.01Pam ensures that Knudsen diffusion in the vapor zone is fulfilled. In addition, the intercrystalline porosity, as well as the effective diameter, show higher values for the membranes with lower water/ethanol selectivities (i.e. membranes ZA1 and ZA2). This observation can be more easily visualized in Fig. 4 . As can be seen, water/ethanol selectivity shows a linear trend with the intercrystalline porosity in a double-log plot. For practical purposes, the empirical Eq. (17) can be used to infer the intercrystalline porosity given the water/ethanol selectivity of a target zeolite NaA membrane: (17)εinter=exp[-(0.83±0.08)Ln(αw/E)-(10.5±0.3)].
+
+
+[Table_2 002]
+# Table 2: Seeding and synthesis conditions and PV performance of the zeolite NaA membranes used in the present study
+
+| Membrane | Weight gain (mg cm⁻²) | Seeding techniqueᵃ | Synthesis techniqueᵇ | Time (h)/cycles | N₂ permeance (mol m⁻² s⁻¹ Pa⁻¹) | Thickness (μm)ᶜ | αw/E (–) | NT (kg m⁻² h⁻¹) |
+|----------|------------------------|--------------------|----------------------|-----------------|----------------------------------|-----------------|----------|-----------------|
+| ZA1      | 0.15                   | BS                 | SC (0 min⁻¹)         | 5/1             | 7.60×10⁻⁶ (αN₂/SF₆=1.20)        | 50              | 2        | 2.44            |
+| ZA2      | 0.05                   | CFFS               | CF (100 rpm)         | 3/3             | 8.70×10⁻⁷ (αHe/N₂=1.77)         | 30              | 20       | 0.51            |
+| ZA3      | 0.15                   | CFFS               | CF (100 rpm)         | 3/3             | 5.40×10⁻⁸ (αHe/N₂=1.89)         | 35              | 185      | 0.58            |
+| ZA4      | 0.40                   | CFFS               | CF (100 rpm)         | 3/3             | 4.35×10⁻⁷ (αHe/N₂=2.37)         | 30              | 294      | 0.36            |
+| ZA5      | 0.15                   | CFFS               | SC (1/7 min⁻¹)       | 5/2             | 1.58×10⁻⁹ (αN₂/SF₆=1.89)        | 35              | 1084     | 0.47            |
+| ZA6      | 0.12                   | BS                 | C (3 mL min⁻¹)       | 7/1             | 1.68×10⁻⁹ (–)                   | 7               | 8538     | 0.83            |
+
+Footnotes:
+- a: BS: Brush-seeding; CFFS: Cross-flow filtration seeding.
+- b: CF: Centrifugal field; SC: Semi-continuous system; C: Continuous flow system.
+- c: Determined by SEM.
+- d: PV conditions: Xw = 8–9 wt%; T = 323 K.
+
+
+Note that, according to Fig. 4 , water/ethanol selectivities higher than 100 at P_{o}=1.0bar can only be obtained in the case intercrystalline porosities lower than 10^{-6} in the case of macrodefects. Moreover, in the narrow porosity range 10^{-6}–10^{-5} , the membranes lose their separation ability, since their water/ethanol selectivity is reduced from 1000 to 100.
+
+Table 4 suggests a relevant role of capillary forces in the PV process within large defects. As a matter of fact, the Young–Laplace equation predicts negative values of liquid pressures for all the membranes tested here. These values are all lower than 200 kPa, since the computed mean diameters of defects lie in the macroporous range. This implies that large defects are almost completely filled by the liquid feed. Our interest is to relate capillary forces in defects with the PV performance of zeolite membranes using the set of Eqs. (1)–(16) and to address its implications on zeolite membrane synthesis. We concentrate our attention in four aspects: (1) effect of temperature on water/ethanol selectivity, (2) effect of the chain length of the alcohol on the water/alcohol selectivity, (3) influence of the mean size of defects on the PV performance and (4) stability of a membrane with defects.
+
+In a previous study ( Pera-Titus et al., 2008 ), we found that inner-side zeolite membranes of different quality showed different PV performance with temperature. Fig. 5 plots the evolution of the water/ethanol selectivity for a 92:8 ethanol/water feed in the temperature range 323–363 K for membranes ZA4 and ZA6. As can be seen, selectivities up to 2000 are obtained at lower temperatures (i.e. 303–323 K) for the best quality membrane, namely ZA6. Beyond 323 K, the selectivity is dramatically reduced to ∼80 at 363 K. However, for membrane ZA4, a positive trend of the selectivity with the temperature is observed. The discrepancy between both trends might be attributed, at least partially, to the role of macroporous defects in the latter membrane. The reduction of surface tension of ethanol in macrodefects at rising temperatures implies a reduction of capillary pressures, as computed from the structural data related to macrodefects (mean diameter and inter crystalline porosity) listed in Table 4 (see Fig. 5 ). This reduction involves in its turn a decrease of the ethanol flux. At the same time, a temperature rise enhances water diffusion within zeolite pores (the data have been obtained from Pera-Titus et al., 2008 ), thus compensating to a certain extent the preferential mass transfer of ethanol through large defects and therefore giving rise to the observed increase in membrane selectivity.
+
+
+[Table_4 004]
+# Table 4: Results for the calculations with the proposed model for input data in Table 3
+
+| Parameter | ZA1 | ZA2 | ZA3 | ZA4 | ZA5 |
+| --- | --- | --- | --- | --- | --- |
+| $\bar{d}_C$ (nm) [a] | $472 \pm 1$ | $532 \pm 5$ | $589 \pm 8$ | $397 \pm 4$ | $490 \pm 4$ |
+| $\varepsilon_{\text{inter}} \times 10^7$ (–) [a] | $145 \pm 1$ | $13 \pm 4$ | $5.6 \pm 0.6$ | $2.9 \pm 0.2$ | $1.8 \pm 0.3$ |
+| $\eta_L$ (%) | 98.5 | 98.6 | 98.6 | 98.5 | 98.7 |
+| $D_L \times 10^{11}$ ($\text{m}^{-2}\ \text{s}^{-1}$) | 141 | 14.8 | 3.01 | 2.35 | 1.80 |
+| $D_{Kn,W} \times 10^{11}$ ($\text{m}^2\ \text{s}^{-1}$) | 88.0 | 9.22 | 1.88 | 1.47 | 1.12 |
+| $D_{Kn,E} \times 10^{10}$ ($\text{m}^2\ \text{s}^{-1}$) | 424 | 45.9 | 8.93 | 9.03 | 1.61 |
+| $P_v^C$ (kPa) [b] | 27.4 | 27.4 | 27.4 | 27.4 | 27.4 |
+| $P_{v,W}^C$ (kPa) [b] | 4.95 | 5.17 | 4.84 | 4.90 | 5.33 |
+| $P_{v,E}^C$ (kPa) [b] | 22.4 | 22.2 | 22.6 | 22.5 | 22.1 |
+| $P_L^C$ (kPa) [b] | −145 | −127 | −112 | −179 | −140 |
+
+[a]: Confidence interval for probability level of 95%.  
+[b]: Computed at $P_o = 1.0\ \text{bar}$.
+
+
+Despite the presence of a certain number of large defects, zeolite membranes show high selectivities in the dehydration of long-chain alcohols. This selectivity enhancement cannot be only attributed to a lower adsorption capacity of longer-chain alcohols, but also to the reduction of alcohol flux within large defects.
+
+Fig. 6 shows the evolution of the selectivity towards water separation with the chain length of the primary alcohol at 323 K in the particular case of membrane ZA4. As can be seen, the selectivity of the membrane is fairly low when dehydrating ethanol/water mixtures (∼250) , but increases dramatically up to 2000 for 1-pentanol/water mixtures. This trend can be qualitatively simulated using the model presented in this study. The increased surface tensions of longer-chain alcohol/water mixtures, combined with their higher viscosities, allow a reduction of the alcohol flux through defects. This effect, together with the high surface fluxes of water within zeolite pores, allows defective membranes to display higher selectivities for longer-chain alcohols.
+
+According to the above stated considerations, the presence of a reduced number of macropores in zeolite NaA layers appears to exert a key role in their PV performance. However, what happens if macrodefects turn into mesopores while keeping intercrystalline porosities at low values? The answer to this question can be found in Fig. 7 . As can be seen, the Young–Laplace equation predicts a dramatic increase of the negative capillary pressures at the liquid/vapor interface as the mean size of defects is reduced. This implies in its turn a drop of flux through defects and an enhancement of selectivity. As expected, higher selectivities are obtained at lower intercrystalline porosities.
+
+Another point deals with the suitability of the present model for the characterization of intercrystalline domains when turning the defects to the mesoporous range. We have shown in this work that macropores can be successfully characterized from the variation of the PV flux with the feed pressure. However, when reducing the defect mean size while keeping intercrystalline porosities to extremely low values (i.e. ∼10^{-7} ), the variation of the total flux with the feed pressure becomes dramatically reduced. Our calculations reflect that slopes <10^{-12}molm^{-2}s^{-1}Pa^{-1} might be obtained for mean pore sizes <10nm . In practice, this acts as a deterrent for an accurate characterization of intercrystalline mesoporous domains using the method presented in this study. In this situation, the information provided by permporometry and related techniques would be complimentary to provide a whole picture of the defective structure of a membrane.
+
+Our experience gathered in the field until the present date suggests that zeolite NaA membranes preserve their PV performance for at least 230 h of continuous operation ( Pera-Titus et al., 2005 ), that is when immersed in the liquid feed. If the membranes are dried and kept in contact with air for long periods of time between experiments, they lose easily their separation ability. The higher life in service of zeolite NaA membranes when immersed in a liquid environment might be ascribed to the presence of strong capillary forces or tensions that might act as cohesive forces. Therefore, notwithstanding the presence of a reduced number of defects (macropores) in the zeolite layers, immersing the membranes in a liquid environment seems to be a recommended action to increase the life in service of zeolite NaA membranes.
+
+Table 5 lists the main characteristics of the membranes prepared in a centrifugal force field (CF), in a semi-continuous synthesis system (SC) and in a continuous flow system (C) according to the results published in some previous studies ( Pera-Titus et al., 2005, 2006b, 2008 ). Table 5 also includes the intercrystalline porosities obtained under guidance of the characterization method presented in this work. It seems clear that the membranes prepared using gel renewal during hydrothermal synthesis correspond to those with the lowest amount of macrodefects, since higher layer intergrowth can be obtained. This enables them to dehydrate selectively short-chain alcohols. In contrast, following the ideas derived from Fig. 6 , the membranes prepared in a centrifugal force field show higher amounts of defects, which only translates into selective dehydration in the case of long-chain alcohols.
+
+
+[Table_5 005]
+# Table 5: Conditions for the synthesis of inner-side tubular zeolite NaA membranes using different techniques and recommended solvent dehydration
+
+| Technique^a^ | Seeding technique | SWG (mg cm^-2) | T (K) | Time (h) / cycles | N2 permeance (mol m^-2 s^-1 Pa^-1) | ε_inter (–) | α_W/E (–) | NT (kg m^-2 h^-1) | Dehydration |
+|--------------|-------------------|----------------|-------|-------------------|-------------------------------------|-------------|-----------|--------------------|-------------|
+| CF (100 rpm) | Filtration        | 0.20–0.40      | 373   | 3/3–4             | 10^-7–10^-8                        | >10^-5      | <300      | ~0.6              | C3–C6       |
+| SC (1/7–1/4 min^-1) | Filtration Brushing | 0.15–0.20 | 363–373 | 5/2               | 10^-8–10^-9                        | >10^-6–10^-8 | 300–2000  | ~0.6              | C2–C3       |
+| C (1.5–4 mL min^-1) | Brushing         | 0.12–0.20     | 353–363 | 6–7/1             | 10^-8–10^-9                        | <10^-8      | >2000     | ~0.9              | C1–C3       |
+
+^a^ CF: Centrifugal field; SC: Semi-continuous system; C: Continuous flow system.
+
+
+A method has been presented that allows characterization of intercrystalline macrodefects in zeolite NaA membranes from a collection of PV experiments performed for the separation of ethanol/water mixtures at feed pressures in the range 1–8 bar. Structural information concerning intercrystalline pores in zeolite NaA layers can be obtained from the intercept and slope of the line that describes the evolution of the total flux with the feed pressure. In light of the results presented in this paper, the zeolite NaA membranes synthesized in our laboratory lose partially their separation ability to dehydrate ethanol/water liquid mixtures for intercrystalline porosities as low as 10^{-6} . Moreover, although a zeolite membrane shows good PV performance towards dehydration of organic solvents, the presence of a reduced number of large defects in the zeolite layer cannot be ruled out, which might ultimately be responsible for their selectivity loss. High capillary forces (negative pressures) in large defects in zeolite NaA membranes appear to play a relevant role in their PV performance.
+
+aactivity, dimensionlessd¯Cmean pore size of defects, mDLviscous diffusivity,m2s-1ℓZAthickness of the zeolite layer, mMmolecular weight,kgmol-1M¯mean molecular weight of liquid feed,kgmol-1Nflux across the membranes,kgm-2h-1Popressure at the liquid feed, PaP*saturation vapor pressure, PaΔPpressure difference between gas and liquid phases at position C, PaRconstant of gases,8.314Pam3mol-1K-1Ttemperature, Kxmolar fraction of water in the liquid feed, dimensionlessXweight fraction of water in the liquid feed, dimensionlessYweight fraction of water in the vapor permeate, dimensionlessGreek lettersαi,jselectivity towards separation of speciesiandj, dimensionlessγsurface tension,Nm-1εporosity, dimensionlessηLlength of capillary filled with liquid, mθcontact angle, radλslope in[Ref:11],molm-2s-1Pa-2μviscosity,kgm-1s-1ρdensity,kgm-3τtortuosity, dimensionlessϕintercept in[Ref:11],molm-2s-1Pa-1SubscriptsCcapillaryEethanolinterintercrystallineKnKnudsenLliquidvvaporwwaterZAzeolite ASuperscriptsCcapillaryKnKnudsenSsurfaceTtotalVviscous
+
+The authors would like to express their gratitude to the Spanish Ministry of Education and Science for financial support (projects PPQ2000-0467-P4-02 and PPQ2002-04115-C02-02). MPT also thanks Dr. Sylvain Miachon, from IRCELYON/CNRS, for his helpful comments during the preparation of this paper.
+
+
+[Table_6 0010]
+| Symbol | Description |
+|---|---|
+| a | activity, dimensionless |
+| $\bar{d}_C$ | mean pore size of defects, m |
+| $D_L$ | viscous diffusivity, m² s⁻¹ |
+| $\ell_{ZA}$ | thickness of the zeolite layer, m |
+| M | molecular weight, kg mol⁻¹ |
+| $\bar{M}$ | mean molecular weight of liquid feed, kg mol⁻¹ |
+| N | flux across the membranes, kg m⁻² h⁻¹ |
+| $P_o$ | pressure at the liquid feed, Pa |
+| $P^*$ | saturation vapor pressure, Pa |
+| $\Delta P$ | pressure difference between gas and liquid phases at position C, Pa |
+| R | constant of gases, 8.314 Pa m³ mol⁻¹ K⁻¹ |
+| T | temperature, K |
+| x | molar fraction of water in the liquid feed, dimensionless |
+| X | weight fraction of water in the liquid feed, dimensionless |
+| Y | weight fraction of water in the vapor permeate, dimensionless |
+
+**Greek letters**
+
+| Symbol | Description |
+|---|---|
+| $\alpha_{i,j}$ | selectivity towards separation of species i and j, dimensionless |
+| $\gamma$ | surface tension, N m⁻¹ |
+| $\epsilon$ | porosity, dimensionless |
+| $\eta_L$ | length of capillary filled with liquid, m |
+| $\theta$ | contact angle, rad |
+| $\lambda$ | slope in Eq. (11), mol m⁻² s⁻¹ Pa⁻² |
+| $\mu$ | viscosity, kg m⁻¹ s⁻¹ |
+| $\rho$ | density, kg m⁻³ |
+| $\tau$ | tortuosity, dimensionless |
+| $\phi$ | intercept in Eq. (11), mol m⁻² s⁻¹ Pa⁻¹ |
+
+**Subscripts**
+
+| Symbol | Description |
+|---|---|
+| C | capillary |
+| E | ethanol |
+| inter | intercrystalline |
+| Kn | Knudsen |
+| L | liquid |
+| v | vapor |
+| w | water |
+| ZA | zeolite A |
+
+**Superscripts**
+
+| Symbol | Description |
+|---|---|
+| C | capillary |
+| Kn | Knudsen |
+| S | surface |
+| T | total |
+| V | viscous |
