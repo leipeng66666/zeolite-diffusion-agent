@@ -1,4 +1,4 @@
-# Zeolite Diffusion Data Extraction Agent
+# Zeolite Diffusion Data Extraction
 
 A two-stage LLM-based agent pipeline for extracting structured diffusion coefficient data from zeolite research papers (XML, HTML, Markdown).
 
@@ -220,7 +220,7 @@ If you use this tool in your research, please cite:
 ```bibtex
 @software{zeolite_diffusion_agent,
   author       = {leipeng66666},
-  title        = {Zeolite Diffusion Data Extraction Agent},
+  title        = {Zeolite Diffusion Data Extraction},
   url          = {https://github.com/leipeng66666/zeolite-diffusion-agent},
   year         = {2026},
   note         = {Email: 1072534051@qq.com},
