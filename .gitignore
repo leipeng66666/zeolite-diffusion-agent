@@ -32,6 +32,8 @@ no_data/
 consolidated_results3.csv
 consolidated_results3_cleaned.csv
 *_progress.json
+processing_log.csv
+*_unique.csv
 
 # Temp files
 temp_*/

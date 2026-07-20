@@ -89,8 +89,8 @@ Each record contains up to 20 fields:
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd xml-agent
+git clone https://github.com/leipeng66666/zeolite-diffusion-agent.git
+cd zeolite-diffusion-agent
 
 # Create a virtual environment
 python -m venv .venv
