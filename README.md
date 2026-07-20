@@ -213,11 +213,16 @@ See [`requirements.txt`](requirements.txt) for Python package dependencies:
 - `watchdog` ≥ 4.0.0 — File system monitoring (watch mode)
 - `lxml` ≥ 5.0.0 — XML/HTML parsing
 
-## License
-
-[Specify your license here]
-
 ## Citation
 
 If you use this tool in your research, please cite:
-[Add citation information]
+
+```bibtex
+@software{zeolite_diffusion_agent,
+  author       = {leipeng66666},
+  title        = {Zeolite Diffusion Data Extraction Agent},
+  url          = {https://github.com/leipeng66666/zeolite-diffusion-agent},
+  year         = {2026},
+  note         = {Email: 1072534051@qq.com},
+}
+```
