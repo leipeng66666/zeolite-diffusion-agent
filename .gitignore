@@ -39,3 +39,7 @@ processing_log.csv
 temp_*/
 *.zip
 backup_*/
+
+# Acquisition: downloaded papers and PDFs
+literature-acquisition/*/downloads/
+*.pdf
