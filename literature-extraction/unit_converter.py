@@ -11,7 +11,7 @@ Produces:
   2. Updates 'converted_value' and 'converted_unit' columns in the source CSV
 """
 
-import pandas as pd, re, logging, argparse, time, math
+import pandas as pd, os, re, logging, argparse, time, math
 from pathlib import Path
 from openai import OpenAI
 

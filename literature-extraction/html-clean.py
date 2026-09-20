@@ -4,6 +4,7 @@
 html2txt_with_tables.py
 Springer/Nature HTML -> readable plain text (body text + tables inserted at reference positions)
 """
+import os
 import re
 import time
 import traceback
